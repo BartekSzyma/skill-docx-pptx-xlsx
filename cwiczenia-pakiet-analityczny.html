@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pakiet analityczny spółki z Claude Code - instrukcja krok po kroku</title>
+<style>
+:root {
+  --tlo: #f8fafc; --panel: #ffffff; --tekst: #0f172a; --przygaszony: #64748b; --ramka: #e2e8f0;
+  --main: #2563eb; --plus: #16a34a; --tylda: #ca8a04; --minus: #dc2626; --prompt: #7c3aed; --mac: #64748b;
+  --dlaczego: #0891b2; --terminal-tlo: #0f172a; --terminal-tekst: #e2e8f0;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: var(--tlo); color: var(--tekst); line-height: 1.55; font-size: 16px; }
+code, pre { font-family: Consolas, "Cascadia Mono", monospace; }
+.naglowek { padding: 14px 20px; background: var(--panel); border-bottom: 1px solid var(--ramka); }
+.naglowek h1 { font-size: 22px; margin: 0; }
+.naglowek p { margin: 4px 0 0; color: var(--przygaszony); }
+main { padding: 16px 20px; }
+button { font: inherit; }
+.spis { max-width: 920px; background: var(--panel); border: 1px solid var(--ramka); border-radius: 8px; padding: 8px 16px; margin-bottom: 20px; }
+.spis ol { margin: 6px 0; padding-left: 20px; list-style: none; }
+.spis a { color: var(--main); text-decoration: none; }
+.instrukcja { max-width: 920px; }
+.instrukcja section { margin-bottom: 26px; }
+.instrukcja h2 { border-bottom: 2px solid var(--ramka); padding-bottom: 4px; }
+table { border-collapse: collapse; margin: 8px 0; }
+th, td { border: 1px solid var(--ramka); padding: 4px 8px; text-align: left; vertical-align: top; }
+th { background: var(--tlo); }
+.komenda { display: flex; align-items: center; gap: 8px; background: var(--terminal-tlo); color: var(--terminal-tekst); padding: 6px 10px; border-radius: 6px; margin: 6px 0; }
+.komenda code { flex: 1; white-space: pre-wrap; }
+.kopiuj { font: 12px "Segoe UI", sans-serif; padding: 4px 8px; border-radius: 4px; border: 1px solid #475569; background: #1e293b; color: #e2e8f0; cursor: pointer; }
+.plik { border: 1px solid var(--ramka); border-radius: 6px; margin: 6px 0; background: var(--panel); }
+.plik .naglowek-pliku { display: flex; justify-content: space-between; align-items: center; padding: 4px 8px; background: var(--tlo); font-family: Consolas, monospace; }
+.plik pre { margin: 0; padding: 8px; white-space: pre-wrap; }
+.prompt { border: 2px solid var(--prompt); border-radius: 8px; margin: 10px 0; background: #faf5ff; }
+.prompt .naglowek-promptu { display: flex; justify-content: space-between; align-items: center; gap: 8px; padding: 6px 10px; background: var(--prompt); color: #fff; font-weight: 600; }
+.prompt pre { margin: 0; padding: 10px 12px; white-space: pre-wrap; font-size: 14px; max-height: 420px; overflow: auto; }
+.dlaczego { border: 2px solid var(--dlaczego); border-radius: 8px; background: #ecfeff; padding: 8px 14px; margin: 10px 0; }
+.dlaczego > strong { color: var(--dlaczego); display: block; margin-bottom: 2px; }
+.sprawdz { border-left: 4px solid var(--plus); background: #f0fdf4; padding: 8px 12px; margin: 8px 0; }
+.uwaga { border-left: 4px solid var(--tylda); background: #fefce8; padding: 8px 12px; margin: 8px 0; }
+.wazne { border-left: 4px solid var(--minus); background: #fef2f2; padding: 8px 12px; margin: 8px 0; font-weight: 600; }
+.mac { border-left: 4px solid var(--mac); background: #f1f5f9; padding: 8px 12px; margin: 8px 0; font-size: 14px; }
+.schemat { background: var(--panel); border: 1px solid var(--ramka); border-radius: 8px; padding: 10px; margin: 10px 0; overflow-x: auto; }
+.schemat svg { display: block; max-width: 100%; height: auto; margin: 0 auto; }
+figure.zrzut { margin: 10px 0; }
+figure.zrzut img { max-width: 100%; border: 1px solid var(--ramka); border-radius: 6px; }
+figure.zrzut figcaption { font-size: 13px; color: var(--przygaszony); }
+.brak-zrzutu { border: 2px dashed var(--ramka); padding: 24px; text-align: center; color: var(--przygaszony); }
+.ramka-pomocy { border: 2px solid var(--main); border-radius: 8px; padding: 12px 16px; background: #eff6ff; }
+</style>
+</head>
+<body>
+<header class="naglowek">
+  <h1>Pakiet analityczny spółki z Claude Code: model DCF, prezentacja i notatka dla zarządu</h1>
+  <p>Instrukcja krok po kroku: od raportu rocznego Meta Platforms do Excela, PowerPointa i Worda, w których każda liczba ma źródło. Na koniec jeden skill, który robi to samo dla dowolnej spółki z USA.</p>
+</header>
+<main>
+  <nav class="spis" id="spis"></nav>
+  <div class="instrukcja" id="instrukcja"></div>
+</main>
+<script id="dane">
+const LISTA_ZRZUTOW = [];
+
+const PROMPT_P1 = `Robimy analizę spółki Meta Platforms (ticker META) na podstawie jej raportu rocznego 10-K. W tym kroku przygotuj projekt i pobierz źródła. Niczego jeszcze nie analizuj.
+
+1. Utwórz plik CLAUDE.md z zasadami tego projektu (mają obowiązywać w każdej kolejnej rozmowie):
+   - Każda informacja o spółce (liczba, data, nazwa projektu) trafia najpierw do ledgera, czyli pliku ledger.json w folderze spółki, razem ze źródłem i dosłownym cytatem. Do dokumentów wolno wpisać tylko to, co jest w ledgerze.
+   - Liczby do dokumentów wstawiają skrypty z ledgera. Nie przepisuj liczb ręcznie.
+   - Założenia (np. tempo wzrostu, koszt kapitału) to nie fakty: zapisuj je jako założenia z uzasadnieniem.
+   - Nigdy nie czytaj całego raportu 10-K naraz. Wyszukuj frazy skryptem i czytaj tylko potrzebne strony.
+   - Teksty dla ludzi piszemy po polsku z polskimi znakami, pliki zapisujemy w UTF-8, nazwy plików bez polskich znaków.
+2. Utwórz wirtualne środowisko Pythona w folderze .venv i zainstaluj w nim: requests, beautifulsoup4, openpyxl, python-pptx, python-docx, pymupdf, pillow. Zapisz listę w requirements.txt.
+3. Napisz skrypt narzedzia/pobierz_10k.py TICKER, który:
+   - zamienia ticker na numer CIK przez https://www.sec.gov/files/company_tickers.json,
+   - znajduje najnowszy raport 10-K w https://data.sec.gov/submissions/CIK##########.json (numer CIK uzupełniony zerami do 10 cyfr) i pobiera jego główny dokument HTML,
+   - przy każdym zapytaniu do SEC wysyła nagłówek User-Agent: "pakiet-analityczny [TWÓJ E-MAIL]" (SEC tego wymaga),
+   - zapisuje oryginał w TICKER/zrodla/10k/oryginal.htm i plik TICKER/zrodla/10k/info.json (nazwa spółki, CIK, okres raportu, data złożenia, adres dokumentu),
+   - dzieli dokument na strony w miejscach znaczników page-break i zapisuje tekst każdej strony w TICKER/zrodla/10k/strony/strona-NNN.txt, gdzie NNN to numer wydrukowany w stopce strony; sprawdź na kilku stronach, że numer w nazwie pliku zgadza się z numerem na dole strony,
+   - zapisuje TICKER/zrodla/10k/spis.json: numer strony i jej pierwsze ok. 100 znaków.
+4. Napisz skrypt narzedzia/szukaj.py TICKER "fraza", który wypisuje numery stron i krótkie fragmenty tekstu z tą frazą (bez względu na wielkość liter).
+5. Napisz skrypt narzedzia/pobierz_rynek.py TICKER, który zapisuje w TICKER/zrodla/rynek/ razem z datą pobrania:
+   - ostatni kurs zamknięcia akcji z https://query1.finance.yahoo.com/v8/finance/chart/TICKER?range=5d&interval=1d (zapisz pełną odpowiedź JSON),
+   - rentowność 10-letnich obligacji skarbowych USA z https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10 (zapisz plik CSV).
+6. Uruchom trzy skrypty dla META i napisz mi: za jaki rok jest raport, ile ma stron i na których stronach są rachunek zysków i strat (Consolidated Statements of Income), bilans (Consolidated Balance Sheets) i rachunek przepływów pieniężnych (Consolidated Statements of Cash Flows).`;
+
+const PROMPT_P2 = `Zbuduj ledger dla META: plik META/ledger.json. Ledger to rejestr, w którym każda informacja o spółce ma źródło i dosłowny cytat. Wszystkie dokumenty będą korzystać tylko z niego, więc to najważniejszy plik projektu. Raport czytaj wyłącznie przez narzedzia/szukaj.py i pliki pojedynczych stron.
+
+Ledger to lista wpisów. Każdy wpis ma pola:
+- id: F-01, F-02... dla faktów, R-01... dla danych rynkowych, Z-01... dla założeń,
+- klasa: "fakt", "dana_rynkowa" albo "zalozenie",
+- klucz: stała nazwa po angielsku bez spacji, np. revenue_2025 (będą z niej korzystać skrypty),
+- opis (po polsku), wartosc (liczba albo krótki tekst), jednostka (np. "mln USD", "%", "szt."), okres (np. "2025"),
+- zrodlo: dokument, plik, url, strona; dla faktu z 10-K strona to numer ze stopki, dla danych z internetu "n/d (www)",
+- cytat: dosłowny fragment tekstu źródła, skopiowany bez poprawiania i bez tłumaczenia; ma zawierać nazwę pozycji i liczbę, żeby było jasne, czego liczba dotyczy,
+- data_pobrania (tylko dane rynkowe),
+- uzasadnienie (tylko założenia: 1-3 zdania prostym językiem, z odwołaniem do id faktów, na których się opierasz).
+
+Co ma się znaleźć:
+1. Fakty z 10-K (kwoty w mln USD, tak jak w raporcie): przychody ogółem i zysk operacyjny za 3 ostatnie lata; za ostatni rok: zysk netto, amortyzacja (depreciation and amortization), nakłady inwestycyjne (purchases of property and equipment), zysk przed opodatkowaniem i podatek dochodowy; na koniec roku: gotówka z papierami wartościowymi (cash, cash equivalents, and marketable securities) i dług długoterminowy; przychody i wynik operacyjny segmentów za ostatni rok.
+2. Liczba akcji z pierwszej strony raportu: osobno każda klasa akcji, z datą, której dotyczy.
+3. 4-6 faktów o najważniejszych projektach spółki (np. sztuczna inteligencja, centra danych, okulary i urządzenia, liczba użytkowników). Jeśli raport podaje plan nakładów inwestycyjnych na kolejny rok, dodaj go.
+4. 2-3 najważniejsze ryzyka opisane w raporcie (Item 1A. Risk Factors), każde z cytatem.
+5. Dane rynkowe z plików w META/zrodla/rynek/: kurs akcji i rentowność obligacji 10-letnich USA; cytat to odpowiedni fragment zapisanego pliku.
+6. Założenia do modelu DCF: wzrost przychodów w latach 2026-2030, marża operacyjna, nakłady inwestycyjne jako % przychodów, amortyzacja jako % przychodów, stopa podatkowa, beta, premia za ryzyko rynkowe, wzrost w okresie rezydualnym.
+
+Zasady:
+- Nie wpisuj niczego, czego nie znalazłeś w źródle. Jeśli czegoś nie ma, napisz mi o tym zamiast zgadywać.
+- Cytat musi być dokładnym fragmentem tekstu strony. Nie skracaj go w środku.
+- Wartości liczbowe zapisuj jako liczby, bez separatorów tysięcy.
+
+Na koniec pokaż mi tabelkę: id, opis, wartość, strona. Napisz, ile jest wpisów każdej klasy.`;
+
+const PROMPT_P3 = `Do prezentacji potrzebujemy 3-4 zdjęć najważniejszych projektów META (te same projekty co w ledgerze). Bierzemy je tylko z Wikimedia Commons, bo tam każde zdjęcie ma znanego autora i wolną licencję.
+
+1. Napisz skrypt narzedzia/pobierz_grafiki.py, który szuka zdjęć przez API Wikimedia Commons (https://commons.wikimedia.org/w/api.php), odczytuje autora, licencję i adres strony pliku (imageinfo z extmetadata) i pobiera zdjęcie w szerokości ok. 1200 px do META/zrodla/grafiki/. Wysyłaj nagłówek User-Agent taki sam jak przy SEC.
+2. Akceptuj tylko licencje: CC0, domena publiczna, CC BY, CC BY-SA. Pomijaj logotypy, zrzuty ekranu i pliki SVG.
+3. Obejrzyj pobrane zdjęcia i wybierz po jednym, które naprawdę pokazuje dany projekt (np. okulary, gogle, centrum danych). Jeśli do projektu nie ma dobrego zdjęcia, napisz mi o tym. Pozostałe pobrane pliki usuń.
+4. Dopisz wybrane zdjęcia do META/ledger.json jako wpisy klasy "grafika" (id G-01...): plik, opis (co przedstawia), projekt (id faktu, którego dotyczy), autor, licencja, zrodlo.url (strona pliku na Commons).
+Na koniec pokaż mi tabelkę: id, projekt, autor, licencja.`;
+
+const PROMPT_P4 = `Teraz sprawdzimy ledger META dwiema niezależnymi bramkami. Bramka to kontrola, której wynik decyduje, czy wolno iść dalej.
+
+Bramka 1: skrypt narzedzia/sprawdz_cytaty.py TICKER, bez AI (za każdym razem ten sam wynik):
+- fakt: cytat występuje na podanej stronie (porównuj po ujednoliceniu spacji, cudzysłowów i myślników) i w cytacie występuje wartość wpisu (dopuść zapis z separatorem tysięcy, np. 1234567 = 1,234,567, oraz liczby ujemne zapisane w nawiasach);
+- dana_rynkowa: cytat występuje w zapisanym pliku źródłowym;
+- grafika: plik istnieje, autor, licencja i adres są wypełnione;
+- zalozenie: ma uzasadnienie.
+Wynik zapisz w TICKER/weryfikacja/bramka1.json (id, ok albo błąd, powód).
+
+Bramka 2: skrypt narzedzia/weryfikuj_modelem.py TICKER, w którym inny model sprawdza, czy cytat naprawdę potwierdza wpis:
+- dla każdego faktu i danej rynkowej, które przeszły bramkę 1, uruchom osobny proces Claude Code: claude -p z --model sonnet, bez narzędzi; ten model nie zna naszej rozmowy, dostaje tylko wpisy ledgera i pełny tekst ich stron źródłowych;
+- wysyłaj wpisy partiami po 6, żeby oszczędzać limit;
+- model odpowiada samym JSON-em: id, werdykt ("potwierdza", "nie potwierdza" albo "niejasne") i jedno zdanie uzasadnienia po polsku; ma sprawdzić liczbę, okres (rok), jednostkę (mln czy mld), zakres (cała spółka czy segment) i czy opis wpisu pasuje do cytatu;
+- program claude znajdź przez shutil.which("claude"), argumenty podaj jako listę (bez shell=True), wyjście czytaj jako UTF-8, ustaw limit czasu;
+- wynik zapisz w TICKER/weryfikacja/bramka2.json.
+
+Skrypt narzedzia/weryfikuj.py TICKER uruchamia obie bramki i zapisuje:
+- TICKER/weryfikacja/raport.md: czytelny raport po polsku (ile wpisów sprawdzono, ile przeszło, lista problemów);
+- TICKER/weryfikacja/status.json: ok (true tylko wtedy, gdy wszystkie wpisy przeszły obie bramki) i skrót SHA-256 pliku ledger.json.
+Dopisz funkcję, którą wywoła każdy późniejszy skrypt tworzący dokumenty: jeśli status nie jest ok albo ledger zmieniono po weryfikacji, skrypt kończy pracę z wyjaśnieniem po polsku.
+
+Uruchom weryfikację dla META. Jeśli są błędy, popraw wpisy w ledgerze na podstawie źródła (nie zmieniaj skryptów tak, żeby przepuszczały błędy) i uruchom weryfikację ponownie. Pokaż mi wynik.`;
+
+const PROMPT_P5 = `Sprawdźmy, czy bramki naprawdę łapią błędy. Nie zmieniaj prawdziwego ledgera META.
+
+1. Skopiuj folder META jako TEST-PULAPEK, bez folderu wyniki.
+2. W ledgerze w TEST-PULAPEK podrzuć dwa błędy:
+   a) w jednym fakcie finansowym zmień jedną cyfrę i w wartości, i w cytacie (takiego cytatu nie ma w źródle);
+   b) w innym fakcie z tabeli, w której są liczby za kilka lat, zostaw cytat i wartość bez zmian, ale zmień okres na inny rok (i rok w opisie oraz kluczu). To typowa pomyłka: liczba z sąsiedniej kolumny.
+3. Uruchom weryfikację dla TEST-PULAPEK i pokaż mi, która bramka złapała który błąd i jakie podała powody.
+4. Uruchom dla TEST-PULAPEK funkcję blokady z poprzedniego kroku i pokaż, co odpowiada.
+Na koniec wyjaśnij mi w 3-4 zdaniach prostym językiem, dlaczego potrzebne są obie bramki.`;
+
+const PROMPT_P6 = `Zbuduj model DCF dla META w Excelu: skrypt narzedzia/generuj_xlsx.py TICKER tworzy TICKER/wyniki/TICKER_DCF.xlsx. Skorzystaj ze skilla xlsx.
+
+Zasady:
+- Skrypt zaczyna od sprawdzenia weryfikacji (status i skrót ledgera). Wszystkie dane bierze z ledger.json: w skrypcie nie może być wpisanej ręcznie żadnej liczby o spółce.
+- Model liczy się formułami Excela, nie wartościami policzonymi w Pythonie: po zmianie założenia w arkuszu wycena ma się przeliczyć sama.
+- Komórki z danymi wejściowymi mają niebieską czcionkę, obok id wpisu ledgera (np. F-03), a w komentarzu komórki cytat i stronę źródła.
+
+Arkusze:
+1. Podsumowanie: wartość jednej akcji z DCF, aktualny kurs, różnica w %, kluczowe założenia i wykresy.
+2. Dane historyczne: przychody i zysk operacyjny za 3 lata, marża operacyjna, pozostałe fakty finansowe.
+3. Założenia: wszystkie założenia z ledgera z uzasadnieniem; koszt kapitału (WACC) liczony formułą metodą CAPM: stopa wolna od ryzyka + beta × premia za ryzyko (jeśli dług jest istotny w porównaniu z wartością spółki, uwzględnij go w WACC).
+4. DCF: prognoza 2026-2030 (przychody, zysk operacyjny, podatek, NOPAT, amortyzacja, nakłady inwestycyjne, wolne przepływy pieniężne FCF, czynnik dyskontowy, wartość bieżąca), wartość rezydualna metodą Gordona, wartość firmy, plus gotówka i papiery wartościowe, minus dług = wartość kapitału własnego; podzielona przez liczbę akcji (suma wszystkich klas) = wartość jednej akcji.
+5. Wrażliwość: tabela wartości jednej akcji dla 5 wartości WACC i 5 wartości wzrostu rezydualnego; każda komórka liczona formułą, kolory od czerwonego do zielonego.
+6. Ledger: wszystkie wpisy ledgera z klasą, wartością, źródłem, stroną i cytatem.
+
+Wykresy (natywne wykresy Excela): przychody historyczne i prognoza razem z marżą operacyjną; FCF w prognozie; przejście od wartości firmy do wartości jednej akcji.
+
+Po zapisaniu pliku:
+- przelicz go w LibreOffice bez otwierania okna (soffice --headless; na Windowsie zwykle C:\\Program Files\\LibreOffice\\program\\soffice.exe) i sprawdź, że żadna komórka nie ma błędu (#REF!, #DIV/0!, #VALUE!, #NAME?);
+- odczytaj z przeliczonego pliku wynik i zapisz go w TICKER/wyniki/wycena.json (wartość jednej akcji, kurs, różnica w %, WACC, wzrost rezydualny, wartość firmy, wartość kapitału); prezentacja i notatka wezmą liczby wyceny z tego pliku;
+- zrób podgląd arkuszy do PNG przez LibreOffice w TICKER/wyniki/podglad/ i obejrzyj go: czy wykresy są czytelne i nic się nie ucina.
+
+Uruchom dla META i opisz mi wynik wyceny w 3-4 zdaniach prostym językiem.`;
+
+const PROMPT_P7 = `Przygotuj prezentację o META: skrypt narzedzia/generuj_pptx.py TICKER tworzy TICKER/wyniki/TICKER_prezentacja.pptx. Skorzystaj ze skilla pptx.
+
+Zasady jak przy Excelu: najpierw sprawdzenie weryfikacji; każda liczba i każdy fakt o spółce pochodzi z ledger.json albo z wyniki/wycena.json i ma przy sobie id wpisu (np. [F-07]) drobnym tekstem; wszystkie teksty po polsku.
+
+Slajdy (ok. 8, format 16:9):
+1. Tytuł: nazwa spółki, „Pakiet analityczny”, data danych.
+2. Spółka w liczbach: wykres przychodów i zysku operacyjnego za 3 lata oraz 3 kluczowe liczby.
+3-6. Po jednym slajdzie na każdy projekt, do którego mamy zdjęcie: zdjęcie z ledgera (klasa grafika), 2-3 punkty z faktami z ledgera, pod zdjęciem podpis: autor, licencja, Wikimedia Commons.
+7. Wycena DCF: wartość jednej akcji wobec kursu, kluczowe założenia i wyraźna informacja, że to założenia, a nie fakty.
+8. Ryzyka i źródła: ryzyka z ledgera oraz lista dokumentów i stron.
+
+Wygląd: spójna, spokojna kolorystyka, czytelna czcionka, nic nie wychodzi poza slajd i nic na siebie nie nachodzi.
+Po zapisaniu zrób podgląd slajdów do PNG przez LibreOffice (TICKER/wyniki/podglad/) i obejrzyj każdy slajd. Popraw to, co się ucina albo nachodzi na siebie. Pokaż mi listę slajdów.`;
+
+const PROMPT_P8 = `Napisz notatkę dla zarządu: skrypt narzedzia/generuj_docx.py TICKER tworzy TICKER/wyniki/TICKER_notatka_zarzad.docx. Skorzystaj ze skilla docx.
+
+Zasady jak wcześniej: sprawdzenie weryfikacji; liczby tylko z ledger.json i wyniki/wycena.json, przy każdej id wpisu.
+Treść na dokładnie jedną stronę A4:
+- nagłówek: nazwa spółki, data, „Notatka dla zarządu”;
+- najważniejsze wnioski w 3 punktach;
+- tabelka kluczowych liczb (przychody, marża operacyjna, gotówka, wartość jednej akcji z DCF wobec kursu);
+- 3 projekty, każdy w jednym zdaniu;
+- 3 ryzyka, każde w jednym zdaniu;
+- źródła drobnym drukiem (id wpisów i strony 10-K) i dopisek: „Materiał edukacyjny, nie stanowi rekomendacji inwestycyjnej.”
+
+Po zapisaniu:
+1. Zamień plik na PDF przez LibreOffice i sprawdź, że ma dokładnie 1 stronę. Jeśli ma więcej, skróć tekst (czcionka nie mniejsza niż 9 pt).
+2. Napisz skrypt narzedzia/sprawdz_liczby.py TICKER: wyciąga wszystkie liczby z tekstu pptx i docx i sprawdza, że każda ma pokrycie w ledger.json albo wycena.json (z uwzględnieniem zaokrągleń i zapisu w mld lub mln); pomija lata, numery slajdów i id wpisów. Liczba bez pokrycia to błąd z podaniem pliku i miejsca.
+3. Uruchom kontrolę dla META i popraw generatory, jeśli coś nie przejdzie.
+Pokaż mi podsumowanie.`;
+
+const PROMPT_P9 = `Zamień to, co zbudowaliśmy, w skill Claude Code o nazwie pakiet-analityczny, żeby dla innej spółki wystarczyło napisać /pakiet-analityczny TICKER. Skorzystaj ze skilla skill-creator, jeśli go masz.
+
+1. Utwórz skill w folderze projektu: .claude/skills/pakiet-analityczny/ z plikiem SKILL.md i podfolderem scripts/ z kopiami skryptów z narzedzia/. Skill ma działać sam, bez folderu narzedzia/.
+2. SKILL.md opisuje po polsku kolejne kroki dokładnie tak, jak robiliśmy je dla META: pobranie 10-K i danych rynkowych, ledger (te same klasy wpisów, zasady cytatów i klucze), zdjęcia z licencją z Wikimedia Commons, weryfikacja dwiema bramkami z poprawianiem wpisów aż do zielonego statusu, Excel z DCF, prezentacja, notatka i kontrola liczb. Wyniki trafiają do folderu TICKER/.
+3. Skill przyjmuje ticker jako argument. Na początku sprawdza, czy spółka składa raport 10-K w SEC i czy nie jest bankiem ani ubezpieczycielem (ten model DCF do nich nie pasuje). Jeśli nie spełnia warunków, kończy z jasnym komunikatem po polsku.
+4. Uwzględnij różnice między spółkami: inne nazwy pozycji w raporcie, inna liczba klas akcji (np. Alphabet ma klasy A, B i C), inne segmenty albo ich brak. Skrypty nie mogą zakładać nazw pozycji ani segmentów Meta.
+5. Adres e-mail do nagłówka User-Agent zostaje taki sam jak w narzedzia/pobierz_10k.py.
+Nie uruchamiaj skilla. Na koniec napisz mi, jak go wywołać.`;
+
+const PROMPT_P10 = `/pakiet-analityczny GOOG`;
+
+const INSTRUKCJA = [
+  { id: 'zanim-zaczniesz', tytul: '0. Zanim zaczniesz', elementy: [
+    { typ: 'tekst', html: 'Treść do uzupełnienia.' },
+    { typ: 'prompt', id: 'P1', tytul: 'Zasady projektu i źródła', tekst: PROMPT_P1 },
+    { typ: 'prompt', id: 'P2', tytul: 'Ledger: fakty, dane rynkowe, założenia', tekst: PROMPT_P2 },
+    { typ: 'prompt', id: 'P3', tytul: 'Zdjęcia projektów z licencją', tekst: PROMPT_P3 },
+    { typ: 'prompt', id: 'P4', tytul: 'Weryfikacja: dwie bramki', tekst: PROMPT_P4 },
+    { typ: 'prompt', id: 'P5', tytul: 'Test pułapek', tekst: PROMPT_P5 },
+    { typ: 'prompt', id: 'P6', tytul: 'Model DCF w Excelu', tekst: PROMPT_P6 },
+    { typ: 'prompt', id: 'P7', tytul: 'Prezentacja', tekst: PROMPT_P7 },
+    { typ: 'prompt', id: 'P8', tytul: 'Notatka dla zarządu i kontrola liczb', tekst: PROMPT_P8 },
+    { typ: 'prompt', id: 'P9', tytul: 'Skill pakiet-analityczny', tekst: PROMPT_P9 },
+    { typ: 'prompt', id: 'P10', tytul: 'Pakiet dla Alphabet jednym poleceniem', tekst: PROMPT_P10 },
+  ] },
+];
+
+const RAMKA_POMOCY = {
+  szablon: 'Jestem początkujący, robię instrukcję „Pakiet analityczny spółki”, krok [numer kroku]. Zrobiłem: [co zrobiłem]. Widzę: [komunikat albo co się dzieje]. Wyjaśnij po polsku, co się stało i co mam zrobić.',
+  sytuacje: [],
+};
+
+const DANE = { LISTA_ZRZUTOW, INSTRUKCJA, RAMKA_POMOCY };
+</script>
+<script id="widok">
+const { LISTA_ZRZUTOW: ZRZUTY_LISTA, INSTRUKCJA: SEKCJE, RAMKA_POMOCY: POMOC } = DANE;
+
+function htmlEl(tag, atrybuty = {}, ...dzieci) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(atrybuty)) {
+    if (k === 'html') e.innerHTML = v;
+    else if (k.startsWith('on')) e.addEventListener(k.slice(2), v);
+    else e.setAttribute(k, v);
+  }
+  for (const d of dzieci.flat()) if (d !== null && d !== undefined && d !== false && d !== '') e.append(d);
+  return e;
+}
+
+async function kopiuj(tekst, przycisk) {
+  let ok = false;
+  try {
+    if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(tekst); ok = true; }
+  } catch (e) { ok = false; }
+  if (!ok) {
+    const pole = htmlEl('textarea', { style: 'position:fixed;opacity:0' });
+    pole.value = tekst;
+    document.body.append(pole);
+    pole.select();
+    try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    pole.remove();
+  }
+  przycisk.textContent = ok ? 'Skopiowano' : 'Zaznacz i skopiuj ręcznie (Ctrl+C)';
+  setTimeout(() => { przycisk.textContent = 'Kopiuj'; }, 1800);
+}
+
+function przyciskKopiuj(tekst) {
+  const b = htmlEl('button', { class: 'kopiuj', type: 'button' }, 'Kopiuj');
+  b.addEventListener('click', () => kopiuj(tekst, b));
+  return b;
+}
+
+function blokKomendy(tekst) {
+  return htmlEl('div', { class: 'komenda' }, htmlEl('code', {}, tekst), przyciskKopiuj(tekst));
+}
+
+function blokPliku(nazwa, linie) {
+  return htmlEl('div', { class: 'plik' },
+    htmlEl('div', { class: 'naglowek-pliku' }, nazwa, przyciskKopiuj(linie.join('\r\n'))),
+    htmlEl('pre', {}, linie.join('\n')));
+}
+
+function blokPromptu(e) {
+  return htmlEl('div', { class: 'prompt', id: `prompt-${e.id}` },
+    htmlEl('div', { class: 'naglowek-promptu' }, `Prompt ${e.id}: ${e.tytul} - wklej do Claude Code`, przyciskKopiuj(e.tekst)),
+    htmlEl('pre', {}, e.tekst));
+}
+
+function blokZrzutu(klucz) {
+  const opis = ZRZUTY_LISTA.find((z) => z.klucz === klucz).podpis;
+  return ZRZUTY[klucz]
+    ? htmlEl('figure', { class: 'zrzut' }, htmlEl('img', { src: ZRZUTY[klucz], alt: opis, loading: 'lazy' }), htmlEl('figcaption', {}, opis))
+    : htmlEl('div', { class: 'brak-zrzutu' }, `Zrzut: ${opis}`);
+}
+
+function elementInstrukcji(e) {
+  if (e.typ === 'tekst') return htmlEl('div', { html: e.html });
+  if (e.typ === 'komenda') return blokKomendy(e.tekst);
+  if (e.typ === 'plik') return blokPliku(e.nazwa, e.linie);
+  if (e.typ === 'prompt') return blokPromptu(e);
+  if (e.typ === 'dlaczego') return htmlEl('div', { class: 'dlaczego', html: '<strong>Co się dzieje i po co</strong>' + e.html });
+  if (e.typ === 'schemat') return htmlEl('div', { class: 'schemat', html: e.svg });
+  if (e.typ === 'sprawdz') return htmlEl('div', { class: 'sprawdz', html: '<strong>Sprawdź:</strong> ' + e.html });
+  if (e.typ === 'uwaga') return htmlEl('div', { class: 'uwaga', html: e.html });
+  if (e.typ === 'wazne') return htmlEl('div', { class: 'wazne', html: e.html });
+  if (e.typ === 'mac') return htmlEl('div', { class: 'mac', html: '<strong>Na Macu:</strong> ' + e.html });
+  if (e.typ === 'zrzut') return blokZrzutu(e.klucz);
+  return null;
+}
+
+function budujInstrukcje() {
+  const sekcje = SEKCJE.map((s) => htmlEl('section', { id: s.id }, htmlEl('h2', {}, s.tytul), ...s.elementy.map(elementInstrukcji)));
+  const ramka = htmlEl('section', { id: 'gdy-cos-nie-tak', class: 'ramka-pomocy' },
+    htmlEl('h2', {}, 'Gdy coś pójdzie nie tak'),
+    htmlEl('p', {}, 'Skopiuj ten szablon, uzupełnij nawiasy kwadratowe i wklej do Claude Code - wyjaśni, co się stało:'),
+    htmlEl('div', { class: 'plik' }, htmlEl('div', { class: 'naglowek-pliku' }, 'Pytanie do Claude Code', przyciskKopiuj(POMOC.szablon)), htmlEl('pre', {}, POMOC.szablon)),
+    ...POMOC.sytuacje.map((s) => htmlEl('div', {}, htmlEl('h3', {}, s.tytul), htmlEl('div', { html: s.html }))));
+  document.getElementById('instrukcja').replaceChildren(...sekcje, ramka);
+  document.getElementById('spis').replaceChildren(htmlEl('strong', {}, 'Spis treści'),
+    htmlEl('ol', {}, ...SEKCJE.map((s) => htmlEl('li', {}, htmlEl('a', { href: `#${s.id}` }, s.tytul))),
+      htmlEl('li', {}, htmlEl('a', { href: '#gdy-cos-nie-tak' }, 'Gdy coś pójdzie nie tak'))));
+}
+
+window.addEventListener('load', budujInstrukcje);
+</script>
+<script id="zrzuty">
+const ZRZUTY = {};
+</script>
+</body>
+</html>
