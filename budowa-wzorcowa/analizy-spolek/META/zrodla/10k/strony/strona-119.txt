@@ -1,0 +1,24 @@
+Table of Contents
+Note 12. Stockholders' Equity
+Common Stock
+Our certificate of incorporation authorizes the issuance of Class A common stock and Class B common stock. As of December 31, 2025, we are authorized to issue 5,000 million shares of Class A common stock and 4,141 million shares of Class B common stock, each with a par value of $0.000006 per share. Holders of our Class A common stock and Class B common stock are entitled to dividends when, as, and if declared by our board of directors, subject to the rights of the holders of all classes of stock outstanding having priority rights to dividends. The holder of each share of Class A common stock is entitled to one vote, while the holder of each share of Class B common stock is entitled to ten votes. Shares of our Class B common stock are convertible into an equivalent number of shares of our Class A common stock and generally convert into shares of our Class A common stock upon transfer. Class A common stock and Class B common stock are collectively referred to as common stock throughout the notes to these financial statements, unless otherwise noted. As of December 31, 2025, there were 2,187 million shares of Class A common stock and 343 million shares of Class B common stock issued and outstanding.
+Capital Return Program
+Share Repurchase
+Our board of directors has authorized a share repurchase program of our Class A common stock, which commenced in January 2017 and does not have an expiration date. As of December 31, 2024, $51.28 billion remained available and authorized for repurchases under this program. In 2025, we repurchased and subsequently retired 40 million shares of our Class A common stock for an aggregate amount of $26.26 billion, including excise taxes. As of December 31, 2025, $25.03 billion remained available and authorized for repurchases.
+The timing and actual number of shares repurchased under the repurchase program depend on a variety of factors, including price, general business and market conditions, and other investment opportunities. Shares may be repurchased through open market purchases or privately negotiated transactions, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Securities Exchange Act of 1934, as amended. Our share repurchase program may be suspended, delayed, discontinued, or accelerated at any time.
+Dividend
+The following table summarizes our dividends activities for the periods presented (in millions, except per share amounts):
+Record Date Payment Date Dividend Per Share Class A Class B Total
+2025
+March 14, 2025 March 26, 2025 $ 0.525 $ 1,145 $ 180 $ 1,325
+June 16, 2025 June 26, 2025 $ 0.525 $ 1,142 $ 180 $ 1,322
+September 22, 2025 September 29, 2025 $ 0.525 $ 1,143 $ 180 $ 1,323
+December 15, 2025 December 23, 2025 $ 0.525 $ 1,148 $ 180 $ 1,328
+2024
+February 22, 2024 March 26, 2024 $ 0.50 $ 1,099 $ 174 $ 1,273
+June 14, 2024 June 26, 2024 $ 0.50 $ 1,093 $ 173 $ 1,266
+September 16, 2024 September 26, 2024 $ 0.50 $ 1,090 $ 172 $ 1,262
+December 16, 2024 December 27, 2024 $ 0.50 $ 1,095 $ 172 $ 1,267
+Beginning in the first quarter of 2025, our board of directors increased the cash dividend by 5% to $0.525 per share of outstanding Class A and Class B common stock. During the years ended December 31, 2025 and 2024, dividend equivalent payments on eligible equity awards, which are not included above, were not material.
+Subject to legally available funds and future declaration by our board of directors, we currently intend to continue to pay a quarterly cash dividend on our outstanding common stock. The declaration and payment of future dividends is at the sole
+119

@@ -1,0 +1,21 @@
+Table of Contents
+We do not have the power to direct the activities that most significantly impact the Venture's economic performance. Therefore, we are not the primary beneficiary and do not consolidate the variable interest entity (VIE). Our maximum exposure to loss related to the Venture was $45.95 billion as of December 31, 2025, consisting of $1.83 billion carrying value of our equity investment, the lease commitments, our estimated future fundings, and the maximum RVG threshold.
+In addition, our non-marketable equity method investments also include other types of unconsolidated VIEs for which we are not the primary beneficiary, as we do not direct the activities that would significantly affect their economic performance. As of December 31, 2025, total maximum exposure to loss in these other VIEs was $5.58 billion, which equals the carrying value of our investments for the year ended December 31, 2025.
+Note 6. Property and Equipment
+Property and equipment, net consists of the following (in millions):
+December 31,
+2025 2024
+Land $ 3,687 $ 2,561
+Servers and network assets 98,040 68,397
+Buildings 55,568 47,076
+Leasehold improvements 8,346 7,293
+Equipment and other 9,377 7,150
+Finance lease right-of-use assets 8,187 5,384
+Construction in progress 50,521 26,802
+Property and equipment, gross 233,726 164,663
+Less: Accumulated depreciation (57,326) (43,317)
+Property and equipment, net $ 176,400 $ 121,346
+Construction in progress (CIP) includes costs mostly related to construction of data centers, network infrastructure and servers. Interest expense capitalized for the eligible CIP assets was $535 million and $384 million during the years ended December 31, 2025 and 2024, respectively.
+Depreciation expense on property and equipment was $18.00 billion, $15.29 billion, and $11.02 billion for the years ended December 31, 2025, 2024, and 2023, respectively. Within property and equipment, servers and network assets depreciation expenses were $13.36 billion, $11.34 billion, and $7.32 billion for the years ended December 31, 2025, 2024, and 2023, respectively. We extended the estimated useful lives of most servers and network assets to 5.5 years, effective January 1, 2025. See Note 1 — Summary of Significant Accounting Policies - Use of Estimates.
+During the years ended December 31, 2025, 2024, and 2023, total impairment losses for property and equipment were $237 million, $288 million and $738 million, respectively.
+107

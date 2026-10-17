@@ -1,0 +1,36 @@
+Table of Contents
+Alphabet Inc.
+Year Ended December 31, 2025
+Class A Class B Class C Consolidated
+Basic net income per share:
+Numerator
+Allocation of distributed earnings (cash dividends paid) $ 4,832 $ 703 $ 4,514 $ 10,049
+Allocation of undistributed earnings 58,682 8,557 54,882 122,121
+Net income $ 63,514 $ 9,260 $ 59,396 $ 132,170
+Denominator
+Number of shares used in per share computation 5,822 849 5,445 12,116
+Basic net income per share $ 10.91 $ 10.91 $ 10.91 $ 10.91
+Diluted net income per share:
+Numerator
+Allocation of total earnings for basic computation $ 63,514 $ 9,260 $ 59,396 $ 132,170
+Reallocation of total earnings as a result of conversion of Class B to Class A shares 9,260 0 0 _(1)
+Reallocation of undistributed earnings (627) (79) 627 _(1)
+Net income $ 72,147 $ 9,181 $ 60,023 $ 132,170
+Denominator
+Number of shares used in basic computation 5,822 849 5,445 12,116
+Weighted-average effect of dilutive securities
+Add:
+Conversion of Class B to Class A shares outstanding 849 0 0 _(1)
+Restricted stock units and other contingently issuable shares 0 0 114 114
+Number of shares used in per share computation 6,671 849 5,559 12,230
+Diluted net income per share $ 10.82 $ 10.81 $ 10.80 $ 10.81
+(1)Not applicable for consolidated net income per share.
+Note 13. Compensation Plans
+Stock Plans
+Our stock plans include the Alphabet Amended and Restated 2021 Stock Plan ("Alphabet 2021 Stock Plan") and Other Bets stock-based plans. Under our stock plans, RSUs and other types of awards may be granted. Under the Alphabet 2021 Stock Plan, an RSU award is an agreement to issue shares of our Class C stock at the time the award vests. RSUs generally vest over four years contingent upon employment on the vesting date. RSUs are awarded dividend equivalents, which are subject to the same vesting conditions as the underlying award, and settled in Class C shares.
+As of December 31, 2025, there were 534 million shares of Class C stock reserved for future issuance under the Alphabet 2021 Stock Plan.
+Stock-Based Compensation
+For the years ended December 31, 2023, 2024, and 2025, total SBC expense was $22.1 billion, $22.8 billion, and $27.1 billion, including amounts associated with awards we expect to settle in Alphabet stock of $21.7 billion, $22.0 billion, and $24.1 billion, respectively.
+For the years ended December 31, 2023, 2024, and 2025, we recognized tax benefits on total SBC expense, which are reflected in the provision for income taxes, of $4.5 billion, $4.6 billion, and $5.0 billion, respectively.
+For the years ended December 31, 2023, 2024, and 2025, tax benefit realized related to awards vested or exercised during the period was $5.6 billion, $6.8 billion, and $8.1 billion, respectively. These amounts do not include the indirect effects of stock-based awards, which primarily relate to the research and development tax credit.
+82.

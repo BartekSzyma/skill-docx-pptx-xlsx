@@ -1,0 +1,30 @@
+Table of Contents
+Note 10. Long-term Debt
+In November 2025, we issued an aggregate of $30.0 billion of fixed-rate senior unsecured notes in six series. The following table summarizes our fixed-senior unsecured notes (the Notes) and the carrying amount of our long-term debt (in millions, except percentages):
+Maturity Stated Interest Rate Effective Interest Rate December 31, 2025 December 31, 2024
+August 2022 Notes 2027 - 2062 3.50% - 4.65%
+3.63% - 4.71%
+$ 10,000 $ 10,000
+May 2023 Notes 2028 - 2063 4.60% - 5.75%
+4.68% - 5.79%
+8,500 8,500
+August 2024 Notes 2029 - 2064 4.30% - 5.55%
+4.42% - 5.60%
+10,500 10,500
+November 2025 Notes 2030 - 2065 4.20% - 5.75%
+4.27% - 5.77%
+30,000 —
+Total face amount of long-term debt 59,000 29,000
+Unamortized discount and issuance costs, net (256) (174)
+Long-term debt $ 58,744 $ 28,826
+Each series of the Notes rank equally with each other and interest is payable semi-annually in arrears. We may redeem the Notes at any time, in whole or in part, at specified redemption prices. We are not subject to any financial covenants under the Notes. Interest expense, net of capitalized interest, recognized on the Notes was $1.09 billion, $683 million, and $420 million for the years ended December 31, 2025, 2024, and 2023, respectively.
+The total estimated fair value of our outstanding Notes was $57.22 billion and $27.83 billion as of December 31, 2025 and 2024, respectively. The fair value is determined based on the quoted prices at the end of the reporting periods and categorized as Level 2 in the fair value hierarchy.
+As of December 31, 2025, future principal payments for the Notes, by year, are as follows (in millions):
+2026 $ —
+2027 2,750
+2028 1,500
+2029 1,000
+2030 5,000
+Thereafter 48,750
+Total $ 59,000
+111

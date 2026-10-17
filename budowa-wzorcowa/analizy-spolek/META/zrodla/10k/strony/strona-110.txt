@@ -1,0 +1,35 @@
+Table of Contents
+The following table sets forth the major categories of the intangible assets and their weighted-average remaining useful lives (in millions):
+December 31, 2025 December 31, 2024
+Weighted-Average Remaining Useful Lives
+(in years) Gross Carrying Amount Accumulated Amortization Net Carrying Amount Gross Carrying Amount Accumulated Amortization Net Carrying Amount
+Acquired software 2.6 $ 2,601 $ (400) $ 2,201 $ 250 $ (58) $ 192
+Acquired technology 3.0 1,151 (235) 916 442 (247) 195
+Acquired patents 6.4 224 (143) 81 252 (165) 87
+Other 3.4 113 (16) 97 24 (8) 16
+Total finite-lived assets 4,089 (794) 3,295 968 (478) 490
+Total indefinite-lived assets N/A 397 — 397 425 — 425
+Total $ 4,486 $ (794) $ 3,692 $ 1,393 $ (478) $ 915
+During the year ended December 31, 2025, we also purchased software licenses of $2.40 billion which are classified as acquired software within the intangible assets. Amortization expense of intangible assets for the years ended December 31, 2025, 2024, and 2023 was $615 million, $211 million, and $161 million, respectively.
+As of December 31, 2025, expected amortization expense for finite-lived intangible assets for the next five years and thereafter is as follows (in millions):
+2026 $ 1,259
+2027 1,162
+2028 771
+2029 39
+2030 27
+Thereafter 37
+Total $ 3,295
+Note 9. Accrued Expenses and Other Current Liabilities
+The components of accrued expenses and other current liabilities are as follows (in millions):
+December 31,
+2025 2024
+Legal-related accruals (1)
+$ 6,867 $ 5,523
+Accrued compensation and benefits 7,151 6,350
+Accrued property and equipment 4,402 2,582
+Accrued taxes 1,922 3,438
+Other current liabilities 10,387 6,074
+Total $ 30,729 $ 23,967
+_________________________
+(1)Includes accruals for estimated fines, settlements, or other losses in connection with legal and related matters, as well as other legal fees. For further information, see Legal and Related Matters in Note 11 — Commitments and Contingencies.
+110

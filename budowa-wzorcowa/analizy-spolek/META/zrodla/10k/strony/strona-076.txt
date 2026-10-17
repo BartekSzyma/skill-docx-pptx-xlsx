@@ -1,0 +1,24 @@
+Table of Contents
+Interest and other income, net
+Year Ended December 31,
+2025 2024 2023 2025 vs 2024 % change 2024 vs 2023 % change
+(in millions, except percentages)
+Interest income $ 2,123 $ 2,517 $ 1,639 (16) % 54 %
+Interest expense (1,165) (715) (446) (63) % (60) %
+Foreign currency exchange gains (losses), net 352 (690) (366) 151 % (89) %
+Other income (expense), net 1,346 171 (150) NM 214 %
+Total interest and other income, net $ 2,656 $ 1,283 $ 677 107 % 90 %
+____________________________________
+NM - not meaningful
+Interest and other income, net in 2025 increased $1.37 billion, or 107% compared to 2024, due to an increase in other income (expense), net, related to the unrealized gains on our marketable and non-marketable equity investments. Foreign currency exchange gains, net from foreign currency transactions and remeasurement also contributed to the increase.
+Provision for income taxes
+Year Ended December 31,
+2025 2024 2023 2025 vs 2024 % change 2024 vs 2023 % change
+(in millions, except percentages)
+Provision for income taxes $ 25,474 $ 8,303 $ 8,330 207 % — %
+Effective tax rate 30 % 12 % 18 %
+On July 4, 2025, the One Big Beautiful Bill Act (OBBBA) was enacted, introducing several significant U.S. income tax provisions that reduced our U.S. federal cash tax payments for the remainder of 2025 and future years. The provisions include the immediate expensing of domestic research and development costs and certain capital expenditures beginning in 2025, as well as an enhanced deduction for foreign-derived intangible income effective in 2026. The benefits from these provisions are limited by the 15% Corporate Alternative Minimum Tax (CAMT). As a result, we recorded a $15.93 billion charge in the third quarter of 2025, of which $14.03 billion was a valuation allowance against our U.S. federal deferred tax assets as of the enactment date of OBBBA, and the remaining was mostly related to the reduction of the benefit of the foreign-derived intangible income deduction. In determining the valuation allowance, our accounting policy incorporates the expected impact of future years’ CAMT in assessing the realizability of our deferred tax assets.
+Our provision for income taxes in 2025 increased $17.17 billion or 207% compared to 2024, primarily due to an increase in the effective tax rate. Our effective tax rate in 2025 increased compared to 2024, mostly due to the effects of OBBBA.
+Effective Tax Rate Items. Our effective tax rate in the future will depend upon the proportion between the following items and income before provision for income taxes: the effects of changes in tax law, changes in valuation allowance due to the effects of CAMT, U.S. tax benefits from foreign-derived intangible income, tax effects from share-based compensation, research tax credit, tax effects from capital losses not expected to be utilized, settlement of tax contingency items, and tax effects of changes in our business.
+A number of countries have enacted legislation to implement the Organization for Economic Cooperation and Development’s 15% global minimum tax regime. These changes did not have a material impact on our consolidated financial statements for 2025. We continue to evaluate the impacts of proposed and enacted legislation with respect to the global minimum tax regime in the jurisdictions in which we operate. As additional jurisdictions enact legislation, transitional relief expires, and other provisions of the global minimum tax legislation become effective, our effective tax rate and cash tax payments could increase in future years.
+76

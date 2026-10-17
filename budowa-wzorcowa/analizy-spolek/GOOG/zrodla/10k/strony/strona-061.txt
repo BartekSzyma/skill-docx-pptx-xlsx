@@ -1,0 +1,42 @@
+Table of Contents
+Alphabet Inc.
+recognized as revenues for the year ended December 31, 2025. Total deferred revenue as of December 31, 2025 was $8.6 billion.
+Note 3. Financial Instruments
+Fair Value Measurements
+Investments Measured at Fair Value on a Recurring Basis
+Cash equivalents and marketable equity securities are measured at fair value and classified within Level 1 and Level 2 in the fair value hierarchy, because we use quoted prices for identical assets in active markets or inputs that are based upon quoted prices for similar instruments in active markets.
+Debt securities are measured at fair value and classified within Level 2 in the fair value hierarchy, because we use quoted market prices to the extent available or alternative pricing sources and models utilizing market observable inputs to determine fair value.
+The following tables summarize our cash, cash equivalents, and marketable securities measured at fair value on a recurring basis (in millions):
+As of December 31, 2024
+Quoted Prices in
+Active Markets
+for Identical Assets
+(Level 1)
+Significant Other
+Observable Inputs
+(Level 2)
+Total
+Cash
+$ 12,407
+Cash equivalents:
+Money market funds
+$ 8,154 $ 0 $ 8,154
+Time deposits
+0 2,081 2,081
+Government bonds 0 746 746
+Corporate debt securities 0 78 78
+Total cash and cash equivalents
+8,154 2,905 23,466
+Marketable securities:
+Marketable equity securities(1)
+4,708 105 4,813
+Time deposits
+0 136 136
+Government bonds 0 28,709 28,709
+Corporate debt securities 0 21,116 21,116
+Mortgage-backed and asset-backed securities 0 17,417 17,417
+Total marketable securities
+4,708 67,483 72,191
+Total $ 12,862 $ 70,388 $ 95,657
+(1)The long-term portion of marketable equity securities (subject to long-term lock-up restrictions) of $266 million as of December 31, 2024 is included within other non-current assets.
+61.

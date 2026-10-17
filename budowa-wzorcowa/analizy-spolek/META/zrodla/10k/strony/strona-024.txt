@@ -1,0 +1,26 @@
+Table of Contents
+•our ability to attract and retain marketers in a particular period;
+•our ability to recognize revenue or collect payments from marketers or advertising agencies or resellers in a particular period;
+•fluctuations in spending by our marketers due to seasonality, such as historically strong spending in the fourth quarter of each year, episodic regional or global events, or other factors;
+•the frequency, prominence, size, format, and quality of ads shown to users;
+•the enforcement of our advertising policies, including the removal of ads and marketers from our platform;
+•the success of technologies designed to block the display of ads;
+•changes to the content or application of third-party policies that limit our ability to deliver, target, or measure the effectiveness of advertising, including changes by mobile operating system and browser providers such as Apple and Google;
+•the pricing of our ads and other products;
+•the diversification and growth of revenue sources beyond advertising on Facebook and Instagram;
+•our ability to generate revenue from Payments, or the sale of our consumer hardware products or other products we may introduce in the future;
+•changes to existing products or services or the development and introduction of new products or services by us or our competitors;
+•user behavior or product changes that may reduce traffic to features or products that we successfully monetize;
+•increases in marketing, sales, and other operating expenses, as well as capital expenditures, that we will incur to grow and expand our business and to remain competitive, including costs related to our data centers and technical infrastructure as well as other costs relating to our AI initiatives;
+•costs related to our privacy, safety, security, and content and advertising review and enforcement efforts, including as a result of implementing changes to our practices, whether voluntarily, in connection with laws, regulations, regulatory actions, or decisions or recommendations from the independent Oversight Board, or otherwise;
+•costs and expenses related to the development, manufacturing, and delivery of our consumer hardware products;
+•our ability to maintain gross margins and operating margins;
+•costs related to acquisitions or other strategic transactions, including costs associated with amortization and additional investments to develop acquired technologies;
+•charges associated with impairment or abandonment of any assets on our balance sheet, including as a result of changes to our real property lease arrangements and data center and infrastructure assets;
+•our ability to obtain equipment, components, and labor for our data centers and other technical infrastructure in a timely and cost-effective manner;
+•system failures or outages or government blocking that prevent us from serving ads for any period of time;
+•breaches of security or privacy, and the costs associated with any such breaches and remediation;
+•changes in the manner in which we distribute our products or inaccessibility of our products due to third-party actions;
+•fees paid to third parties for content or the distribution of our products;
+•refunds or other concessions provided to advertisers;
+24

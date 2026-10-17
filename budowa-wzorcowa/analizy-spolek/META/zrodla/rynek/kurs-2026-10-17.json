@@ -1,0 +1,132 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "META",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1337347800,
+          "regularMarketTime": 1792180801,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 709.325,
+          "regularMarketChangePercent": -3.718,
+          "fulldayPrice": 709.325,
+          "fulldayChange": -31.397,
+          "fulldayChangePercent": -4.262,
+          "fiftyTwoWeekHigh": 779.82,
+          "fiftyTwoWeekLow": 520.26,
+          "regularMarketDayHigh": 738.49,
+          "regularMarketDayLow": 702.71,
+          "regularMarketVolume": 20427809,
+          "longName": "Meta Platforms, Inc.",
+          "shortName": "Meta Platforms, Inc.",
+          "chartPreviousClose": 718.67,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "start": 1792137600,
+              "end": 1792157400,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "start": 1792157400,
+              "end": 1792180800,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "start": 1792180800,
+              "end": 1792195200,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791811800,
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "close": [
+                742.9600219726562,
+                762.5,
+                737.5399780273438,
+                736.719970703125,
+                709.3300170898438
+              ],
+              "open": [
+                728.5,
+                735.989990234375,
+                760.75,
+                726.5599975585938,
+                736.7000122070312
+              ],
+              "high": [
+                752.239990234375,
+                771.27001953125,
+                761.5,
+                743.969970703125,
+                738.489990234375
+              ],
+              "volume": [
+                24882400,
+                22706200,
+                16236300,
+                16891500,
+                20594600
+              ],
+              "low": [
+                727.6400146484375,
+                734.8400268554688,
+                734.2899780273438,
+                715.5800170898438,
+                702.7100219726562
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                742.9600219726562,
+                762.5,
+                737.5399780273438,
+                736.719970703125,
+                709.3300170898438
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  },
+  "pobrano": "2026-10-17T01:44:25+00:00",
+  "adres": "https://query1.finance.yahoo.com/v8/finance/chart/META?range=5d&interval=1d"
+}

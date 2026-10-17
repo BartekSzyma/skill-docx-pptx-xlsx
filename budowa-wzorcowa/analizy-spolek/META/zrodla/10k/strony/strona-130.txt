@@ -1,0 +1,43 @@
+Table of Contents
+PART IV
+Item 15. Exhibit and Financial Statement Schedules
+We have filed the following documents as part of this Form 10-K:
+1. Consolidated Financial Statements:
+Page
+Reports of Independent Registered Public Accounting Firm (PCAOB ID No. 42)
+83
+Consolidated Balance Sheets
+88
+Consolidated Statements of Income
+89
+Consolidated Statements of Comprehensive Income
+90
+Consolidated Statements of Stockholders' Equity
+91
+Consolidated Statements of Cash Flows
+92
+Notes to Consolidated Financial Statements
+94
+2. Financial Statement Schedules
+All schedules have been omitted because they are not required, not applicable, not present in amounts sufficient to require submission of the schedule, or the required information is otherwise included.
+3. Exhibits
+Exhibit Incorporated by Reference Filed
+Herewith
+Number Exhibit Description Form File No. Exhibit Filing Date
+3.1 Amended and Restated Certificate of Incorporation (including all amendments thereto).
+10-Q 001-35551 3.1 August 1, 2024
+3.2 Amended and Restated Bylaws.
+8-K 001-35551 3.1 September 10, 2024
+4.1 Form of Class A Common Stock Certificate.
+10-K 001-35551 4.1 February 3, 2022
+4.2 Form of Class B Common Stock Certificate.
+10-K 001-35551 4.2 February 3, 2022
+4.3 Indenture, dated as of August 9, 2022, between Meta Platforms, Inc. and U.S. Bank Trust Company, National Association, as trustee.
+8-K 001-35551 4.1 August 9, 2022
+4.4 First Supplemental Indenture, dated as of August 9, 2022, between Meta Platforms, Inc. and U.S. Bank Trust Company, National Association, as trustee.
+8-K 001-35551 4.2 August 9, 2022
+4.5 Second Supplemental Indenture, dated as of May 3, 2023, by and between Meta Platforms, Inc. and U.S. Bank Trust Company, National Association, as trustee.
+8-K 001-35551 4.1 May 3, 2023
+4.6 Third Supplemental Indenture, dated as of August 9, 2024, by and between Meta Platforms, Inc. and U.S. Bank Trust Company, National Association, as trustee.
+8-K 001-35551 4.1 August 9, 2024
+130

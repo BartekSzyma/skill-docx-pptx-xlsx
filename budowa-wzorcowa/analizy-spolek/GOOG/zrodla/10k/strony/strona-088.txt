@@ -1,0 +1,14 @@
+Table of Contents
+Alphabet Inc.
+Google Services and Google Cloud employee compensation expenses include the costs associated with direct and allocated employees. Google Services and Google Cloud other costs and expenses primarily include direct costs, such as advertising and promotional activities, legal and other matters, and third-party services fees as well as allocated costs, such as technical infrastructure and office facilities usage costs. Additionally, Google Services other costs and expenses include content and traffic acquisition costs and device costs.
+See Note 2 for further details relating to revenues by geography.
+The following table presents long-lived assets by geographic area, which includes property and equipment, net and operating lease assets (in millions):
+As of December 31,
+2024 2025
+Long-lived assets:
+United States $ 138,993 $ 195,337
+International 45,631 66,481
+Total long-lived assets $ 184,624 $ 261,818
+Note 16. Subsequent Event
+In January 2026, we recognized approximately $32.0 billion of unrealized gains in our non-marketable investments. These unrealized gains reflect an estimated increase in the fair value measurement following observable transactions that occurred in January 2026, and are subject to change as we finalize related valuations. See Note 3 and Note 7 for further details on equity investments and OI&E.
+88.

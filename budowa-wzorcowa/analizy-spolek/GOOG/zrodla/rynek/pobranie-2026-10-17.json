@@ -1,0 +1,17 @@
+{
+  "ticker": "GOOG",
+  "pobrano": "2026-10-17T02:27:20+00:00",
+  "kurs": {
+    "adres": "https://query1.finance.yahoo.com/v8/finance/chart/GOOG?range=5d&interval=1d",
+    "plik": "kurs-2026-10-17.json",
+    "waluta": "USD",
+    "data": "2026-10-16",
+    "zamkniecie": 336.9100036621094
+  },
+  "dgs10": {
+    "adres": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+    "plik": "dgs10-2026-10-17.csv",
+    "data": "2026-10-15",
+    "rentownosc_proc": 5.1
+  }
+}

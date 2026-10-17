@@ -1,0 +1,36 @@
+Table of Contents
+Alphabet Inc.
+We determine realized gains or losses on the sale or extinguishment of debt securities on a specific identification method. For certain marketable debt securities, we have elected the fair value option for which changes in fair value are recorded in OI&E. The fair value option was elected for these securities to align with the unrealized gains and losses from related derivative contracts.
+The following table summarizes gains and losses for debt securities, reflected as a component of OI&E (in millions):
+Year Ended December 31,
+2023 2024 2025
+Unrealized gain (loss) on fair value option debt securities
+$ 386 $ 30 $ 254
+Gross realized gain on debt securities 182 482 572
+Gross realized loss on debt securities (1,833) (1,553) (316)
+(Increase) decrease in allowance for credit losses
+50 (2) 30
+Total gain (loss) on debt securities recognized in other income (expense), net $ (1,215) $ (1,043) $ 540
+Non-marketable Securities
+Our non-marketable securities primarily consist of non-marketable equity securities accounted for under the measurement alternative. The carrying value is measured at the total initial cost plus the cumulative net upward and downward adjustments (including impairments). We account for non-marketable equity securities through which we exercise significant influence but do not have control over the investee under the equity method. Certain of our non-marketable securities include our investments in VIEs where we are not the primary beneficiary. See Note 5 for further details on VIEs.
+Realized net gain (loss) on equity securities sold during the period reflects the difference between the sale proceeds and the carrying value of the equity securities at the beginning of the period or the purchase date, if later.
+All gains and losses, including impairments, are included as components of OI&E.
+The carrying values for non-marketable securities are summarized below (in millions):
+As of December 31,
+2024 2025
+Non-marketable securities:
+Total initial cost of non-marketable equity securities accounted for under the measurement alternative
+$ 20,940 $ 28,429
+Cumulative upward adjustments
+22,709 44,485
+Cumulative downward adjustments (including impairments)
+(8,431) (8,820)
+Carrying value of non-marketable equity securities accounted for under the measurement alternative
+35,218 64,094
+Equity method investments and other
+2,764 4,593
+Total non-marketable securities
+$ 37,982 $ 68,687
+Gains and Losses on Equity Securities
+Gains and losses (including impairments), net, for equity securities included in OI&E are summarized below (in millions):
+64.

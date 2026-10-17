@@ -1,0 +1,36 @@
+Table of Contents
+Beginning in 2025 annual reporting, we adopted ASU 2023-09 prospectively. See Note 1 — Summary of Significant Accounting Policies – Recently Adopted Accounting Pronouncements for additional details on the adoption of ASU 2023-09. A reconciliation of the U.S. federal statutory income tax rate to our effective tax rate pursuant to the disclosure requirements of ASU 2023-09 for the year ended December 31, 2025 is as follows (in millions, except percentages):
+Year Ended December 31, 2025
+U.S. federal statutory income tax rate $ 18,046 21.0 %
+State and local income taxes, net of federal income tax effect (1)
+(202) (0.2)
+Foreign tax effects 1,464 1.7
+Tax credits
+Research and development tax credits (3,912) (4.6)
+U.S. foreign tax credits (1,405) (1.6)
+Valuation allowances (2)
+11,974 13.9
+Changes in unrecognized tax benefits (3)
+3,127 3.6
+Other adjustments
+Excess tax benefits from share-based compensation (4,307) (5.0)
+Other (4)
+689 0.8
+Effective tax rate $ 25,474 29.6 %
+_________________________
+(1)California represents the majority of the tax effect in this category.
+(2)Primarily related to the implementation of OBBBA.
+(3)Changes in unrecognized tax benefits on an aggregated basis for all jurisdictions.
+(4)Includes the tax effects of enactment of new tax laws (excluding implementation of OBBBA reflected in valuation allowances), effect of cross-border tax laws, and nontaxable or nondeductible items.
+A reconciliation of the U.S. federal statutory income tax rates to our effective tax rate for the years ended December 31, 2024 and 2023 is as follows (in percentages):
+Year Ended December 31,
+2024 2023
+U.S. federal statutory income tax rate 21.0 % 21.0 %
+State income taxes, net of federal benefit 0.7 1.1
+Share-based compensation (3.7) (0.6)
+Research and development tax credits (2.9) (1.5)
+Foreign-derived intangible income deduction (4.9) (4.3)
+Effect of non-U.S. operations 0.2 0.9
+Other 1.4 1.0
+Effective tax rate 11.8 % 17.6 %
+122

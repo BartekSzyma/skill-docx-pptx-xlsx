@@ -1,0 +1,25 @@
+Table of Contents
+The following table classifies our marketable debt securities by contractual maturities (in millions):
+December 31, 2025
+Due within one year $ 13,023
+Due after one year to five years 26,704
+Total $ 39,727
+Marketable Equity Securities
+The net unrealized gains on our marketable equity securities recognized in interest and other income, net on our consolidated statements of income were $413 million and not material during the years ended December 31, 2025 and 2024, respectively.
+Note 5. Non-Marketable Equity Investments
+Our non-marketable equity investments are in privately-held companies without readily determinable fair values. The following table summarizes our non-marketable equity investments under measurement alternative and equity method (in millions):
+December 31,
+2025 2024
+Initial cost $ 20,271 $ 6,342
+Cumulative upward adjustments 429 300
+Cumulative impairment/downward adjustments (624) (624)
+Non-marketable equity investments under measurement alternative 20,076 6,018
+Non-marketable equity investments under equity method 7,448 52
+Total carrying value of non-marketable equity investments $ 27,524 $ 6,070
+Non-Marketable Equity Investments Under Measurement Alternative
+Our non-marketable equity investments accounted for under the measurement alternative mostly consist of our minority investments in Scale AI for $13.80 billion, which was closed during 2025, and our investment in Jio Platforms Limited of $5.82 billion as of December 31, 2025. We do not have significant influence over these investees' operations.
+Non-Marketable Equity Investments Under Equity Method
+In October 2025, we entered into an arrangement to co-develop a data center campus in Louisiana (the Venture). This Venture provides strategic optionality and flexibility, enabling us to effectively meet future infrastructure capacity needs as AI markets and technologies develop.
+At Venture formation, we contributed $4.30 billion of held-for-sale assets, net of liabilities, and we received a one-time distribution of $2.55 billion. We hold a 20% membership interest in the Venture, which is accounted for under the equity method included within non-marketable equity investments on the consolidated balance sheets. We provide construction management, administrative and property management services to the Venture. The parties have committed to fund their respective pro rata share of approximately $27 billion in total estimated development costs.
+We also entered into lease agreements with the Venture for the use of properties on the data center campus, which will commence in 2029. The aggregate initial lease commitment is approximately $12.31 billion, with each property having an initial four-year lease term and options to renew for a total lease period of up to 20 years. In addition, we have provided residual value guarantees (RVG) with an aggregate threshold of approximately $28 billion that decreases over time. If we decide to terminate or not renew a lease, and if certain other conditions are met, our maximum RVG payment would equal any shortfall between the fair value at that time and the RVG threshold for that property. As of December 31, 2025, RVG payments are not probable and therefore, no liability has been recorded.
+106

@@ -1,0 +1,19 @@
+Table of Contents
+Cash Used in Financing Activities
+Cash used in financing activities during 2025 mostly consisted of $26.25 billion for repurchases of our Class A common stock, $18.40 billion of taxes paid related to net share settlement of RSUs, and $5.32 billion of payments of dividends and dividend equivalents, partially offset by $29.91 billion net proceeds from the issuance of the Notes in November 2025. The decrease in cash used in financing activities during 2025 compared to 2024, was mostly due to an increase in net proceeds from the Notes.
+Free Cash Flow
+In addition to other financial measures presented in accordance with U.S. GAAP, we monitor free cash flow (FCF) as a non-GAAP measure to manage our business, make planning decisions, evaluate our performance, and allocate resources. We define FCF as net cash provided by operating activities reduced by purchases of property and equipment and principal payments on finance leases.
+We believe that FCF is one of the key financial indicators of our business performance over the long term and provides useful information regarding how cash provided by operating activities compares to the property and equipment investments required to maintain and grow our business.
+We have chosen our definition for FCF because we believe that this methodology can provide useful supplemental information to help investors better understand underlying trends in our business. We use FCF in discussions with our senior management and board of directors.
+FCF has limitations as an analytical tool, and you should not consider it in isolation or as a substitute for analysis of other GAAP financial measures, such as net cash provided by operating activities. FCF is not intended to represent our residual cash flow available for discretionary expenses. Some of the limitations of FCF are:
+•FCF does not reflect our future contractual commitments; and
+•other companies in our industry present similarly titled measures differently than we do, limiting their usefulness as comparative measures.
+Management compensates for the inherent limitations associated with using the FCF measure through disclosure of such limitations, presentation of our financial statements in accordance with GAAP, and reconciliation of FCF to the most directly comparable GAAP measure, net cash provided by operating activities, as presented below.
+The following is a reconciliation of FCF to the most comparable GAAP measure, net cash provided by operating activities (in millions):
+Year Ended December 31,
+2025 2024 2023
+Net cash provided by operating activities $ 115,800 $ 91,328 $ 71,113
+Purchases of property and equipment (69,691) (37,256) (27,045)
+Principal payments on finance leases (2,524) (1,969) (1,058)
+Free cash flow $ 43,585 $ 52,103 $ 43,010
+78

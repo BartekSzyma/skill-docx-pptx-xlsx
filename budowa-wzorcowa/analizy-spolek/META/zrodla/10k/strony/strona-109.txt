@@ -1,0 +1,23 @@
+Table of Contents
+The table above does not include lease payments that were not fixed at commencement or lease modification. As of December 31, 2025, we have additional operating and finance leases, that have not yet commenced, with total lease obligations of approximately $103.77 billion, mostly for data centers, colocations, and network infrastructure. These operating and finance leases will commence between 2026 and 2030 with lease terms of greater than one year to 30 years.
+Supplemental cash flow information related to leases is as follows (in millions):
+Year Ended December 31,
+2025 2024 2023
+Cash paid for amounts included in the measurement of lease liabilities:
+Operating cash flows for operating leases $ 3,189 $ 2,830 $ 2,233
+Operating cash flows for finance leases $ 31 $ 23 $ 20
+Financing cash flows for finance leases $ 2,524 $ 1,969 $ 1,058
+Lease liabilities arising from obtaining right-of-use assets:
+Operating leases $ 7,017 $ 3,784 $ 4,370
+Finance leases $ 613 $ 181 $ 588
+Note 8. Acquisitions, Goodwill, and Intangible Assets
+During the year ended December 31, 2025, we completed several business acquisitions with total purchase consideration of $4.09 billion in cash and $450 million in shares of our Class A common stock, including $3.88 billion and $664 million allocated to goodwill and intangible assets, respectively. Goodwill generated from these business acquisitions was primarily attributable to advancing our AI efforts, workforce, expected synergies, and potential monetization opportunities. The amount of goodwill generated that was deductible for tax purposes was not material. Acquisition-related costs were not material and were expensed as incurred. Pro forma historical results of operations related to these business acquisitions have not been presented because they are not significant to our consolidated financial statements, either individually or in aggregate. We have included the financial results of these acquired businesses in our consolidated financial statements from their respective dates of acquisition.
+Changes in the carrying amount of goodwill by reportable segment for the years ended December 31, 2025 and 2024 are as follows (in millions):
+Family of Apps Reality Labs Total
+December 31, 2023 $ 19,246 $ 1,408 $ 20,654
+Acquisitions — — —
+December 31, 2024 19,246 1,408 20,654
+Acquisitions 3,697 99 3,796
+Adjustments 85 (1) 84
+December 31, 2025 $ 23,028 $ 1,506 $ 24,534
+109

@@ -1,0 +1,43 @@
+Table of Contents
+Alphabet Inc.
+The gains (losses) on derivatives and non-derivative financial instruments in cash flow hedging and net investment hedging relationships recognized in other comprehensive income are summarized below (in millions):
+Year Ended December 31,
+2023 2024 2025
+Cash flow hedging relationship:
+Foreign exchange and other contracts
+Amount included in the assessment of effectiveness $ 90 $ 857 $ (978)
+Amount excluded from the assessment of effectiveness 84 77 (45)
+Net investment hedging relationship:
+Amounts included in the assessment of effectiveness
+Foreign exchange contracts
+(287) 223 (765)
+Foreign currency-denominated debt
+0 0 (393)
+Amounts excluded from the assessment of effectiveness
+Foreign exchange contracts 0 0 11
+Total $ (113) $ 1,157 $ (2,170)
+The table below presents the gains (losses) of derivatives included on the Consolidated Statements of Income: (in millions):
+Year Ended December 31,
+2023 2024 2025
+Revenues Other income (expense), net Revenues Other income (expense), net Revenues Other income (expense), net
+Total amounts included on the Consolidated Statements of Income
+$ 307,394 $ 1,424 $ 350,018 $ 7,425 $ 402,836 $ 29,787
+Effect of cash flow hedges:
+Foreign exchange contracts
+Amount included in the assessment of effectiveness 213 0 174 0 (233) 0
+Amount excluded from the assessment of effectiveness
+24 0 37 0 107 0
+Effect of fair value hedges:
+Foreign exchange contracts
+Hedged items 0 59 0 (59) 0 (9)
+Amount included in the assessment of effectiveness
+0 (59) 0 58 0 9
+Amount excluded from the assessment of effectiveness 0 15 0 13 0 1
+Effect of net investment hedges:
+Foreign exchange contracts
+Amount excluded from the assessment of effectiveness 0 187 0 137 0 189
+Effect of non-designated hedges:
+Foreign exchange contracts 0 7 0 335 0 445
+Other contracts 0 53 0 174 0 (148)
+Total gains (losses) $ 237 $ 262 $ 211 $ 658 $ (126) $ 487
+67.

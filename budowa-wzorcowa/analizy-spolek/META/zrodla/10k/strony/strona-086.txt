@@ -1,0 +1,12 @@
+Table of Contents
+Consolidation accounting for a variable interest entity
+Description of the Matter
+As described in Note 5 to the consolidated financial statements, the Company entered into an arrangement (the “Venture”) to co-develop a data center campus. The Company determined whether it holds a variable interest in the Venture, whether the entity in which the Company has a variable interest is a variable interest entity (“VIE”), and whether the Company is required to consolidate the entity. A VIE is consolidated by its primary beneficiary, which is the party that has both the power to direct the activities that most significantly affect the economic performance of the VIE and a variable interest that absorbs losses or receives benefits from the VIE that could potentially be significant to the VIE.
+Auditing the Company’s determination of the primary beneficiary of the VIE was especially challenging due to the significant judgment required in determining the activities that most significantly affect the VIE’s economic performance based on the purpose and design of the entity and assessing whether the Company has the power to direct those activities.
+How We Addressed the Matter in Our Audit We obtained an understanding, evaluated the design and tested the operating effectiveness of controls over the Company’s determination of the primary beneficiary of the VIE, including controls relating to the determination of the activities that most significantly affect the VIE’s economic performance and assessing which party has the power to direct those activities.
+To test the Company’s consolidation conclusion with respect to its interest in the VIE related to the Venture, our procedures included, among others, reading the relevant agreements related to the VIE to understand the purpose and design of the Venture. We audited the Company’s determination of the primary beneficiary of the VIE, including its determination of the activities that most significantly affect the Venture’s economic performance and assessing which party has the power to direct those activities. We also evaluated the appropriateness of the related disclosures included in Note 5 to the consolidated financial statements.
+We have served as the Company's auditor since 2007.
+/s/ Ernst & Young LLP
+San Jose, California
+January 28, 2026
+86

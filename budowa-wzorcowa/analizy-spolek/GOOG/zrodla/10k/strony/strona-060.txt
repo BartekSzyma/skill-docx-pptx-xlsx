@@ -1,0 +1,40 @@
+Table of Contents
+Alphabet Inc.
+In December 2023, the FASB issued ASU 2023-09 "Income Taxes (Topics 740): Improvements to Income Tax Disclosures" which expands the disclosure requirements for income taxes. We adopted this ASU for our 2025 annual period with the comparative periods updated to reflect additional disclosures. See Note 14 for the revised disclosures consistent with the new standard.
+Prior Period Reclassifications
+Certain amounts in prior periods have been reclassified to conform with current period presentation.
+Note 2. Revenues
+Disaggregated Revenues
+The following table presents revenues disaggregated by type (in millions):
+Year Ended December 31,
+2023 2024 2025
+Google Search & other $ 175,033 $ 198,084 $ 224,532
+YouTube ads 31,510 36,147 40,367
+Google Network 31,312 30,359 29,792
+Google advertising 237,855 264,590 294,691
+Google subscriptions, platforms, and devices
+34,688 40,340 48,030
+Google Services total 272,543 304,930 342,721
+Google Cloud 33,088 43,229 58,705
+Other Bets 1,527 1,648 1,537
+Hedging gains (losses) 236 211 (127)
+Total revenues $ 307,394 $ 350,018 $ 402,836
+No individual customer or groups of affiliated customers represented more than 10% of our revenues in 2023, 2024, or 2025.
+The following table presents revenues disaggregated by geography, based on the addresses of our customers (in millions):
+Year Ended December 31,
+2023 2024 2025
+United States $ 146,286 47 % $ 170,447 49 % $ 194,229 48 %
+EMEA(1)
+91,038 30 102,127 29 117,152 29
+APAC(1)
+51,514 17 56,815 16 67,680 17
+Other Americas(1)
+18,320 6 20,418 6 23,902 6
+Hedging gains (losses) 236 0 211 0 (127) 0
+Total revenues $ 307,394 100 % $ 350,018 100 % $ 402,836 100 %
+(1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America ("Other Americas").
+Revenue Backlog
+As of December 31, 2025, we had $242.8 billion of remaining performance obligations (“revenue backlog"), primarily related to Google Cloud. Revenue backlog represents commitments in customer contracts that have not yet been recognized as revenue. We expect to recognize just over 50% of the revenue backlog as revenues over the next 24 months with the remainder to be recognized thereafter. The estimated revenue backlog and timing of revenue recognition for these commitments is largely driven by contract duration, our ability to deliver in accordance with relevant contract terms, and when our customers utilize services. Revenue backlog includes related deferred revenue currently recorded as well as amounts that will be invoiced in future periods, and excludes contracts with an original expected term of one year or less and cancellable contracts.
+Deferred Revenues
+We record deferred revenues when cash payments are received or due in advance of our performance, including amounts which are refundable. Deferred revenues primarily relate to Google Cloud and Google subscriptions, platforms, and devices. Total deferred revenue as of December 31, 2024 was $6.0 billion, of which $4.6 billion was
+60.

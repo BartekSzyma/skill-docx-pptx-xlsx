@@ -1,0 +1,9 @@
+Table of Contents
+Trends in Our Revenue by User Geography
+We calculate our revenue by user geography based on our estimate of the geography in which ad impressions are delivered, virtual and digital goods are purchased, or consumer hardware products are shipped. The geography of our users affects our revenue and financial results. Our revenue in regions such as United States & Canada and Europe is relatively higher primarily due to the size and maturity of those online and mobile advertising markets, and ad impression growth is primarily in geographies that monetize at lower rates, such as Asia-Pacific. In 2025, revenue increased by 21% in United States & Canada, 24% in Europe, 20% in Asia-Pacific, and 27% in Rest of World, in each case relative to 2024.
+-
+Ad Revenue
+Non-Ad Revenue
+Note: Non-advertising revenue includes RL revenue generated from the delivery of consumer hardware products and FoA Other revenue, which consists of revenue from paid messaging from WhatsApp, Meta Verified subscriptions, net fees we receive from developers using our Payments infrastructure, and revenue from various other sources.
+Our revenue by user geography in the charts above is geographically apportioned based on our estimation of the geographic location of our users when they perform a revenue-generating activity. This allocation differs from our revenue disaggregated by geography disclosure in Note 2 — Revenue in our consolidated financial statements included in Part II, Item 8, "Financial Statements and Supplemental Data" where revenue is geographically apportioned based on the addresses of our customers.
+64

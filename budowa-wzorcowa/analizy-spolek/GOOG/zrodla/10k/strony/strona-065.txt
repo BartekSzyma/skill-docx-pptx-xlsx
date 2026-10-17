@@ -1,0 +1,31 @@
+Table of Contents
+Alphabet Inc.
+Year Ended December 31,
+2023 2024 2025
+Gross unrealized gain on non-marketable equity securities accounted for under the measurement alternative
+$ 1,806 $ 5,582 $ 22,666
+Gross unrealized loss (including impairments) on non-marketable equity securities accounted for under the measurement alternative
+(2,894) (2,210) (1,271)
+Unrealized net gain (loss) on non-marketable equity securities accounted for under the measurement alternative
+(1,088) 3,372 21,395
+Unrealized net gain (loss) on marketable and other equity securities
+790 156 1,907
+Realized net gain (loss) on marketable and non-marketable equity securities sold during the period
+690 186 778
+Total gain (loss) on equity securities in other income (expense), net (1)
+$ 392 $ 3,714 $ 24,080
+(1) Excludes income (loss) and impairment from equity method investments. Refer to Note 7 for further details.
+Cumulative net gains (losses), calculated as the difference between the sales price and purchase price, represent the total net gains (losses) recognized after the initial purchase date. This represents the total economic impact of the investment, regardless of when the gains or losses were previously recognized. Cumulative net gains on equity securities sold were $748 million and $387 million for the years ended December 31, 2024 and 2025, respectively.
+Derivative Financial Instruments
+We primarily use derivative instruments to manage risks relating to our ongoing business operations, including foreign currencies, interest rates, commodity prices, credit exposures, and market prices of certain marketable equity securities. Additionally, we enter into derivatives to enhance investment returns. We also enter into derivatives as a result of agreements with third parties to backstop certain obligations related to data center leases. These backstop agreements are accounted for as credit derivatives.
+We recognize derivative instruments in the Consolidated Balance Sheets at fair value and classify them primarily within Level 2 in the fair value hierarchy. We present our foreign currency collars (an option strategy comprised of a combination of purchased and written options) at net fair values and present all other derivatives at gross fair values. The accounting treatment for derivatives is based on the intended use and hedge designation.
+Cash Flow Hedges
+We designate foreign currency forwards and options (including collars) as cash flow hedges to hedge certain forecasted revenue transactions denominated in currencies other than the US dollar. These contracts have maturities of 24 months or less.
+Cash flow hedge amounts included in the assessment of hedge effectiveness are deferred in AOCI and reclassified to revenue when the hedged item is recognized in earnings. Hedge components excluded from our assessment of hedge effectiveness are amortized on a straight-line basis over the life of the hedging instrument in revenues. The difference between fair value changes of the excluded component and the amount amortized to revenues is recorded in AOCI.
+As of December 31, 2025, the net accumulated loss on our foreign currency cash flow hedges before tax effect was $60 million, which is expected to be reclassified from AOCI into revenues within the next 12 months.
+Additionally, we may designate interest rate derivatives as cash flow hedges to manage our exposure to certain interest rate risks. Changes in the fair value of these derivatives are deferred in AOCI and reclassified to OI&E when the hedged item is recognized in earnings.
+Fair Value Hedges
+We designate foreign currency forwards as fair value hedges to hedge foreign currency risks for our marketable debt securities denominated in currencies other than the US dollar. Fair value hedge amounts included and excluded from the assessment of hedge effectiveness are recognized in OI&E.
+Net Investment Hedges
+We designate foreign currency forwards, options (including collars), cross-currency swaps, and foreign currency-denominated debt as net investment hedges to hedge the foreign currency risks related to our investments in foreign
+65.

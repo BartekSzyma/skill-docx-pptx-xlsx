@@ -1,0 +1,32 @@
+Table of Contents
+Alphabet Inc.
+The reconciliation of federal statutory income tax rate to our effective income tax rate was as follows:
+Year Ended December 31,
+2023 2024 2025
+US federal statutory rate 18,001 21.0 % 25,161 21.0 % 33,353 21.0 %
+State and local income taxes, net of federal income tax effect(1)
+823 1.0 % 1,199 1.0 % 1,606 1.0 %
+Foreign tax effects:
+Brazil:
+Withholding taxes 1,064 1.2 % 1,041 0.9 % 1,384 0.9 %
+Other 62 0.1 % 12 0.0 % 23 0.0 %
+Other foreign jurisdictions (74) (0.1) % 353 0.3 % 396 0.2 %
+Effect of change in tax laws or rates enacted in the current period (829) (1.0) % 0 0.0 % 0 0.0 %
+Effect of cross-border tax laws:
+Foreign-derived intangible income deduction (3,980) (4.6) % (4,568) (3.8) % (3,931) (2.5) %
+Other 215 0.2 % 321 0.3 % 295 0.2 %
+Tax credits:
+Federal research credit (1,575) (1.8) % (1,792) (1.5) % (2,088) (1.3) %
+Foreign tax credits (1,396) (1.6) % (1,373) (1.1) % (1,684) (1.1) %
+Other (498) (0.6) % (198) (0.2) % (98) (0.1) %
+Changes in valuation allowances 513 0.6 % 603 0.5 % 1,170 0.7 %
+Nontaxable or nondeductible items:
+Stock-based compensation expense (602) (0.7) % (1,743) (1.5) % (2,601) (1.6) %
+Other 169 0.2 % 203 0.2 % 955 0.6 %
+Changes in unrecognized tax benefits 432 0.5 % 689 0.6 % (1,123) (0.7) %
+Other adjustments (403) (0.5) % (211) (0.2) % (1,002) (0.6) %
+Total $ 11,922 13.9 % $ 19,697 16.4 % $ 26,656 16.8 %
+(1) The tax effect in this category primarily reflects state and local taxes in New York state, New York city, Pennsylvania, Minnesota, Illinois, New Jersey and Wisconsin.
+In 2023, the IRS issued a rule change allowing taxpayers to temporarily apply the regulations in effect prior to 2022 related to US federal foreign tax credits as well as a separate rule change with guidance on the capitalization and amortization of research and development expenses. A cumulative one-time adjustment for these tax rule changes was recorded in 2023.
+Changes to US tax law enacted on July 4, 2025, allow for immediate expensing of domestic research and experimentation costs, accelerated depreciation on eligible capital expenditures, and other tax law changes impacting 2025 with certain changes effective in 2026. These changes are reflected in our results for the year ended December 31, 2025.
+84.

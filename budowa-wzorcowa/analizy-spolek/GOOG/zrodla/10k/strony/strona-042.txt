@@ -1,0 +1,29 @@
+Table of Contents
+Alphabet Inc.
+We monitor our foreign currency exposures and hedge foreign exchange risks with derivative and non-derivative instruments, including forwards, options (including collars), cross-currency swaps, and foreign currency-denominated debt. Gains or losses on these foreign currency exposures are generally offset by corresponding gains or losses on the derivative and non-derivative instruments.
+Considering historical trends in foreign exchange rates, we determined that it was reasonably possible that adverse changes in exchange rates of 10% could be experienced. We performed a sensitivity analysis on our foreign currency exposures to estimate the potential impact of this adverse 10% change. The estimated effects on our financial position would be as follows (in millions):
+As of December 31,
+Impact 2024 2025
+Foreign currency risk
+Foreign denominated monetary assets and liabilities(1)
+OI&E $ 135 $ 671
+Cash flow hedges of foreign currency revenue(2)
+AOCI $ 1,627 $ 2,096
+Net investment hedges of investments in foreign subsidiaries(3)
+AOCI $ 660 $ 2,942
+(1)After consideration of the effect of derivative contracts.
+(2)The change in accumulated other comprehensive income (AOCI) would be expected to offset a corresponding foreign currency change in forecasted hedged revenues when recognized.
+(3)The change in AOCI would be expected to offset a corresponding foreign currency translation gain or loss from our investments in foreign subsidiaries.
+Interest Rate Risk
+We are exposed to interest rate risk related to our investment portfolio and outstanding debt.
+Our Corporate Treasury investment strategy is to achieve a return that will allow us to preserve capital and maintain liquidity. By policy, we limit the amount of credit exposure within our investment portfolio to any one issuer. Our investments in both fixed rate and floating rate interest earning securities carry a degree of interest rate risk. Fixed rate securities may have their fair market value adversely affected due to a rise in interest rates, while floating rate securities may produce less income than predicted if interest rates fall. Unrealized gains and losses on our marketable debt securities are primarily due to interest rate fluctuations as compared to interest rates at the time of purchase. For certain fixed and floating rate debt securities, we have elected the fair value option for which changes in fair value are recorded in OI&E. We measure securities for which we have not elected the fair value option at fair value with gains and losses recorded in AOCI until the securities are sold, less any expected credit losses.
+We use value-at-risk (VaR) analysis to determine the potential effect of fluctuations in interest rates on the value of our investment portfolio. The VaR is the expected loss in fair value, for a given confidence interval, for our investment portfolio due to adverse movements in interest rates. We use a variance/covariance VaR model with 95% confidence interval. The estimated one-day loss in fair value of our investment portfolio as of December 31, 2024 and 2025 are shown below (in millions):
+As of December 31, 12-Month Average
+As of December 31,
+2024 2025 2024 2025
+Risk category - interest rate $ 208 $ 162 $ 230 $ 184
+Actual future gains and losses associated with our investment portfolio may differ materially from the sensitivity analyses performed as of December 31, 2024 and 2025 due to the inherent limitations associated with predicting the timing and amount of changes in interest rates and our actual exposures and positions. VaR analysis is not intended to represent actual losses but is used as a risk estimation.
+Additionally, we had senior unsecured notes outstanding with a total carrying value of $11.9 billion and $48.5 billion as of December 31, 2024 and 2025, respectively. As our senior unsecured notes primarily bear interest at fixed rates and are recorded at amortized cost, interest rate fluctuations generally do not affect our consolidated financial statements. However, the fair value of the notes will fluctuate with movement in market interest rates.
+Equity Investment Risk
+Our marketable and non-marketable equity securities are subject to a wide variety of market-related risks that could substantially reduce or increase the fair value of our holdings.
+42.

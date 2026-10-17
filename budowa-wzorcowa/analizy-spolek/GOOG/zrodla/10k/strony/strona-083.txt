@@ -1,0 +1,36 @@
+Table of Contents
+Alphabet Inc.
+Stock-Based Award Activities
+The following table summarizes the activities for unvested Alphabet RSUs, which include dividend equivalents awarded to holders of unvested stock, for the year ended December 31, 2025 (in millions, except per share amounts):
+Number of
+Shares Weighted-
+Average
+Grant-Date
+Fair Value
+Unvested as of December 31, 2024 299 $ 122.77
+Granted 198 $ 188.82
+Vested (181) $ 133.90
+Forfeited/canceled (34) $ 142.33
+Unvested as of December 31, 2025 282 $ 159.75
+The weighted-average grant-date fair value of RSUs granted during the years ended December 31, 2023 and 2024 was $97.59 and $140.04, respectively. Total fair value of RSUs, as of their respective vesting dates, during the years ended December 31, 2023, 2024, and 2025, were $26.6 billion, $33.3 billion, and $39.7 billion, respectively.
+As of December 31, 2025, there was $42.9 billion of unrecognized compensation cost related to unvested RSUs. This amount is expected to be recognized over a weighted-average period of 2.6 years.
+Note 14. Income Taxes
+Income from continuing operations before income taxes consisted of the following (in millions):
+Year Ended December 31,
+2023 2024 2025
+Domestic operations $ 73,600 $ 108,076 $ 143,591
+Foreign operations 12,117 11,739 15,235
+Total $ 85,717 $ 119,815 $ 158,826
+Provision for income taxes consisted of the following (in millions):
+Year Ended December 31,
+2023 2024 2025
+Current:
+Federal and state $ 15,716 $ 21,101 $ 13,378
+Foreign 3,935 3,852 5,028
+Total 19,651 24,953 18,406
+Deferred:
+Federal and state (7,482) (5,350) 8,243
+Foreign (247) 94 7
+Total (7,729) (5,256) 8,250
+Provision for income taxes $ 11,922 $ 19,697 $ 26,656
+83.

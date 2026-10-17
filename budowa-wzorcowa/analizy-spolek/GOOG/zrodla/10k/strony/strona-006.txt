@@ -1,0 +1,26 @@
+Table of Contents
+Alphabet Inc.
+•AI-optimized Infrastructure: runs on our Cloud, at the edge, or in customers' data centers. It can be used to migrate and modernize information technology (IT) systems and to train and serve various types of AI models. Our AI infrastructure delivers cost-performance for AI workloads. We offer a range of AI accelerators, including our custom TPUs and specialized GPUs, as well as AI-optimized storage offerings, and efficient AI software.
+•Developer Platform: delivers a fully managed AI development platform, through Vertex AI, for accessing, tuning, augmenting, and deploying custom models and agents, helping customers build applications with more than 200 foundation models, including our Gemini family, third-party, and open models.
+•Cybersecurity: provides AI-powered threat intelligence and cybersecurity solutions to help customers detect, analyze, protect against, and respond to a broad range of cybersecurity threats.
+•Data and Analytics: enables customers to migrate, clean, prepare, and feed data into their models. Our data platform also unifies data lakes, data warehouses, data governance, and advanced machine learning into a single platform that helps users analyze data using AI models across any cloud.
+•Agents:
+◦Gemini Enterprise: empowers teams to discover, create, share, and run AI agents all in one secure platform, bringing the best of Google AI to employees through an intuitive chat interface, helping to automate workflows and drive smarter business outcomes.
+◦Gemini for Google Workspace: brings our AI-powered agents into Gmail, Docs, Sheets, and more to help users write, organize, visualize, accelerate workflows, and have more productive meetings.
+Other Bets
+Across Alphabet, we are also using technology to try to solve big problems that affect a wide variety of industries, including transportation and health technology. Alphabet’s investment in the portfolio of Other Bets includes businesses that are at various stages of development, ranging from those in the research and development phase, such as X, our moonshot factory focused on developing breakthrough technologies, to those that are scaling commercialization, such as Waymo, which is expanding to more cities domestically, entering international markets, and further scaling operations.
+Other Bets operate as independent companies and some of them have their own boards with independent members and outside investors. While these early-stage businesses naturally come with considerable uncertainty, some of them are already generating revenue and making important strides in their industries. Revenues from Other Bets are generated primarily from the sale of autonomous transportation and internet services.
+Competition
+Our business is characterized by rapid change as well as new and disruptive technologies. We face formidable competition in every aspect of our business, including but not limited to, from:
+•general purpose search engines and information services;
+•vertical search engines and e-commerce providers for queries on topics such as those related to travel, jobs, and health, which users may navigate directly to rather than go through Google;
+•online advertising platforms and networks, including online shopping and streaming services;
+•other forms of advertising, such as billboards, magazines, newspapers, radio, and television, as our advertisers typically advertise in multiple media, both online and offline;
+•digital content and application platform providers;
+•providers of enterprise cloud services;
+•AI model developers and providers of AI products and services;
+•companies that design, manufacture, and market consumer hardware products, including businesses that have developed proprietary platforms;
+•providers of digital video services;
+•social networks, which users may rely on for product or service referrals, rather than seeking information through traditional search engines; and
+•providers of workspace communication and connectivity products.
+6.

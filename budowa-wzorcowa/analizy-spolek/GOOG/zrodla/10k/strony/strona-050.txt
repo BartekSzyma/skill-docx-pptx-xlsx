@@ -1,0 +1,25 @@
+Table of Contents
+Alphabet Inc.
+Alphabet Inc.
+CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME
+(in millions)
+Year Ended December 31,
+2023 2024 2025
+Net income $ 73,795 $ 100,118 $ 132,170
+Other comprehensive income (loss):
+Change in foreign currency translation adjustment, net of income tax benefit (expense) of $63, $(49) and $180
+735 (1,673) 2,522
+Available-for-sale investments:
+Change in net unrealized gains (losses) 1,344 (116) 1,146
+Less: reclassification adjustment for net (gains) losses included in net income 1,168 782 (169)
+Net change, net of income tax benefit (expense) of $(698), $(190), and $(276)
+2,512 666 977
+Cash flow hedges:
+Change in net unrealized gains (losses) 168 775 (779)
+Less: reclassification adjustment for net (gains) losses included in net income (214) (166) 164
+Net change, net of income tax benefit (expense) of $2, $(151), and $174
+(46) 609 (615)
+Other comprehensive income (loss) 3,201 (398) 2,884
+Comprehensive income $ 76,996 $ 99,720 $ 135,054
+See accompanying notes.
+50.

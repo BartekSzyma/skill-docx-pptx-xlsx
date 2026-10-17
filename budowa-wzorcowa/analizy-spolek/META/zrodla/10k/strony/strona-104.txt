@@ -1,0 +1,26 @@
+Table of Contents
+Note 4. Financial Instruments
+Fair Value Measurements
+Our cash equivalents, marketable securities, and restricted cash equivalents are classified within Level 1 or Level 2 of the fair value hierarchy because their fair values are derived from quoted market prices or alternative pricing sources and models utilizing market observable inputs. Certain other assets are classified within Level 3 because factors used to develop the estimated fair value are unobservable inputs that are not supported by market activity.
+The following tables summarize our assets measured at fair value on a recurring basis and the classification by level of input within the fair value hierarchy (in millions):
+Fair Value Measurement at Reporting Date Using
+Description December 31, 2025 Quoted Prices in Active Markets for Identical Assets
+(Level 1) Significant Other Observable Inputs
+(Level 2) Significant Unobservable Inputs
+(Level 3)
+Cash equivalents:
+Money market funds $ 27,928 $ 27,928 $ — $ —
+U.S. government securities 1,623 1,623 — —
+Time deposits 328 — 328 —
+Corporate debt securities 1,603 — 1,603 —
+Total cash equivalents 31,482 29,551 1,931 —
+Marketable securities:
+U.S. government securities 21,483 21,483 — —
+U.S. government agency securities 767 767 — —
+Corporate debt securities 17,477 — 17,477 —
+Marketable equity securities 5,992 5,992 — —
+Total marketable securities 45,719 28,242 17,477 —
+Restricted cash equivalents 2,539 2,539 — —
+Other assets 106 — — 106
+Total $ 79,846 $ 60,332 $ 19,408 $ 106
+104

@@ -1,0 +1,30 @@
+Table of Contents
+Alphabet Inc.
+Deferred Income Taxes
+Deferred income taxes reflect the net effects of temporary differences between the carrying amounts of assets and liabilities for financial reporting purposes and the amounts used for income tax purposes. Significant components of our deferred tax assets and liabilities were as follows (in millions):
+As of December 31,
+2024 2025
+Deferred tax assets:
+Accrued employee benefits $ 1,834 $ 1,951
+Accruals and reserves not currently deductible 2,552 3,570
+Tax credits 6,384 7,314
+Net operating losses 3,472 4,953
+Operating leases 3,336 3,337
+Capitalized research and development
+25,903 24,758
+Other 1,376 2,143
+Total deferred tax assets 44,857 48,026
+Valuation allowance (11,493) (13,942)
+Total deferred tax assets net of valuation allowance 33,364 34,084
+Deferred tax liabilities:
+Property and equipment, net (9,932) (13,256)
+Net investment gains (2,978) (8,242)
+Operating leases (2,986) (3,103)
+Other (1,008) (1,289)
+Total deferred tax liabilities (16,904) (25,890)
+Net deferred tax assets (liabilities) $ 16,460 $ 8,194
+As of December 31, 2025, our federal, state, and foreign net operating loss carryforwards for income tax purposes were approximately $13.0 billion, $25.1 billion, and $2.9 billion respectively. If not utilized, the federal, foreign and state net operating loss carryforwards will all begin to expire in 2026. It is more likely than not that the majority of the net operating loss carryforwards will not be realized. The net operating loss carryforwards are subject to various annual limitations under the tax laws of the different jurisdictions.
+As of December 31, 2025, our Federal and California research and development credit carryforwards for income tax purposes were approximately $771 million and $6.4 billion, respectively. If not utilized, the Federal research and development credit will begin to expire in 2037 and the California research and development credit can be carried over indefinitely. We believe the majority of the federal tax credit and state tax credit is not likely to be realized.
+As of December 31, 2025, our investment tax credit carryforwards for state income tax purposes were approximately $1.3 billion and will begin to expire in 2033. We use the flow-through method of accounting for investment tax credits. We believe this tax credit is not likely to be realized.
+As of December 31, 2025, we maintained a valuation allowance with respect to California deferred tax assets, certain federal net operating losses, certain state net operating losses and tax credits, net deferred tax assets relating to certain Other Bet companies, and certain foreign net operating losses that we believe are not likely to be realized. We continue to reassess the remaining valuation allowance quarterly, and if future evidence allows for a partial or full release of the valuation allowance, a tax benefit will be recorded accordingly.
+85.

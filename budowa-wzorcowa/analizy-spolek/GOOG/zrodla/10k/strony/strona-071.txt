@@ -1,0 +1,39 @@
+Table of Contents
+Alphabet Inc.
+Leases with data center leasing VIEs are accounted for as finance leases and are included within total lease obligations disclosed in Note 4. The maximum exposure arising from leases with VIEs is limited to the net carrying value of commenced finance lease assets, plus the undiscounted future obligations for leases that have not yet commenced. See Note 4 for further details on leases.
+Credit backstops we have provided to data center VIEs are accounted for as credit derivatives. The maximum exposure arising from credit backstops with VIEs is limited to the financial risk over the remaining period of the arrangements, as reflected by the credit derivative notional value. See Note 3 for further details on credit derivatives.
+Backstop agreements we have provided to energy infrastructure VIEs are accounted for as financial guarantees. The maximum exposure to these VIEs is limited to the potential amount of future payments under these arrangements. See Note 10 for further details on financial guarantees.
+Note 6. Debt
+Short-Term Debt
+We have a commercial paper program of up to $25.0 billion, which is used for general corporate purposes. We had $2.3 billion of commercial paper outstanding with a weighted-average effective interest rate of 4.4% as of December 31, 2024 and no commercial paper outstanding as of December 31, 2025. The fair value of the commercial paper approximated its carrying value as of December 31, 2024.
+Our short-term debt balance also includes the current portion of certain long-term debt.
+Long-Term Debt
+During 2025, we issued $22.5 billion of US dollar-denominated senior unsecured notes and €13.25 billion of euro-denominated senior unsecured notes for general corporate purposes.
+In May 2025, we issued $5.0 billion of US dollar-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 4.89%, and a weighted-average maturity of approximately 24 years. Additionally, in May 2025, we issued €6.75 billion of euro-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 3.31%, and a weighted-average maturity of approximately 14 years.
+In November 2025, we issued $500 million of US dollar-denominated floating-rate senior unsecured notes and $17.0 billion of US dollar-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 4.92% and a weighted-average maturity of approximately 20 years. Additionally in November 2025, we issued €6.5 billion of euro-denominated fixed-rate senior unsecured notes with a weighted-average coupon rate of 3.44% and a weighted-average maturity of approximately 16 years.
+Total outstanding long-term debt is summarized below (in millions, except percentages):
+Effective Interest Rate As of December 31,
+Maturity Coupon Rate 2024 2025
+Debt
+2016 US dollar notes 2026 2.00% 2.23% $ 2,000 $ 2,000
+2020 US dollar notes 2027 - 2060 0.80% - 2.25%
+0.93% - 2.33%
+10,000 9,000
+2025 US dollar notes(1)
+2028 - 2075 3.88% - 5.70%
+4.00% - 5.79%
+0 22,500
+2025 Euro notes(2)
+2028 - 2064 2.38% - 4.38%
+2.57% - 4.51%
+0 15,585
+Total face value of long-term debt 12,000 49,085
+Unamortized discount and debt issuance costs(2)
+(118) (542)
+Less: current portion of long-term notes(3)
+(999) (1,996)
+Total long-term debt $ 10,883 $ 46,547
+(1)Includes $500 million of floating-rate notes due in 2028. Interest is calculated using the compounded Secured Overnight Financing Rate (SOFR) plus 0.52%, reset quarterly.
+(2)Principal, unamortized discount, and debt issuance costs for the euro-denominated notes include the effect of foreign exchange rates.
+(3)Total current portion of long-term debt is included within accrued expenses and other current liabilities. See Note 7 for further details.
+71.

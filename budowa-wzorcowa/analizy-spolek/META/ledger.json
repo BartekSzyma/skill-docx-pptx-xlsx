@@ -1,0 +1,946 @@
+[
+  {
+    "id": "F-01",
+    "klasa": "fakt",
+    "klucz": "revenue_2025",
+    "opis": "Przychody ogółem",
+    "wartosc": 200966,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-089.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 89
+    },
+    "cytat": "Revenue $ 200,966 $ 164,501 $ 134,902"
+  },
+  {
+    "id": "F-02",
+    "klasa": "fakt",
+    "klucz": "revenue_2024",
+    "opis": "Przychody ogółem",
+    "wartosc": 164501,
+    "jednostka": "mln USD",
+    "okres": "2024",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-089.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 89
+    },
+    "cytat": "Revenue $ 200,966 $ 164,501 $ 134,902"
+  },
+  {
+    "id": "F-03",
+    "klasa": "fakt",
+    "klucz": "revenue_2023",
+    "opis": "Przychody ogółem",
+    "wartosc": 134902,
+    "jednostka": "mln USD",
+    "okres": "2023",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-089.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 89
+    },
+    "cytat": "Revenue $ 200,966 $ 164,501 $ 134,902"
+  },
+  {
+    "id": "F-04",
+    "klasa": "fakt",
+    "klucz": "operating_income_2025",
+    "opis": "Zysk operacyjny",
+    "wartosc": 83276,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-089.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 89
+    },
+    "cytat": "Income from operations 83,276 69,380 46,751"
+  },
+  {
+    "id": "F-05",
+    "klasa": "fakt",
+    "klucz": "operating_income_2024",
+    "opis": "Zysk operacyjny",
+    "wartosc": 69380,
+    "jednostka": "mln USD",
+    "okres": "2024",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-089.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 89
+    },
+    "cytat": "Income from operations 83,276 69,380 46,751"
+  },
+  {
+    "id": "F-06",
+    "klasa": "fakt",
+    "klucz": "operating_income_2023",
+    "opis": "Zysk operacyjny",
+    "wartosc": 46751,
+    "jednostka": "mln USD",
+    "okres": "2023",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-089.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 89
+    },
+    "cytat": "Income from operations 83,276 69,380 46,751"
+  },
+  {
+    "id": "F-07",
+    "klasa": "fakt",
+    "klucz": "net_income_2025",
+    "opis": "Zysk netto",
+    "wartosc": 60458,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-089.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 89
+    },
+    "cytat": "Net income $ 60,458 $ 62,360 $ 39,098"
+  },
+  {
+    "id": "F-08",
+    "klasa": "fakt",
+    "klucz": "depreciation_amortization_2025",
+    "opis": "Amortyzacja (depreciation and amortization)",
+    "wartosc": 18616,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-092.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 92
+    },
+    "cytat": "Depreciation and amortization 18,616 15,498 11,178"
+  },
+  {
+    "id": "F-09",
+    "klasa": "fakt",
+    "klucz": "capex_2025",
+    "opis": "Nakłady inwestycyjne - zakup rzeczowych aktywów trwałych (wypływ gotówki, w raporcie w nawiasie, stąd wartość ujemna)",
+    "wartosc": -69691,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-092.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 92
+    },
+    "cytat": "Purchases of property and equipment (69,691) (37,256) (27,045)"
+  },
+  {
+    "id": "F-10",
+    "klasa": "fakt",
+    "klucz": "income_before_tax_2025",
+    "opis": "Zysk przed opodatkowaniem",
+    "wartosc": 85932,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-089.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 89
+    },
+    "cytat": "Income before provision for income taxes 85,932 70,663 47,428"
+  },
+  {
+    "id": "F-11",
+    "klasa": "fakt",
+    "klucz": "income_tax_2025",
+    "opis": "Podatek dochodowy",
+    "wartosc": 25474,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-089.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 89
+    },
+    "cytat": "Provision for income taxes 25,474 8,303 8,330"
+  },
+  {
+    "id": "F-12",
+    "klasa": "fakt",
+    "klucz": "cash_and_equivalents_2025",
+    "opis": "Gotówka i ekwiwalenty gotówki na koniec roku",
+    "wartosc": 35873,
+    "jednostka": "mln USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-088.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 88
+    },
+    "cytat": "Cash and cash equivalents $ 35,873 $ 43,889"
+  },
+  {
+    "id": "F-13",
+    "klasa": "fakt",
+    "klucz": "marketable_securities_2025",
+    "opis": "Papiery wartościowe (marketable securities) na koniec roku",
+    "wartosc": 45719,
+    "jednostka": "mln USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-088.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 88
+    },
+    "cytat": "Marketable securities 45,719 33,926"
+  },
+  {
+    "id": "F-14",
+    "klasa": "fakt",
+    "klucz": "cash_and_marketable_securities_2025",
+    "opis": "Gotówka, ekwiwalenty i papiery wartościowe łącznie (raport podaje tę sumę tylko w mld USD)",
+    "wartosc": 81.59,
+    "jednostka": "mld USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-077.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 77
+    },
+    "cytat": "Cash, cash equivalents, and marketable securities were $81.59 billion as of December 31, 2025"
+  },
+  {
+    "id": "F-15",
+    "klasa": "fakt",
+    "klucz": "long_term_debt_2025",
+    "opis": "Dług długoterminowy na koniec roku",
+    "wartosc": 58744,
+    "jednostka": "mln USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-088.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 88
+    },
+    "cytat": "Long-term debt 58,744 28,826"
+  },
+  {
+    "id": "F-16",
+    "klasa": "fakt",
+    "klucz": "ppe_net_2025",
+    "opis": "Rzeczowe aktywa trwałe netto na koniec roku",
+    "wartosc": 176400,
+    "jednostka": "mln USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-088.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 88
+    },
+    "cytat": "Property and equipment, net 176,400 121,346"
+  },
+  {
+    "id": "F-17",
+    "klasa": "fakt",
+    "klucz": "ppe_net_2024",
+    "opis": "Rzeczowe aktywa trwałe netto na koniec roku",
+    "wartosc": 121346,
+    "jednostka": "mln USD",
+    "okres": "2024-12-31",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-088.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 88
+    },
+    "cytat": "Property and equipment, net 176,400 121,346"
+  },
+  {
+    "id": "F-18",
+    "klasa": "fakt",
+    "klucz": "foa_revenue_2025",
+    "opis": "Przychody segmentu Family of Apps",
+    "wartosc": 198759,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-126.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 126
+    },
+    "cytat": "Family of Apps: Revenue $ 198,759 $ 162,355 $ 133,006"
+  },
+  {
+    "id": "F-19",
+    "klasa": "fakt",
+    "klucz": "foa_operating_income_2025",
+    "opis": "Zysk operacyjny segmentu Family of Apps",
+    "wartosc": 102469,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-126.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 126
+    },
+    "cytat": "Income from operations $ 102,469 $ 87,109 $ 62,871"
+  },
+  {
+    "id": "F-20",
+    "klasa": "fakt",
+    "klucz": "rl_revenue_2025",
+    "opis": "Przychody segmentu Reality Labs",
+    "wartosc": 2207,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-126.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 126
+    },
+    "cytat": "Reality Labs: Revenue $ 2,207 $ 2,146 $ 1,896"
+  },
+  {
+    "id": "F-21",
+    "klasa": "fakt",
+    "klucz": "rl_operating_income_2025",
+    "opis": "Wynik operacyjny segmentu Reality Labs (strata)",
+    "wartosc": -19193,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-126.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 126
+    },
+    "cytat": "Loss from operations $ (19,193) $ (17,729) $ (16,120)"
+  },
+  {
+    "id": "F-22",
+    "klasa": "fakt",
+    "klucz": "shares_class_a",
+    "opis": "Liczba akcji klasy A w obrocie",
+    "wartosc": 2187177748,
+    "jednostka": "szt.",
+    "okres": "2026-01-23",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-bez-numeru-001.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": "okładka (bez numeru)"
+    },
+    "cytat": "On January 23, 2026, the registrant had 2,187,177,748 shares of Class A common stock and 342,377,716 shares of Class B common stock outstanding."
+  },
+  {
+    "id": "F-23",
+    "klasa": "fakt",
+    "klucz": "shares_class_b",
+    "opis": "Liczba akcji klasy B w obrocie",
+    "wartosc": 342377716,
+    "jednostka": "szt.",
+    "okres": "2026-01-23",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-bez-numeru-001.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": "okładka (bez numeru)"
+    },
+    "cytat": "On January 23, 2026, the registrant had 2,187,177,748 shares of Class A common stock and 342,377,716 shares of Class B common stock outstanding."
+  },
+  {
+    "id": "F-24",
+    "klasa": "fakt",
+    "klucz": "effective_tax_rate_2025",
+    "opis": "Efektywna stopa podatkowa (z jednorazowym odpisem związanym z ustawą One Big Beautiful Bill Act)",
+    "wartosc": 30,
+    "jednostka": "%",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-061.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 61
+    },
+    "cytat": "Effective tax rate was 30% for the year ended December 31, 2025."
+  },
+  {
+    "id": "F-25",
+    "klasa": "fakt",
+    "klucz": "effective_tax_rate_guidance_2026_low",
+    "opis": "Prognoza efektywnej stopy podatkowej na 2026 r. - dolna granica",
+    "wartosc": 13,
+    "jednostka": "%",
+    "okres": "2026",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-077.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 77
+    },
+    "cytat": "Absent any changes to our tax landscape, we expect our effective tax rate for the full year 2026 to be in the range of 13-16%."
+  },
+  {
+    "id": "F-26",
+    "klasa": "fakt",
+    "klucz": "effective_tax_rate_guidance_2026_high",
+    "opis": "Prognoza efektywnej stopy podatkowej na 2026 r. - górna granica",
+    "wartosc": 16,
+    "jednostka": "%",
+    "okres": "2026",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-077.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 77
+    },
+    "cytat": "Absent any changes to our tax landscape, we expect our effective tax rate for the full year 2026 to be in the range of 13-16%."
+  },
+  {
+    "id": "F-27",
+    "klasa": "fakt",
+    "klucz": "operating_margin_2025",
+    "opis": "Marża operacyjna spółki (zaokrąglona w raporcie)",
+    "wartosc": 41,
+    "jednostka": "%",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-061.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 61
+    },
+    "cytat": "Operating margin 52 % 54 % (870) % (826) % 41 % 42 %"
+  },
+  {
+    "id": "F-28",
+    "klasa": "fakt",
+    "klucz": "family_daily_active_people_dec_2025",
+    "opis": "Dzienna liczba aktywnych osób we wszystkich aplikacjach (DAP), średnio w grudniu 2025",
+    "wartosc": 3.58,
+    "jednostka": "mld osób",
+    "okres": "2025-12",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-061.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 61
+    },
+    "cytat": "Family daily active people (DAP) was 3.58 billion on average for December 2025, an increase of 7% year-over-year."
+  },
+  {
+    "id": "F-29",
+    "klasa": "fakt",
+    "klucz": "superintelligence_vision",
+    "opis": "Cel w AI: budowa superinteligencji, czyli AI przewyższającej ludzką inteligencję",
+    "wartosc": "superintelligence",
+    "jednostka": "n/d",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-006.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 6
+    },
+    "cytat": "We are also working to develop the next generation of AI models and advance our vision to build superintelligence, which we define as AI that surpasses human intelligence."
+  },
+  {
+    "id": "F-30",
+    "klasa": "fakt",
+    "klucz": "meta_ray_ban_display_launch",
+    "opis": "Nowy produkt: okulary AI z wyświetlaczem w szkle, wprowadzone w 2025 r.",
+    "wartosc": "Meta Ray-Ban Display",
+    "jednostka": "n/d",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-007.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 7
+    },
+    "cytat": "In 2025, we introduced Meta Ray-Ban Display, which combines our AI glasses with an integrated display built into the lens."
+  },
+  {
+    "id": "F-31",
+    "klasa": "fakt",
+    "klucz": "rl_wearables_opex_share_2026",
+    "opis": "Planowany udział urządzeń noszonych (wearables) w kosztach operacyjnych Reality Labs w 2026 r.",
+    "wartosc": 70,
+    "jednostka": "%",
+    "okres": "2026",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-007.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 7
+    },
+    "cytat": "In 2026, we expect to spend approximately 70% of our Reality Labs operating expenses on our wearables initiatives, and the remaining 30% on our VR and Horizon initiatives."
+  },
+  {
+    "id": "F-32",
+    "klasa": "fakt",
+    "klucz": "data_center_locations",
+    "opis": "Liczba własnych lokalizacji centrów danych na świecie",
+    "wartosc": 30,
+    "jednostka": "szt.",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-051.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 51
+    },
+    "cytat": "We own 30 data center locations globally and we also lease some data centers at selected locations."
+  },
+  {
+    "id": "F-33",
+    "klasa": "fakt",
+    "klucz": "capex_guidance_2026_low",
+    "opis": "Plan nakładów inwestycyjnych na 2026 r. - dolna granica",
+    "wartosc": 115,
+    "jednostka": "mld USD",
+    "okres": "2026",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-077.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 77
+    },
+    "cytat": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+  },
+  {
+    "id": "F-34",
+    "klasa": "fakt",
+    "klucz": "capex_guidance_2026_high",
+    "opis": "Plan nakładów inwestycyjnych na 2026 r. - górna granica",
+    "wartosc": 135,
+    "jednostka": "mld USD",
+    "okres": "2026",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-077.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 77
+    },
+    "cytat": "We anticipate making capital expenditures of approximately $115 billion to $135 billion in 2026 to support our AI efforts and core business."
+  },
+  {
+    "id": "F-35",
+    "klasa": "fakt",
+    "klucz": "risk_advertising_dependence",
+    "opis": "Ryzyko: niemal wszystkie przychody pochodzą z reklam; odejście reklamodawców lub cięcie ich wydatków mocno zaszkodzi spółce",
+    "wartosc": "zależność od reklam",
+    "jednostka": "n/d",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-015.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 15
+    },
+    "cytat": "We generate substantially all of our revenue from advertising. The loss of marketers, or reduction in spending by marketers, could seriously harm our business."
+  },
+  {
+    "id": "F-36",
+    "klasa": "fakt",
+    "klucz": "risk_ai_investments",
+    "opis": "Ryzyko: duże inwestycje, zwłaszcza w AI i Reality Labs, obniżają marżę operacyjną i rentowność; jeśli w dłuższym terminie się nie powiodą, ucierpią biznes i wyniki finansowe",
+    "wartosc": "inwestycje w AI",
+    "jednostka": "n/d",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-026.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 26
+    },
+    "cytat": "We incur significant expenses in operating our business, and some of our investments, particularly our investments in our artificial intelligence initiatives as well as Reality Labs, have the effect of reducing our operating margin and profitability. If our investments are not successful longer-term, our business and financial performance will be harmed."
+  },
+  {
+    "id": "F-37",
+    "klasa": "fakt",
+    "klucz": "risk_regulation",
+    "opis": "Ryzyko: złożone i zmieniające się przepisy w USA i za granicą (prywatność, dane, konkurencja, AI)",
+    "wartosc": "regulacje",
+    "jednostka": "n/d",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Meta Platforms, Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "META/zrodla/10k/strony/strona-012.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm",
+      "strona": 12
+    },
+    "cytat": "complex and evolving U.S. and foreign privacy, data use, data combination, data protection, content and content moderation, competition, youth, safety, consumer protection, advertising, and other laws and regulations, including the General Data Protection Regulation (GDPR), Digital Markets Act (DMA), Digital Services Act (DSA), UK Online Safety Act (OSA), Artificial Intelligence Act (EU AI Act), and the UK Digital Markets, Competition and Consumer Act (DMCC);"
+  },
+  {
+    "id": "R-01",
+    "klasa": "dana_rynkowa",
+    "klucz": "share_price",
+    "opis": "Kurs zamknięcia akcji META (Nasdaq), ostatnia sesja; zaokrąglony do centów",
+    "wartosc": 709.33,
+    "jednostka": "USD",
+    "okres": "2026-10-16",
+    "zrodlo": {
+      "dokument": "Yahoo Finance - chart API (odpowiedź JSON)",
+      "plik": "META/zrodla/rynek/kurs-2026-10-17.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/META?range=5d&interval=1d",
+      "strona": "n/d (www)"
+    },
+    "cytat": "\"close\": [ 742.9600219726562, 762.5, 737.5399780273438, 736.719970703125, 709.3300170898438 ]",
+    "data_pobrania": "2026-10-17"
+  },
+  {
+    "id": "R-02",
+    "klasa": "dana_rynkowa",
+    "klucz": "us_treasury_10y_yield",
+    "opis": "Rentowność 10-letnich obligacji skarbowych USA (seria DGS10)",
+    "wartosc": 5.1,
+    "jednostka": "%",
+    "okres": "2026-10-15",
+    "zrodlo": {
+      "dokument": "FRED, Federal Reserve Bank of St. Louis - seria DGS10 (CSV)",
+      "plik": "META/zrodla/rynek/dgs10-2026-10-17.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "strona": "n/d (www)"
+    },
+    "cytat": "2026-10-15,5.10",
+    "data_pobrania": "2026-10-17"
+  },
+  {
+    "id": "Z-01",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2026",
+    "opis": "Wzrost przychodów r/r w 2026 r.",
+    "wartosc": 18,
+    "jednostka": "%",
+    "okres": "2026",
+    "uzasadnienie": "Przychody rosły o ok. 22% w 2025 r. (F-02 -> F-01) i ok. 22% w 2024 r. (F-03 -> F-02). Zakładamy lekkie spowolnienie przy tak dużej skali, a liczba użytkowników (F-28) rosła już tylko o 7%."
+  },
+  {
+    "id": "Z-02",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2027",
+    "opis": "Wzrost przychodów r/r w 2027 r.",
+    "wartosc": 15,
+    "jednostka": "%",
+    "okres": "2027",
+    "uzasadnienie": "Dalsze stopniowe spowolnienie: przychody prawie w całości pochodzą z reklam (F-35), a rynek reklamy rośnie wolniej niż Meta w ostatnich latach."
+  },
+  {
+    "id": "Z-03",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2028",
+    "opis": "Wzrost przychodów r/r w 2028 r.",
+    "wartosc": 12,
+    "jednostka": "%",
+    "okres": "2028",
+    "uzasadnienie": "Wzrost dalej słabnie wraz ze skalą biznesu; zakładamy, że AI wspiera skuteczność reklam, ale nie odwraca trendu spowolnienia."
+  },
+  {
+    "id": "Z-04",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2029",
+    "opis": "Wzrost przychodów r/r w 2029 r.",
+    "wartosc": 10,
+    "jednostka": "%",
+    "okres": "2029",
+    "uzasadnienie": "Kontynuacja łagodnego spowolnienia w stronę dojrzałej spółki."
+  },
+  {
+    "id": "Z-05",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2030",
+    "opis": "Wzrost przychodów r/r w 2030 r.",
+    "wartosc": 8,
+    "jednostka": "%",
+    "okres": "2030",
+    "uzasadnienie": "Ostatni rok prognozy; wzrost zbliża się do poziomu, z którego da się przejść do okresu rezydualnego (Z-25)."
+  },
+  {
+    "id": "Z-06",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2026",
+    "opis": "Marża operacyjna w 2026 r.",
+    "wartosc": 38,
+    "jednostka": "%",
+    "okres": "2026",
+    "uzasadnienie": "Marża operacyjna w 2025 r. wyniosła 41% (F-27). Rekordowe nakłady (F-33, F-34) podnoszą amortyzację (Z-17 do Z-21), która obniża zysk operacyjny; do tego strata Reality Labs (F-21). Zakładamy marżę przed amortyzacją ok. 50-52% minus rosnąca amortyzacja."
+  },
+  {
+    "id": "Z-07",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2027",
+    "opis": "Marża operacyjna w 2027 r.",
+    "wartosc": 37,
+    "jednostka": "%",
+    "okres": "2027",
+    "uzasadnienie": "Marża operacyjna w 2025 r. wyniosła 41% (F-27). Rekordowe nakłady (F-33, F-34) podnoszą amortyzację (Z-17 do Z-21), która obniża zysk operacyjny; do tego strata Reality Labs (F-21). Zakładamy marżę przed amortyzacją ok. 50-52% minus rosnąca amortyzacja."
+  },
+  {
+    "id": "Z-08",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2028",
+    "opis": "Marża operacyjna w 2028 r.",
+    "wartosc": 36,
+    "jednostka": "%",
+    "okres": "2028",
+    "uzasadnienie": "Marża operacyjna w 2025 r. wyniosła 41% (F-27). Rekordowe nakłady (F-33, F-34) podnoszą amortyzację (Z-17 do Z-21), która obniża zysk operacyjny; do tego strata Reality Labs (F-21). Zakładamy marżę przed amortyzacją ok. 50-52% minus rosnąca amortyzacja."
+  },
+  {
+    "id": "Z-09",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2029",
+    "opis": "Marża operacyjna w 2029 r.",
+    "wartosc": 36,
+    "jednostka": "%",
+    "okres": "2029",
+    "uzasadnienie": "Marża operacyjna w 2025 r. wyniosła 41% (F-27). Rekordowe nakłady (F-33, F-34) podnoszą amortyzację (Z-17 do Z-21), która obniża zysk operacyjny; do tego strata Reality Labs (F-21). Zakładamy marżę przed amortyzacją ok. 50-52% minus rosnąca amortyzacja."
+  },
+  {
+    "id": "Z-10",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2030",
+    "opis": "Marża operacyjna w 2030 r.",
+    "wartosc": 36,
+    "jednostka": "%",
+    "okres": "2030",
+    "uzasadnienie": "Marża operacyjna w 2025 r. wyniosła 41% (F-27). Rekordowe nakłady (F-33, F-34) podnoszą amortyzację (Z-17 do Z-21), która obniża zysk operacyjny; do tego strata Reality Labs (F-21). Zakładamy marżę przed amortyzacją ok. 50-52% minus rosnąca amortyzacja."
+  },
+  {
+    "id": "Z-11",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_terminal",
+    "opis": "Marża operacyjna w okresie rezydualnym (po 2030 r.)",
+    "wartosc": 36,
+    "jednostka": "%",
+    "okres": "po 2030",
+    "uzasadnienie": "Zakładamy, że marża z 2030 r. (Z-10) utrzymuje się, bo amortyzacja w okresie rezydualnym (Z-27) jest taka sama jak w 2030 r."
+  },
+  {
+    "id": "Z-12",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2026",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2026 r.",
+    "wartosc": 52,
+    "jednostka": "%",
+    "okres": "2026",
+    "uzasadnienie": "Spółka planuje 115-135 mld USD nakładów w 2026 r. (F-33, F-34); 52% prognozowanych przychodów to ok. 123 mld USD, czyli środek tego przedziału. W 2025 r. nakłady wyniosły ok. 35% przychodów (F-09, F-01)."
+  },
+  {
+    "id": "Z-13",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2027",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2027 r.",
+    "wartosc": 45,
+    "jednostka": "%",
+    "okres": "2027",
+    "uzasadnienie": "Zakładamy, że nakłady w kwotach pozostają zbliżone do 2026 r., więc jako % szybko rosnących przychodów spadają."
+  },
+  {
+    "id": "Z-14",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2028",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2028 r.",
+    "wartosc": 38,
+    "jednostka": "%",
+    "okres": "2028",
+    "uzasadnienie": "Budowa infrastruktury AI stopniowo się kończy; nakłady w kwotach zaczynają spadać."
+  },
+  {
+    "id": "Z-15",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2029",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2029 r.",
+    "wartosc": 28,
+    "jednostka": "%",
+    "okres": "2029",
+    "uzasadnienie": "Dalsze zmniejszanie nakładów w stronę poziomu potrzebnego do utrzymania i umiarkowanego wzrostu."
+  },
+  {
+    "id": "Z-16",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2030",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2030 r.",
+    "wartosc": 22,
+    "jednostka": "%",
+    "okres": "2030",
+    "uzasadnienie": "Nakłady zbliżają się do poziomu rezydualnego (Z-26), ale wciąż są wyraźnie wyższe niż amortyzacja, bo spółka nadal rośnie."
+  },
+  {
+    "id": "Z-17",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2026",
+    "opis": "Amortyzacja jako % przychodów w 2026 r.",
+    "wartosc": 12,
+    "jednostka": "%",
+    "okres": "2026",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 9% przychodów i ok. 12,5% średnich aktywów trwałych netto (F-08, F-17, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek, więc przy tej samej stawce 12,5% amortyzacja rośnie do ok. 16% przychodów."
+  },
+  {
+    "id": "Z-18",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2027",
+    "opis": "Amortyzacja jako % przychodów w 2027 r.",
+    "wartosc": 14,
+    "jednostka": "%",
+    "okres": "2027",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 9% przychodów i ok. 12,5% średnich aktywów trwałych netto (F-08, F-17, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek, więc przy tej samej stawce 12,5% amortyzacja rośnie do ok. 16% przychodów."
+  },
+  {
+    "id": "Z-19",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2028",
+    "opis": "Amortyzacja jako % przychodów w 2028 r.",
+    "wartosc": 16,
+    "jednostka": "%",
+    "okres": "2028",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 9% przychodów i ok. 12,5% średnich aktywów trwałych netto (F-08, F-17, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek, więc przy tej samej stawce 12,5% amortyzacja rośnie do ok. 16% przychodów."
+  },
+  {
+    "id": "Z-20",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2029",
+    "opis": "Amortyzacja jako % przychodów w 2029 r.",
+    "wartosc": 16,
+    "jednostka": "%",
+    "okres": "2029",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 9% przychodów i ok. 12,5% średnich aktywów trwałych netto (F-08, F-17, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek, więc przy tej samej stawce 12,5% amortyzacja rośnie do ok. 16% przychodów."
+  },
+  {
+    "id": "Z-21",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2030",
+    "opis": "Amortyzacja jako % przychodów w 2030 r.",
+    "wartosc": 16,
+    "jednostka": "%",
+    "okres": "2030",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 9% przychodów i ok. 12,5% średnich aktywów trwałych netto (F-08, F-17, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek, więc przy tej samej stawce 12,5% amortyzacja rośnie do ok. 16% przychodów."
+  },
+  {
+    "id": "Z-22",
+    "klasa": "zalozenie",
+    "klucz": "tax_rate",
+    "opis": "Stopa podatkowa do modelu DCF",
+    "wartosc": 15,
+    "jednostka": "%",
+    "okres": "2026-2030 i po 2030",
+    "uzasadnienie": "Spółka oczekuje efektywnej stopy 13-16% w 2026 r. (F-25, F-26). Stopa 30% z 2025 r. (F-24) zawiera jednorazowy odpis, więc jej nie używamy. Bierzemy 15%, blisko górnej granicy, na wypadek zmian przepisów."
+  },
+  {
+    "id": "Z-23",
+    "klasa": "zalozenie",
+    "klucz": "beta",
+    "opis": "Beta akcji META",
+    "wartosc": 1.2,
+    "jednostka": "n/d",
+    "okres": "n/d",
+    "uzasadnienie": "Nie mamy w źródłach wyliczonej bety. Przyjmujemy 1,2, bo duże spółki technologiczne zależne od reklam zwykle są nieco bardziej wrażliwe na rynek niż średnia; warto to później zweryfikować na danych notowań."
+  },
+  {
+    "id": "Z-24",
+    "klasa": "zalozenie",
+    "klucz": "equity_risk_premium",
+    "opis": "Premia za ryzyko rynkowe (USA)",
+    "wartosc": 5.0,
+    "jednostka": "%",
+    "okres": "n/d",
+    "uzasadnienie": "Typowa wartość stosowana dla rynku USA mieści się w przedziale ok. 4-6%; bierzemy środek. Razem z rentownością obligacji (R-02) i betą (Z-23) daje koszt kapitału własnego."
+  },
+  {
+    "id": "Z-25",
+    "klasa": "zalozenie",
+    "klucz": "terminal_growth",
+    "opis": "Wzrost w okresie rezydualnym (po 2030 r.)",
+    "wartosc": 3.0,
+    "jednostka": "%",
+    "okres": "po 2030",
+    "uzasadnienie": "Dojrzała spółka rośnie mniej więcej w tempie nominalnej gospodarki. Wartość jest wyraźnie niższa niż rentowność 10-letnich obligacji USA (R-02) i niż wzrost w 2030 r. (Z-05)."
+  },
+  {
+    "id": "Z-26",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_terminal",
+    "opis": "Nakłady inwestycyjne jako % przychodów w okresie rezydualnym",
+    "wartosc": 19,
+    "jednostka": "%",
+    "okres": "po 2030",
+    "uzasadnienie": "Przy wzroście 3% (Z-25) majątek trwały musi rosnąć ok. 3% rocznie. Majątek netto ma wtedy wartość ok. 1-1,3 rocznych przychodów, więc nakłady powinny przewyższać amortyzację (Z-27) o ok. 3 punkty procentowe przychodów."
+  },
+  {
+    "id": "Z-27",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_terminal",
+    "opis": "Amortyzacja jako % przychodów w okresie rezydualnym",
+    "wartosc": 16,
+    "jednostka": "%",
+    "okres": "po 2030",
+    "uzasadnienie": "Pozostaje na poziomie z 2030 r. (Z-21): majątek zbudowany w latach 2026-2030 dalej się amortyzuje, a nakłady (Z-26) są tylko trochę wyższe niż amortyzacja."
+  },
+  {
+    "id": "G-01",
+    "klasa": "grafika",
+    "klucz": "photo_ai_glasses",
+    "plik": "META/zrodla/grafiki/ray-ban-meta-gen-1-smart-glasses-with-charging-case.jpg",
+    "opis": "Okulary AI Ray-Ban Meta (1. generacja) z etui ładującym",
+    "projekt": "F-31",
+    "autor": "CCadio",
+    "licencja": "CC BY 4.0",
+    "zrodlo": {
+      "dokument": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Ray-Ban_Meta_Gen_1_smart_glasses_with_charging_case.jpg",
+      "licencja_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "data_pobrania": "2026-10-17"
+  },
+  {
+    "id": "G-02",
+    "klasa": "grafika",
+    "klucz": "photo_vr_headset",
+    "plik": "META/zrodla/grafiki/meta-quest-3-front-view.jpg",
+    "opis": "Gogle VR Meta Quest 3 z kontrolerami",
+    "projekt": "F-31",
+    "autor": "Roy.wonder.cohen",
+    "licencja": "CC BY-SA 4.0",
+    "zrodlo": {
+      "dokument": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Meta_Quest_3_front_View.jpg",
+      "licencja_url": "https://creativecommons.org/licenses/by-sa/4.0"
+    },
+    "data_pobrania": "2026-10-17"
+  },
+  {
+    "id": "G-03",
+    "klasa": "grafika",
+    "klucz": "photo_data_center",
+    "plik": "META/zrodla/grafiki/facebook-highway-126-prineville-dpla-fd9c0cae95b43c5864c55d3eef1bf5a6.jpg",
+    "opis": "Centrum danych Meta (dawniej Facebook) w Prineville w stanie Oregon, USA",
+    "projekt": "F-32",
+    "autor": "Gary Halvorson, Oregon State Archives",
+    "licencja": "CC BY 4.0",
+    "zrodlo": {
+      "dokument": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Facebook,_Highway_126,_Prineville_-_DPLA_-_fd9c0cae95b43c5864c55d3eef1bf5a6.jpg",
+      "licencja_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "data_pobrania": "2026-10-17"
+  }
+]

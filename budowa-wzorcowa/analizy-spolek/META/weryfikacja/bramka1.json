@@ -1,0 +1,416 @@
+[
+  {
+    "id": "F-01",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-02",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-03",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-04",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-05",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-06",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-07",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-08",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-09",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-10",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-11",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-12",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-13",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-14",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-15",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-16",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-17",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-18",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-19",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-20",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-21",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-22",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-23",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-24",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-25",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-26",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-27",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-28",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-29",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-30",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-31",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-32",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-33",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-34",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-35",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-36",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "F-37",
+    "klasa": "fakt",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "R-01",
+    "klasa": "dana_rynkowa",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "R-02",
+    "klasa": "dana_rynkowa",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-01",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-02",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-03",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-04",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-05",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-06",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-07",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-08",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-09",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-10",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-11",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-12",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-13",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-14",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-15",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-16",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-17",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-18",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-19",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-20",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-21",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-22",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-23",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-24",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-25",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-26",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "Z-27",
+    "klasa": "zalozenie",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "G-01",
+    "klasa": "grafika",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "G-02",
+    "klasa": "grafika",
+    "wynik": "ok",
+    "powod": ""
+  },
+  {
+    "id": "G-03",
+    "klasa": "grafika",
+    "wynik": "ok",
+    "powod": ""
+  }
+]

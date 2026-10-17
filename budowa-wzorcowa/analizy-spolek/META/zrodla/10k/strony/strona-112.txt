@@ -1,0 +1,18 @@
+Table of Contents
+Note 11. Commitments and Contingencies
+Contractual Commitments
+We have $131.05 billion of non-cancelable contractual commitments as of December 31, 2025. These commitments are mostly related to third-party cloud capacity arrangements and our continued investments in servers and network infrastructure, data centers, and consumer hardware products in Reality Labs. The following is a schedule, by years, of non-cancelable contractual commitments as of December 31, 2025 (in millions):
+2026 $ 30,634
+2027 22,166
+2028 21,221
+2029 19,761
+2030 19,407
+Thereafter 17,857
+Total $ 131,046
+Additionally, as part of the normal course of business, we have entered into multi-year agreements ranging from three to 25 years to purchase clean and renewable energy that do not specify a fixed or minimum volume commitment. The ultimate spend under these agreements may vary and will be based on actual volume purchased.
+Legal and Related Matters
+With respect to the cases, actions, and inquiries described below, we evaluate the associated developments on a regular basis and accrue a liability when we believe a loss is probable and the amount can be reasonably estimated. In addition, we believe there is a reasonable possibility that we may incur a loss in some of these matters. Unless otherwise noted, with respect to the matters described below that do not include an estimate of the amount of loss or range of possible loss, such losses or range of possible losses either cannot be estimated or are not individually material, but we believe there is a reasonable possibility that they may be material in the aggregate.
+We are also party to various other legal proceedings, claims, and regulatory, tax or government inquiries and investigations that arise in the ordinary course of business. Additionally, we are required to comply with various legal and regulatory obligations around the world. The requirements for complying with these obligations may be uncertain and subject to interpretation and enforcement by regulatory and other authorities, and any failure or perceived failure to comply with such obligations could eventually lead to asserted legal or regulatory action. With respect to these other legal proceedings, claims, regulatory, tax, or government inquiries and investigations, and other matters, asserted and unasserted, we evaluate the associated developments on a regular basis and accrue a liability when we believe a loss is probable and the amount can be reasonably estimated. In addition, we believe there is a reasonable possibility that we may incur a loss in some of these other matters. We believe that the amount of losses or any estimable range of possible losses with respect to these other matters will not, either individually or in the aggregate, have a material adverse effect on our business and consolidated financial statements.
+The ultimate outcome of the legal and related matters described in this section, such as whether the likelihood of loss is remote, reasonably possible, or probable, or if and when the reasonably possible range of loss is estimable, is inherently uncertain. Therefore, if one or more of these matters were resolved against us for amounts in excess of management's estimates of loss, our results of operations and financial condition, including in a particular reporting period in which any such outcome becomes probable and estimable, could be materially adversely affected.
+For information regarding income tax contingencies, see Note 14 — Income Taxes.
+112

@@ -1,0 +1,994 @@
+[
+  {
+    "id": "F-01",
+    "klasa": "fakt",
+    "klucz": "revenue_2025",
+    "opis": "Przychody ogółem (Revenues)",
+    "wartosc": 402836,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-049.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 49
+    },
+    "cytat": "Revenues $ 307,394 $ 350,018 $ 402,836"
+  },
+  {
+    "id": "F-02",
+    "klasa": "fakt",
+    "klucz": "revenue_2024",
+    "opis": "Przychody ogółem (Revenues)",
+    "wartosc": 350018,
+    "jednostka": "mln USD",
+    "okres": "2024",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-049.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 49
+    },
+    "cytat": "Revenues $ 307,394 $ 350,018 $ 402,836"
+  },
+  {
+    "id": "F-03",
+    "klasa": "fakt",
+    "klucz": "revenue_2023",
+    "opis": "Przychody ogółem (Revenues)",
+    "wartosc": 307394,
+    "jednostka": "mln USD",
+    "okres": "2023",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-049.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 49
+    },
+    "cytat": "Revenues $ 307,394 $ 350,018 $ 402,836"
+  },
+  {
+    "id": "F-04",
+    "klasa": "fakt",
+    "klucz": "operating_income_2025",
+    "opis": "Zysk operacyjny (Income from operations)",
+    "wartosc": 129039,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-049.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 49
+    },
+    "cytat": "Income from operations 84,293 112,390 129,039"
+  },
+  {
+    "id": "F-05",
+    "klasa": "fakt",
+    "klucz": "operating_income_2024",
+    "opis": "Zysk operacyjny (Income from operations)",
+    "wartosc": 112390,
+    "jednostka": "mln USD",
+    "okres": "2024",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-049.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 49
+    },
+    "cytat": "Income from operations 84,293 112,390 129,039"
+  },
+  {
+    "id": "F-06",
+    "klasa": "fakt",
+    "klucz": "operating_income_2023",
+    "opis": "Zysk operacyjny (Income from operations)",
+    "wartosc": 84293,
+    "jednostka": "mln USD",
+    "okres": "2023",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-049.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 49
+    },
+    "cytat": "Income from operations 84,293 112,390 129,039"
+  },
+  {
+    "id": "F-07",
+    "klasa": "fakt",
+    "klucz": "net_income_2025",
+    "opis": "Zysk netto (Net income)",
+    "wartosc": 132170,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-049.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 49
+    },
+    "cytat": "Net income $ 73,795 $ 100,118 $ 132,170"
+  },
+  {
+    "id": "F-08",
+    "klasa": "fakt",
+    "klucz": "depreciation_2025",
+    "opis": "Amortyzacja rzeczowych aktywów trwałych (Depreciation of property and equipment), rachunek przepływów",
+    "wartosc": 21136,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-052.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 52
+    },
+    "cytat": "Depreciation of property and equipment 11,946 15,311 21,136"
+  },
+  {
+    "id": "F-09",
+    "klasa": "fakt",
+    "klucz": "capex_2025",
+    "opis": "Nakłady inwestycyjne (Purchases of property and equipment), wypływ gotówki",
+    "wartosc": -91447,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-052.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 52
+    },
+    "cytat": "Purchases of property and equipment (32,251) (52,535) (91,447)"
+  },
+  {
+    "id": "F-10",
+    "klasa": "fakt",
+    "klucz": "income_before_tax_2025",
+    "opis": "Zysk przed opodatkowaniem (Income before income taxes)",
+    "wartosc": 158826,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-049.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 49
+    },
+    "cytat": "Income before income taxes 85,717 119,815 158,826"
+  },
+  {
+    "id": "F-11",
+    "klasa": "fakt",
+    "klucz": "income_tax_2025",
+    "opis": "Podatek dochodowy (Provision for income taxes)",
+    "wartosc": 26656,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-049.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 49
+    },
+    "cytat": "Provision for income taxes 11,922 19,697 26,656"
+  },
+  {
+    "id": "F-12",
+    "klasa": "fakt",
+    "klucz": "cash_and_equivalents_2025",
+    "opis": "Gotówka i ekwiwalenty (Cash and cash equivalents) na koniec roku",
+    "wartosc": 30708,
+    "jednostka": "mln USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-048.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 48
+    },
+    "cytat": "Cash and cash equivalents $ 23,466 $ 30,708"
+  },
+  {
+    "id": "F-13",
+    "klasa": "fakt",
+    "klucz": "marketable_securities_2025",
+    "opis": "Papiery wartościowe (Marketable securities) na koniec roku",
+    "wartosc": 96135,
+    "jednostka": "mln USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-048.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 48
+    },
+    "cytat": "Marketable securities 72,191 96,135"
+  },
+  {
+    "id": "F-14",
+    "klasa": "fakt",
+    "klucz": "long_term_debt_2025",
+    "opis": "Dług długoterminowy (Long-term debt) na koniec roku",
+    "wartosc": 46547,
+    "jednostka": "mln USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-048.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 48
+    },
+    "cytat": "Long-term debt 10,883 46,547"
+  },
+  {
+    "id": "F-15",
+    "klasa": "fakt",
+    "klucz": "ppe_net_2025",
+    "opis": "Rzeczowe aktywa trwałe netto (Property and equipment, net) na koniec roku",
+    "wartosc": 246597,
+    "jednostka": "mln USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-048.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 48
+    },
+    "cytat": "Property and equipment, net 171,036 246,597"
+  },
+  {
+    "id": "F-16",
+    "klasa": "fakt",
+    "klucz": "ppe_net_2024",
+    "opis": "Rzeczowe aktywa trwałe netto (Property and equipment, net) na koniec roku",
+    "wartosc": 171036,
+    "jednostka": "mln USD",
+    "okres": "2024-12-31",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-048.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 48
+    },
+    "cytat": "Property and equipment, net 171,036 246,597"
+  },
+  {
+    "id": "F-17",
+    "klasa": "fakt",
+    "klucz": "effective_tax_rate_2025",
+    "opis": "Efektywna stopa podatkowa (Effective tax rate)",
+    "wartosc": 16.8,
+    "jednostka": "%",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-037.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 37
+    },
+    "cytat": "Effective tax rate 16.4 % 16.8 %"
+  },
+  {
+    "id": "F-18",
+    "klasa": "fakt",
+    "klucz": "effective_tax_rate_2024",
+    "opis": "Efektywna stopa podatkowa (Effective tax rate)",
+    "wartosc": 16.4,
+    "jednostka": "%",
+    "okres": "2024",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-037.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 37
+    },
+    "cytat": "Effective tax rate 16.4 % 16.8 %"
+  },
+  {
+    "id": "F-19",
+    "klasa": "fakt",
+    "klucz": "shares_class_a",
+    "opis": "Liczba akcji klasy A w obrocie",
+    "wartosc": 5822,
+    "jednostka": "mln szt.",
+    "okres": "2026-01-28",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-bez-numeru-002.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": "druga strona okładki (bez numeru)"
+    },
+    "cytat": "As of January 28, 2026, there were 5,822 million shares of Alphabet’s Class A stock outstanding, 837 million shares of Alphabet’s Class B stock outstanding, and 5,438 million shares of the Alphabet’s Class C stock outstanding."
+  },
+  {
+    "id": "F-20",
+    "klasa": "fakt",
+    "klucz": "shares_class_b",
+    "opis": "Liczba akcji klasy B w obrocie",
+    "wartosc": 837,
+    "jednostka": "mln szt.",
+    "okres": "2026-01-28",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-bez-numeru-002.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": "druga strona okładki (bez numeru)"
+    },
+    "cytat": "As of January 28, 2026, there were 5,822 million shares of Alphabet’s Class A stock outstanding, 837 million shares of Alphabet’s Class B stock outstanding, and 5,438 million shares of the Alphabet’s Class C stock outstanding."
+  },
+  {
+    "id": "F-21",
+    "klasa": "fakt",
+    "klucz": "shares_class_c",
+    "opis": "Liczba akcji klasy C w obrocie",
+    "wartosc": 5438,
+    "jednostka": "mln szt.",
+    "okres": "2026-01-28",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-bez-numeru-002.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": "druga strona okładki (bez numeru)"
+    },
+    "cytat": "As of January 28, 2026, there were 5,822 million shares of Alphabet’s Class A stock outstanding, 837 million shares of Alphabet’s Class B stock outstanding, and 5,438 million shares of the Alphabet’s Class C stock outstanding."
+  },
+  {
+    "id": "F-22",
+    "klasa": "fakt",
+    "klucz": "segment_revenue_google_services_2025",
+    "opis": "Przychody segmentu Google Services (Google Services total)",
+    "wartosc": 342721,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-033.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 33
+    },
+    "cytat": "Google Services total 304,930 342,721"
+  },
+  {
+    "id": "F-23",
+    "klasa": "fakt",
+    "klucz": "segment_revenue_google_cloud_2025",
+    "opis": "Przychody segmentu Google Cloud",
+    "wartosc": 58705,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-033.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 33
+    },
+    "cytat": "Google Cloud 43,229 58,705"
+  },
+  {
+    "id": "F-24",
+    "klasa": "fakt",
+    "klucz": "segment_revenue_other_bets_2025",
+    "opis": "Przychody segmentu Other Bets",
+    "wartosc": 1537,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-033.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 33
+    },
+    "cytat": "Other Bets 1,648 1,537"
+  },
+  {
+    "id": "F-25",
+    "klasa": "fakt",
+    "klucz": "segment_operating_income_google_services_2025",
+    "opis": "Zysk operacyjny segmentu Google Services",
+    "wartosc": 139404,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-036.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 36
+    },
+    "cytat": "Google Services $ 121,263 $ 139,404"
+  },
+  {
+    "id": "F-26",
+    "klasa": "fakt",
+    "klucz": "segment_operating_income_google_cloud_2025",
+    "opis": "Zysk operacyjny segmentu Google Cloud",
+    "wartosc": 13910,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-036.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 36
+    },
+    "cytat": "Google Cloud 6,112 13,910"
+  },
+  {
+    "id": "F-27",
+    "klasa": "fakt",
+    "klucz": "segment_operating_income_other_bets_2025",
+    "opis": "Wynik operacyjny segmentu Other Bets (strata)",
+    "wartosc": -7515,
+    "jednostka": "mln USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-036.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 36
+    },
+    "cytat": "Other Bets (4,444) (7,515)"
+  },
+  {
+    "id": "F-28",
+    "klasa": "fakt",
+    "klucz": "segment_revenue_google_cloud_2024",
+    "opis": "Przychody segmentu Google Cloud",
+    "wartosc": 43229,
+    "jednostka": "mln USD",
+    "okres": "2024",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-033.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 33
+    },
+    "cytat": "Google Cloud 43,229 58,705"
+  },
+  {
+    "id": "F-29",
+    "klasa": "fakt",
+    "klucz": "ai_model_gemini_3",
+    "opis": "Gemini 3 - według spółki jej najbardziej inteligentny model AI",
+    "wartosc": "Gemini 3",
+    "jednostka": "n/d",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-004.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 4
+    },
+    "cytat": "Over the last decade, our research teams have pushed the boundaries of AI forward, which is displayed through Gemini 3, our most intelligent AI model yet."
+  },
+  {
+    "id": "F-30",
+    "klasa": "fakt",
+    "klucz": "gemini_half_billion_user_products",
+    "opis": "Liczba produktów Google z ponad pół miliardem użytkowników, które korzystają z modeli Gemini (wszystkie takie produkty)",
+    "wartosc": 15,
+    "jednostka": "szt.",
+    "okres": "stan w raporcie (luty 2026)",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-004.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 4
+    },
+    "cytat": "Today, all 15 of our half-billion-user products — including seven with two billion users — use our Gemini models."
+  },
+  {
+    "id": "F-31",
+    "klasa": "fakt",
+    "klucz": "tpu_ironwood",
+    "opis": "Ironwood - własny układ AI Google (TPU) siódmej generacji",
+    "wartosc": "Ironwood",
+    "jednostka": "n/d",
+    "okres": "stan w raporcie (luty 2026)",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-004.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 4
+    },
+    "cytat": "our own custom-built Tensor Processing Units (TPUs), such as Ironwood, our seventh-generation TPU."
+  },
+  {
+    "id": "F-32",
+    "klasa": "fakt",
+    "klucz": "revenue_backlog_2025",
+    "opis": "Portfel zamówień (remaining performance obligations, revenue backlog), głównie Google Cloud, na koniec roku",
+    "wartosc": 242.8,
+    "jednostka": "mld USD",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-060.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 60
+    },
+    "cytat": "As of December 31, 2025, we had $242.8 billion of remaining performance obligations (“revenue backlog\"), primarily related to Google Cloud."
+  },
+  {
+    "id": "F-33",
+    "klasa": "fakt",
+    "klucz": "waymo_paid_rides",
+    "opis": "Waymo świadczy w pełni autonomiczne, płatne przejazdy w wielu miastach",
+    "wartosc": "płatne przejazdy autonomiczne",
+    "jednostka": "n/d",
+    "okres": "stan w raporcie (luty 2026)",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-004.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 4
+    },
+    "cytat": "In Other Bets, our fully autonomous driving technology company, Waymo, is now providing fully autonomous, paid ride-hailing services to customers in multiple cities."
+  },
+  {
+    "id": "F-34",
+    "klasa": "fakt",
+    "klucz": "waymo_investment_round_2026",
+    "opis": "Runda finansowania Waymo ogłoszona w lutym 2026 r., w większości sfinansowana przez Alphabet",
+    "wartosc": 16.0,
+    "jednostka": "mld USD",
+    "okres": "2026-02",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-033.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 33
+    },
+    "cytat": "In February 2026, Waymo announced an investment round of $16.0 billion, the significant majority of which was funded by Alphabet."
+  },
+  {
+    "id": "F-35",
+    "klasa": "fakt",
+    "klucz": "wiz_acquisition_price",
+    "opis": "Cena przejęcia Wiz (platforma bezpieczeństwa chmury), umowa z 2025 r.",
+    "wartosc": 32.0,
+    "jednostka": "mld USD",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-033.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 33
+    },
+    "cytat": "In 2025, we entered into definitive agreements to acquire Wiz, a leading cloud security platform, for $32.0 billion"
+  },
+  {
+    "id": "F-36",
+    "klasa": "fakt",
+    "klucz": "capex_plan_2026",
+    "opis": "Plan nakładów na 2026 r.: znaczący wzrost inwestycji w infrastrukturę techniczną wobec 2025 r. (raport nie podaje kwoty)",
+    "wartosc": "znaczący wzrost",
+    "jednostka": "n/d",
+    "okres": "2026",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-038.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 38
+    },
+    "cytat": "In 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers."
+  },
+  {
+    "id": "F-37",
+    "klasa": "fakt",
+    "klucz": "advertising_revenue_share_2025",
+    "opis": "Udział reklamy online w przychodach ogółem: ponad 70%",
+    "wartosc": 70,
+    "jednostka": "%",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-009.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 9
+    },
+    "cytat": "We generated more than 70% of total revenues from online advertising in 2025."
+  },
+  {
+    "id": "F-38",
+    "klasa": "fakt",
+    "klucz": "employees_2025",
+    "opis": "Liczba pracowników na koniec roku",
+    "wartosc": 190820,
+    "jednostka": "osób",
+    "okres": "2025-12-31",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-033.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 33
+    },
+    "cytat": "As of December 31, 2025, we had 190,820 employees."
+  },
+  {
+    "id": "F-39",
+    "klasa": "fakt",
+    "klucz": "risk_advertising",
+    "opis": "Ryzyko: duża część przychodów pochodzi z reklam; mniejsze wydatki reklamodawców, utrata partnerów, zmiany w reklamie online lub blokowanie reklam mogą zaszkodzić biznesowi",
+    "wartosc": "zależność od reklam",
+    "jednostka": "n/d",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-009.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 9
+    },
+    "cytat": "We generate a significant portion of our revenues from advertising. Reduced spending by advertisers, a loss of partners, shifts in online advertising, new and evolving advertising formats, or new or existing technologies that block ads online or affect our ability to personalize ads could harm our business."
+  },
+  {
+    "id": "F-40",
+    "klasa": "fakt",
+    "klucz": "risk_ai_investment",
+    "opis": "Ryzyko: rosnące inwestycje w nowe biznesy, produkty i technologie są z natury ryzykowne i mogą zaszkodzić wynikom",
+    "wartosc": "ryzykowne inwestycje w nowe obszary (w tym AI)",
+    "jednostka": "n/d",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-009.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 9
+    },
+    "cytat": "Our increasing investment in new businesses, products, services, and technologies is inherently risky, and could divert management attention and harm our business, financial condition, and operating results."
+  },
+  {
+    "id": "F-41",
+    "klasa": "fakt",
+    "klucz": "risk_legal_regulatory",
+    "opis": "Ryzyko: pozwy, postępowania regulacyjne i antymonopolowe mogą zaszkodzić biznesowi, reputacji i wynikom",
+    "wartosc": "spory prawne i regulacje (w tym konkurencja)",
+    "jednostka": "n/d",
+    "okres": "2025",
+    "zrodlo": {
+      "dokument": "Alphabet Inc. - raport roczny 10-K za 2025 r.",
+      "plik": "GOOG/zrodla/10k/strony/strona-018.txt",
+      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm",
+      "strona": 18
+    },
+    "cytat": "We are and may continue to be subject to claims, lawsuits, regulatory and government inquiries and investigations, enforcement actions, consent orders, and other forms of regulatory scrutiny and legal liability, including competition matters, that could harm our business, reputation, financial condition, and operating results."
+  },
+  {
+    "id": "R-01",
+    "klasa": "dana_rynkowa",
+    "klucz": "share_price",
+    "opis": "Kurs zamknięcia akcji GOOG (klasa C, Nasdaq), ostatnia sesja; zaokrąglony do centów",
+    "wartosc": 336.91,
+    "jednostka": "USD",
+    "okres": "2026-10-16",
+    "zrodlo": {
+      "dokument": "Yahoo Finance - chart API (odpowiedź JSON)",
+      "plik": "GOOG/zrodla/rynek/kurs-2026-10-17.json",
+      "url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOG?range=5d&interval=1d",
+      "strona": "n/d (www)"
+    },
+    "cytat": "\"close\": [ 348.9700012207031, 349.5199890136719, 343.6499938964844, 344.9100036621094, 336.9100036621094 ]",
+    "data_pobrania": "2026-10-17"
+  },
+  {
+    "id": "R-02",
+    "klasa": "dana_rynkowa",
+    "klucz": "us_treasury_10y_yield",
+    "opis": "Rentowność 10-letnich obligacji skarbowych USA (seria DGS10)",
+    "wartosc": 5.1,
+    "jednostka": "%",
+    "okres": "2026-10-15",
+    "zrodlo": {
+      "dokument": "FRED, Federal Reserve Bank of St. Louis - seria DGS10 (CSV)",
+      "plik": "GOOG/zrodla/rynek/dgs10-2026-10-17.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+      "strona": "n/d (www)"
+    },
+    "cytat": "2026-10-15,5.10",
+    "data_pobrania": "2026-10-17"
+  },
+  {
+    "id": "Z-01",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2026",
+    "opis": "Wzrost przychodów r/r w 2026 r.",
+    "wartosc": 14,
+    "jednostka": "%",
+    "okres": "2026",
+    "uzasadnienie": "Przychody rosły o ok. 14% w 2024 r. (F-03 -> F-02) i ok. 15% w 2025 r. (F-02 -> F-01). Zakładamy podobne tempo w 2026 r., wspierane przez szybko rosnący Google Cloud (F-28 -> F-23) i duży portfel zamówień (F-32)."
+  },
+  {
+    "id": "Z-02",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2027",
+    "opis": "Wzrost przychodów r/r w 2027 r.",
+    "wartosc": 12,
+    "jednostka": "%",
+    "okres": "2027",
+    "uzasadnienie": "Stopniowe spowolnienie: ponad 70% przychodów to reklama online (F-37), a ten rynek rośnie wolniej niż chmura."
+  },
+  {
+    "id": "Z-03",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2028",
+    "opis": "Wzrost przychodów r/r w 2028 r.",
+    "wartosc": 10,
+    "jednostka": "%",
+    "okres": "2028",
+    "uzasadnienie": "Wzrost dalej słabnie wraz ze skalą biznesu; Google Cloud (F-23) rośnie szybciej, ale jest wciąż znacznie mniejszy niż Google Services (F-22)."
+  },
+  {
+    "id": "Z-04",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2029",
+    "opis": "Wzrost przychodów r/r w 2029 r.",
+    "wartosc": 8,
+    "jednostka": "%",
+    "okres": "2029",
+    "uzasadnienie": "Kontynuacja łagodnego spowolnienia w stronę dojrzałej spółki."
+  },
+  {
+    "id": "Z-05",
+    "klasa": "zalozenie",
+    "klucz": "revenue_growth_2030",
+    "opis": "Wzrost przychodów r/r w 2030 r.",
+    "wartosc": 6,
+    "jednostka": "%",
+    "okres": "2030",
+    "uzasadnienie": "Ostatni rok prognozy; wzrost zbliża się do poziomu, z którego da się przejść do okresu rezydualnego (Z-25)."
+  },
+  {
+    "id": "Z-06",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2026",
+    "opis": "Marża operacyjna w 2026 r.",
+    "wartosc": 31,
+    "jednostka": "%",
+    "okres": "2026",
+    "uzasadnienie": "Marża operacyjna wyniosła ok. 32% w 2024 i 2025 r. (F-05/F-02, F-04/F-01), przy amortyzacji ok. 5% przychodów (F-08). Rosnąca amortyzacja (Z-17 do Z-21) obniża marżę o kilka punktów, częściowo równoważy to rosnąca rentowność Google Cloud (F-26) i mniejsza strata Other Bets niż w 2025 r. (F-27)."
+  },
+  {
+    "id": "Z-07",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2027",
+    "opis": "Marża operacyjna w 2027 r.",
+    "wartosc": 30,
+    "jednostka": "%",
+    "okres": "2027",
+    "uzasadnienie": "Marża operacyjna wyniosła ok. 32% w 2024 i 2025 r. (F-05/F-02, F-04/F-01), przy amortyzacji ok. 5% przychodów (F-08). Rosnąca amortyzacja (Z-17 do Z-21) obniża marżę o kilka punktów, częściowo równoważy to rosnąca rentowność Google Cloud (F-26) i mniejsza strata Other Bets niż w 2025 r. (F-27)."
+  },
+  {
+    "id": "Z-08",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2028",
+    "opis": "Marża operacyjna w 2028 r.",
+    "wartosc": 29,
+    "jednostka": "%",
+    "okres": "2028",
+    "uzasadnienie": "Marża operacyjna wyniosła ok. 32% w 2024 i 2025 r. (F-05/F-02, F-04/F-01), przy amortyzacji ok. 5% przychodów (F-08). Rosnąca amortyzacja (Z-17 do Z-21) obniża marżę o kilka punktów, częściowo równoważy to rosnąca rentowność Google Cloud (F-26) i mniejsza strata Other Bets niż w 2025 r. (F-27)."
+  },
+  {
+    "id": "Z-09",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2029",
+    "opis": "Marża operacyjna w 2029 r.",
+    "wartosc": 29,
+    "jednostka": "%",
+    "okres": "2029",
+    "uzasadnienie": "Marża operacyjna wyniosła ok. 32% w 2024 i 2025 r. (F-05/F-02, F-04/F-01), przy amortyzacji ok. 5% przychodów (F-08). Rosnąca amortyzacja (Z-17 do Z-21) obniża marżę o kilka punktów, częściowo równoważy to rosnąca rentowność Google Cloud (F-26) i mniejsza strata Other Bets niż w 2025 r. (F-27)."
+  },
+  {
+    "id": "Z-10",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_2030",
+    "opis": "Marża operacyjna w 2030 r.",
+    "wartosc": 29,
+    "jednostka": "%",
+    "okres": "2030",
+    "uzasadnienie": "Marża operacyjna wyniosła ok. 32% w 2024 i 2025 r. (F-05/F-02, F-04/F-01), przy amortyzacji ok. 5% przychodów (F-08). Rosnąca amortyzacja (Z-17 do Z-21) obniża marżę o kilka punktów, częściowo równoważy to rosnąca rentowność Google Cloud (F-26) i mniejsza strata Other Bets niż w 2025 r. (F-27)."
+  },
+  {
+    "id": "Z-11",
+    "klasa": "zalozenie",
+    "klucz": "operating_margin_terminal",
+    "opis": "Marża operacyjna w okresie rezydualnym (po 2030 r.)",
+    "wartosc": 29,
+    "jednostka": "%",
+    "okres": "po 2030",
+    "uzasadnienie": "Zakładamy, że marża z 2030 r. (Z-10) utrzymuje się, bo amortyzacja w okresie rezydualnym (Z-27) jest taka sama jak w 2030 r."
+  },
+  {
+    "id": "Z-12",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2026",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2026 r.",
+    "wartosc": 35,
+    "jednostka": "%",
+    "okres": "2026",
+    "uzasadnienie": "Spółka zapowiada znaczący wzrost inwestycji w infrastrukturę w 2026 r., ale nie podaje kwoty (F-36). W 2025 r. nakłady wyniosły ok. 23% przychodów (F-09, F-01); 35% prognozowanych przychodów to ok. 160 mld USD, czyli kolejny duży wzrost."
+  },
+  {
+    "id": "Z-13",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2027",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2027 r.",
+    "wartosc": 33,
+    "jednostka": "%",
+    "okres": "2027",
+    "uzasadnienie": "Zakładamy, że nakłady w kwotach jeszcze lekko rosną, więc jako % przychodów trochę spadają."
+  },
+  {
+    "id": "Z-14",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2028",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2028 r.",
+    "wartosc": 28,
+    "jednostka": "%",
+    "okres": "2028",
+    "uzasadnienie": "Budowa infrastruktury AI stopniowo zwalnia; nakłady w kwotach zaczynają spadać."
+  },
+  {
+    "id": "Z-15",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2029",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2029 r.",
+    "wartosc": 22,
+    "jednostka": "%",
+    "okres": "2029",
+    "uzasadnienie": "Dalsze zmniejszanie nakładów w stronę poziomu potrzebnego do utrzymania i umiarkowanego wzrostu."
+  },
+  {
+    "id": "Z-16",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_2030",
+    "opis": "Nakłady inwestycyjne jako % przychodów w 2030 r.",
+    "wartosc": 18,
+    "jednostka": "%",
+    "okres": "2030",
+    "uzasadnienie": "Nakłady zbliżają się do poziomu rezydualnego (Z-26), ale wciąż są wyraźnie wyższe niż amortyzacja (Z-21), bo spółka nadal rośnie."
+  },
+  {
+    "id": "Z-17",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2026",
+    "opis": "Amortyzacja jako % przychodów w 2026 r.",
+    "wartosc": 7,
+    "jednostka": "%",
+    "okres": "2026",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 5% przychodów i ok. 10% średnich aktywów trwałych netto (F-08, F-15, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek; przenosząc go rok po roku przy stawce 10%, amortyzacja rośnie do ok. 11% przychodów w 2030 r."
+  },
+  {
+    "id": "Z-18",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2027",
+    "opis": "Amortyzacja jako % przychodów w 2027 r.",
+    "wartosc": 9,
+    "jednostka": "%",
+    "okres": "2027",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 5% przychodów i ok. 10% średnich aktywów trwałych netto (F-08, F-15, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek; przenosząc go rok po roku przy stawce 10%, amortyzacja rośnie do ok. 11% przychodów w 2030 r."
+  },
+  {
+    "id": "Z-19",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2028",
+    "opis": "Amortyzacja jako % przychodów w 2028 r.",
+    "wartosc": 10,
+    "jednostka": "%",
+    "okres": "2028",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 5% przychodów i ok. 10% średnich aktywów trwałych netto (F-08, F-15, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek; przenosząc go rok po roku przy stawce 10%, amortyzacja rośnie do ok. 11% przychodów w 2030 r."
+  },
+  {
+    "id": "Z-20",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2029",
+    "opis": "Amortyzacja jako % przychodów w 2029 r.",
+    "wartosc": 11,
+    "jednostka": "%",
+    "okres": "2029",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 5% przychodów i ok. 10% średnich aktywów trwałych netto (F-08, F-15, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek; przenosząc go rok po roku przy stawce 10%, amortyzacja rośnie do ok. 11% przychodów w 2030 r."
+  },
+  {
+    "id": "Z-21",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_2030",
+    "opis": "Amortyzacja jako % przychodów w 2030 r.",
+    "wartosc": 11,
+    "jednostka": "%",
+    "okres": "2030",
+    "uzasadnienie": "W 2025 r. amortyzacja wyniosła ok. 5% przychodów i ok. 10% średnich aktywów trwałych netto (F-08, F-15, F-16). Nakłady dużo wyższe od amortyzacji (Z-12 do Z-16) powiększają majątek; przenosząc go rok po roku przy stawce 10%, amortyzacja rośnie do ok. 11% przychodów w 2030 r."
+  },
+  {
+    "id": "Z-22",
+    "klasa": "zalozenie",
+    "klucz": "tax_rate",
+    "opis": "Stopa podatkowa do modelu DCF",
+    "wartosc": 17,
+    "jednostka": "%",
+    "okres": "2026-2030 i po 2030",
+    "uzasadnienie": "Efektywna stopa podatkowa wyniosła 16,4% w 2024 r. i 16,8% w 2025 r. (F-18, F-17). Raport nie podaje prognozy stopy, więc bierzemy 17%, blisko ostatniej wartości."
+  },
+  {
+    "id": "Z-23",
+    "klasa": "zalozenie",
+    "klucz": "beta",
+    "opis": "Beta akcji Alphabet",
+    "wartosc": 1.1,
+    "jednostka": "n/d",
+    "okres": "n/d",
+    "uzasadnienie": "Nie mamy w źródłach wyliczonej bety. Przyjmujemy 1,1, bo duże spółki technologiczne zależne od reklam (F-37) są zwykle nieco bardziej wrażliwe na rynek niż średnia; warto to później zweryfikować na danych notowań."
+  },
+  {
+    "id": "Z-24",
+    "klasa": "zalozenie",
+    "klucz": "equity_risk_premium",
+    "opis": "Premia za ryzyko rynkowe (USA)",
+    "wartosc": 5.0,
+    "jednostka": "%",
+    "okres": "n/d",
+    "uzasadnienie": "Typowa wartość stosowana dla rynku USA mieści się w przedziale ok. 4-6%; bierzemy środek. Razem z rentownością obligacji (R-02) i betą (Z-23) daje koszt kapitału własnego."
+  },
+  {
+    "id": "Z-25",
+    "klasa": "zalozenie",
+    "klucz": "terminal_growth",
+    "opis": "Wzrost w okresie rezydualnym (po 2030 r.)",
+    "wartosc": 3.0,
+    "jednostka": "%",
+    "okres": "po 2030",
+    "uzasadnienie": "Dojrzała spółka rośnie mniej więcej w tempie nominalnej gospodarki. Wartość jest wyraźnie niższa niż rentowność 10-letnich obligacji USA (R-02) i niż wzrost w 2030 r. (Z-05)."
+  },
+  {
+    "id": "Z-26",
+    "klasa": "zalozenie",
+    "klucz": "capex_pct_revenue_terminal",
+    "opis": "Nakłady inwestycyjne jako % przychodów w okresie rezydualnym",
+    "wartosc": 14,
+    "jednostka": "%",
+    "okres": "po 2030",
+    "uzasadnienie": "Przy wzroście 3% (Z-25) majątek trwały musi rosnąć ok. 3% rocznie. Majątek netto ma wtedy wartość ok. 1,1 rocznych przychodów, więc nakłady powinny przewyższać amortyzację (Z-27) o ok. 3 punkty procentowe przychodów."
+  },
+  {
+    "id": "Z-27",
+    "klasa": "zalozenie",
+    "klucz": "da_pct_revenue_terminal",
+    "opis": "Amortyzacja jako % przychodów w okresie rezydualnym",
+    "wartosc": 11,
+    "jednostka": "%",
+    "okres": "po 2030",
+    "uzasadnienie": "Pozostaje na poziomie z 2030 r. (Z-21): majątek zbudowany w latach 2026-2030 dalej się amortyzuje, a nakłady (Z-26) są tylko trochę wyższe niż amortyzacja."
+  },
+  {
+    "id": "G-01",
+    "klasa": "grafika",
+    "klucz": "photo_waymo",
+    "plik": "GOOG/zrodla/grafiki/waymo-jaguar-i-pace-in-san-francisco-2023-dllu.jpg",
+    "opis": "Autonomiczny samochód Waymo (Jaguar I-Pace) w San Francisco, bez kierowcy",
+    "projekt": "F-33",
+    "autor": "Dllu",
+    "licencja": "CC BY 4.0",
+    "zrodlo": {
+      "dokument": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg",
+      "licencja_url": "https://creativecommons.org/licenses/by/4.0"
+    },
+    "data_pobrania": "2026-10-17"
+  },
+  {
+    "id": "G-02",
+    "klasa": "grafika",
+    "klucz": "photo_data_center",
+    "plik": "GOOG/zrodla/grafiki/google-data-center-council-bluffs-iowa-49062863796.jpg",
+    "opis": "Centrum danych Google w Council Bluffs (Iowa), widok z lotu ptaka",
+    "projekt": "F-36",
+    "autor": "Chad Davis",
+    "licencja": "CC BY 2.0",
+    "zrodlo": {
+      "dokument": "Wikimedia Commons",
+      "url": "https://commons.wikimedia.org/wiki/File:Google_Data_Center,_Council_Bluffs_Iowa_(49062863796).jpg",
+      "licencja_url": "https://creativecommons.org/licenses/by/2.0"
+    },
+    "data_pobrania": "2026-10-17"
+  }
+]

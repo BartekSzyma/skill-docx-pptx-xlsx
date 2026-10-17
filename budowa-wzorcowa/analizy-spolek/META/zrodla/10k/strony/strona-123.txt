@@ -1,0 +1,36 @@
+Table of Contents
+Cash paid for income taxes, net of refunds received, by jurisdiction pursuant to the disclosure requirements of ASU 2023-09 for the year ended December 31, 2025 is as follows (in millions):
+Year Ended December 31, 2025
+Federal $ 4,118
+State 331
+Foreign
+Brazil 884
+India 652
+Ireland 567
+Other 1,026
+Cash paid for income taxes, net of refunds received $ 7,578
+Our deferred tax assets (liabilities) are as follows (in millions):
+December 31,
+2025 2024
+Deferred tax assets:
+Loss carryforwards $ 4,432 $ 289
+Tax credit carryforwards 10,506 2,771
+Share-based compensation 706 520
+Accrued expenses and other liabilities 2,741 2,223
+Lease liabilities 5,150 3,940
+Capitalized research and development 4,138 16,743
+Unrealized losses in securities and investments 143 115
+Other 274 442
+Total deferred tax assets 28,090 27,043
+Less: valuation allowance (15,895) (3,506)
+Deferred tax assets, net of valuation allowance 12,195 23,537
+Deferred tax liabilities:
+Depreciation and amortization (15,901) (10,959)
+Right-of-use assets (4,453) (3,000)
+Unrealized gains in securities and investments (621) —
+Other (387) —
+Total deferred tax liabilities (21,362) (13,959)
+Net deferred tax assets (liabilities) $ (9,167) $ 9,578
+The valuation allowance was approximately $15.90 billion as of December 31, 2025, mostly related to U.S. federal deferred tax assets, including certain tax credits and attributes that are not expected to be realized due to the anticipated impact of future years' CAMT, and state tax credit carryforwards. The valuation allowance was approximately $3.51 billion as of December 31, 2024, mostly related to U.S. state tax credit carryforwards, U.S. foreign tax credits, and unrealized losses in marketable securities.
+As of December 31, 2025, our U.S. federal net operating loss carryforwards were $16.35 billion, most of which do not expire. Our state net operating loss carryforwards were $3.79 billion, which will begin to expire in 2031 if not utilized. As of December 31, 2025, we have federal and state tax credit carryforwards of $7.85 billion and $6.80 billion, respectively, most of which do not expire.
+123

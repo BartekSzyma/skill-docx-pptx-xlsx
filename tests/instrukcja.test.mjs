@@ -55,3 +55,22 @@ const DANE = { INSTRUKCJA: [{ id: 'x', tytul: '0. X', elementy: [{ typ: 'prompt'
   assert.equal(wypiszPrompt(html, 'P1'), 'Zrób coś.\nDruga linia z ąę.');
   assert.throws(() => wypiszPrompt(html, 'P9'), /P9/);
 });
+
+test('ścieżki Windows w treści nie zgubiły ukośników (np. C:Program Files, .claudeskills)', () => {
+  for (const e of elementy()) {
+    const tresc = `${e.html || ''}${e.tekst || ''}`;
+    assert.doesNotMatch(tresc, /[A-Z]:Program|\.claudeskills|META(zrodla|wyniki|weryfikacja)|Dokumentyanalizy/, tresc.slice(0, 80));
+  }
+});
+
+test('każdy krok z promptem ma ramkę „Co się dzieje i po co” i punkt „Sprawdź”', () => {
+  for (const s of A.INSTRUKCJA.filter((x) => x.elementy.some((e) => e.typ === 'prompt'))) {
+    assert.ok(s.elementy.some((e) => e.typ === 'dlaczego'), `${s.id}: brak ramki dlaczego`);
+    assert.ok(s.elementy.some((e) => e.typ === 'sprawdz'), `${s.id}: brak Sprawdź`);
+  }
+});
+
+test('wymagania systemowe wymieniają Python, LibreOffice i MS Office', () => {
+  const zanim = A.INSTRUKCJA[0].elementy.map((e) => e.html || '').join(' ');
+  for (const w of ['Python 3.11', 'LibreOffice', 'MS Office']) assert.ok(zanim.includes(w), w);
+});

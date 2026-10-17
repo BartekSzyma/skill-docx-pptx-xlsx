@@ -1,0 +1,15 @@
+{
+  "ticker": "META",
+  "plik_modelu": "META/wyniki/META_DCF.xlsx",
+  "data_wyceny": "2026-10-17",
+  "wartosc_jednej_akcji_usd": 344.992733472931,
+  "kurs_usd": 709.33,
+  "roznica_proc": -51.363577816681804,
+  "wacc_proc": 11.1,
+  "wzrost_rezydualny_proc": 3.0,
+  "wartosc_firmy_mln_usd": 849830.253996749,
+  "wartosc_kapitalu_mln_usd": 872678.253996749,
+  "udzial_wartosci_rezydualnej_proc": 88.5310682647575,
+  "kontrola_wrazliwosci": "OK",
+  "sha256_ledgera": "79e70a912c1f8d37866af5e124cb1354873dd5ce2f1ce7cf4565b1fd2b17bc9c"
+}

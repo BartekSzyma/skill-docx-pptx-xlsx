@@ -1,0 +1,39 @@
+Table of Contents
+Fair Value Measurement at Reporting Date Using
+Description December 31, 2024 Quoted Prices in Active Markets for Identical Assets
+(Level 1) Significant Other Observable Inputs
+(Level 2) Significant Unobservable Inputs
+(Level 3)
+Cash equivalents:
+Money market funds $ 36,165 $ 36,165 $ — $ —
+U.S. government and agency securities 23 23 — —
+Time deposits 369 — 369 —
+Corporate debt securities 114 — 114 —
+Total cash equivalents 36,671 36,188 483 —
+Marketable securities:
+U.S. government securities 14,889 14,889 — —
+U.S. government agency securities 3,053 3,053 — —
+Corporate debt securities 14,758 — 14,758 —
+Marketable equity securities 1,226 1,226 — —
+Total marketable securities 33,926 19,168 14,758 —
+Restricted cash equivalents 1,193 1,193 — —
+Other assets 101 — — 101
+Total $ 71,891 $ 56,549 $ 15,241 $ 101
+Marketable Debt Securities
+The following tables summarize our available-for-sale marketable debt securities with unrealized losses as of December 31, 2025 and 2024, aggregated by major security type and the length of time that individual securities have been in a continuous loss position (in millions):
+December 31, 2025
+Less than 12 months 12 months or greater Total
+Fair Value Unrealized Losses Fair Value Unrealized Losses Fair Value Unrealized Losses
+U.S. government securities $ 1,491 $ (2) $ 1,570 $ (18) $ 3,061 $ (20)
+U.S. government agency securities 17 — 25 — 42 —
+Corporate debt securities 1,213 (1) 1,534 (20) 2,747 (21)
+Total $ 2,721 $ (3) $ 3,129 $ (38) $ 5,850 $ (41)
+December 31, 2024
+Less than 12 months 12 months or greater Total
+Fair Value Unrealized Losses Fair Value Unrealized Losses Fair Value Unrealized Losses
+U.S. government securities $ 6,860 $ (71) $ 4,330 $ (146) $ 11,190 $ (217)
+U.S. government agency securities 435 (2) 2,083 (44) 2,518 (46)
+Corporate debt securities 2,989 (26) 6,373 (192) 9,362 (218)
+Total $ 10,284 $ (99) $ 12,786 $ (382) $ 23,070 $ (481)
+The gross unrealized gains on our marketable debt securities were $300 million and not material as of December 31, 2025 and 2024, respectively, and the allowance for credit losses were not material for both periods.
+105

@@ -1,0 +1,26 @@
+Table of Contents
+Alphabet Inc.
+•consumer subscriptions, which primarily include revenues from YouTube services, such as YouTube TV, YouTube Music and Premium, and NFL Sunday Ticket, as well as Google One, which offers access to our most capable Gemini models;
+•platforms, which primarily include revenues from Google Play sales of apps and in-app purchases;
+•devices, which primarily include sales of the Pixel family of devices; and
+•other products and services.
+Subscription revenues are recognized ratably over the period of the subscription, primarily monthly. We report revenues from Google Play sales of apps and in-app purchases on a net basis because our performance obligation is to facilitate a transaction between app developers and end users for which we earn a service fee.
+Google Cloud
+Google Cloud revenues consist of revenues from:
+•Google Cloud Platform primarily generates consumption-based fees and subscriptions for infrastructure, platform, and other services. These services provide access to solutions such as AI offerings including our enterprise AI infrastructure, Vertex AI platform, and Gemini Enterprise; cybersecurity offerings; and data and analytics solutions;
+•Google Workspace includes subscriptions for cloud-based communication and collaboration tools for enterprises, such as Gmail, Docs, Calendar, Drive, and Meet, with integrated features like Gemini for Google Workspace; and
+•other enterprise services.
+Our cloud services are generally provided on either a consumption or subscription basis and may have contract terms longer than a year. Revenues related to cloud services provided on a consumption basis are recognized when the customer utilizes the services, based on the quantity of services consumed using the relative standalone selling price allocation. Revenues related to cloud services provided on a subscription basis are recognized ratably over the contract term as the customer receives and consumes the benefits of the cloud services.
+Arrangements with Multiple Performance Obligations
+Our contracts with customers may include multiple performance obligations. For such arrangements, we allocate revenues to each performance obligation based on its relative standalone selling price. We generally determine standalone selling prices based on observable prices of our products and services sold or priced separately in comparable circumstances to similar customers.
+Customer Incentives and Credits
+Certain customers receive cash-based incentives or credits, which are accounted for as variable consideration. We estimate these amounts based on the expected amount to be provided to customers and reduce revenues. We believe that there will not be significant changes to our estimates of variable consideration related to customer incentives and credits.
+Sales Commissions
+We expense sales commissions when incurred when the period of the expected benefit is one year or less. We recognize an asset for certain sales commissions and amortize if the expected benefit period is greater than one year. These costs are recorded within sales and marketing expenses.
+Cost of Revenues
+Cost of revenues consists of TAC and other costs of revenues.
+•TAC includes:
+◦amounts paid to our distribution partners who make available our search access points and other ad-supported services. Our distribution partners include browser providers, mobile carriers, original equipment manufacturers, and software developers; and
+◦amounts paid to Google Network partners primarily for ads displayed on their properties.
+•Other cost of revenues includes:
+54.

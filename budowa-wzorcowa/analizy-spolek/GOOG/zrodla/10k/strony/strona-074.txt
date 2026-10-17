@@ -1,0 +1,35 @@
+Table of Contents
+Alphabet Inc.
+Year Ended December 31,
+AOCI Components Location 2023 2024 2025
+Unrealized gains (losses) on available-for-sale investments
+Other income (expense), net $ (1,497) $ (1,008) $ 213
+Benefit (provision) for income taxes 329 226 (44)
+Net of income tax (1,168) (782) 169
+Unrealized gains (losses) on cash flow hedges
+Foreign exchange contracts Revenue 213 174 (233)
+Interest rate contracts Other income (expense), net 6 1 1
+Benefit (provision) for income taxes (5) (9) 68
+Net of income tax 214 166 (164)
+Total amount reclassified, net of income tax $ (954) $ (616) $ 5
+Other Income (Expense), Net
+Components of OI&E were as follows (in millions):
+Year Ended December 31,
+2023 2024 2025
+Interest income $ 3,865 $ 4,482 $ 4,337
+Interest expense(1)
+(308) (268) (736)
+Foreign currency exchange gain (loss), net (1,238) (409) (382)
+Gain (loss) on debt securities, net (1,215) (1,043) 540
+Gain (loss) on equity securities, net 392 3,714 24,080
+Income (loss) and impairment from equity method investments, net (628) (188) 281
+Other 556 1,137 1,667
+Other income (expense), net $ 1,424 $ 7,425 $ 29,787
+(1) Interest expense is net of interest capitalized of $181 million, $194 million, and $447 million for the years ended December 31, 2023, 2024, and 2025, respectively.
+Note 8. Acquisitions
+Pending Acquisitions
+In March 2025, we entered into a definitive agreement to acquire Wiz, a leading cloud security platform, for $32.0 billion, subject to closing adjustments, in an all-cash transaction. The acquisition of Wiz is expected to close in 2026, subject to customary closing conditions, including the receipt of regulatory approvals. Upon the close of the acquisition, Wiz will be part of the Google Cloud segment.
+In December 2025, we entered into a definitive agreement to acquire Intersect, which provides data center and energy infrastructure solutions, for $4.8 billion in cash, plus the assumption of debt. The acquisition of Intersect is expected to close in the first half of 2026, subject to customary closing conditions.
+Note 9. Goodwill
+Changes in the carrying amount of goodwill for the years ended December 31, 2024 and 2025 were as follows (in millions):
+74.

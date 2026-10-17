@@ -1,0 +1,132 @@
+{
+  "chart": {
+    "result": [
+      {
+        "meta": {
+          "currency": "USD",
+          "symbol": "GOOG",
+          "exchangeName": "NMS",
+          "fullExchangeName": "NasdaqGS",
+          "instrumentType": "EQUITY",
+          "firstTradeDate": 1092922200,
+          "regularMarketTime": 1792180801,
+          "hasPrePostMarketData": true,
+          "gmtoffset": -14400,
+          "timezone": "EDT",
+          "exchangeTimezoneName": "America/New_York",
+          "regularMarketPrice": 336.91,
+          "regularMarketChangePercent": -2.319,
+          "fulldayPrice": 336.91,
+          "fulldayChange": -9.21,
+          "fulldayChangePercent": -2.67,
+          "fiftyTwoWeekHigh": 404.47,
+          "fiftyTwoWeekLow": 244.67,
+          "regularMarketDayHigh": 346.59,
+          "regularMarketDayLow": 335.5,
+          "regularMarketVolume": 16359546,
+          "longName": "Alphabet Inc.",
+          "shortName": "Alphabet Inc.",
+          "chartPreviousClose": 347.86,
+          "priceHint": 2,
+          "currentTradingPeriod": {
+            "pre": {
+              "timezone": "EDT",
+              "end": 1792157400,
+              "start": 1792137600,
+              "gmtoffset": -14400
+            },
+            "regular": {
+              "timezone": "EDT",
+              "end": 1792180800,
+              "start": 1792157400,
+              "gmtoffset": -14400
+            },
+            "post": {
+              "timezone": "EDT",
+              "end": 1792195200,
+              "start": 1792180800,
+              "gmtoffset": -14400
+            }
+          },
+          "dataGranularity": "1d",
+          "range": "5d",
+          "validRanges": [
+            "1d",
+            "5d",
+            "1mo",
+            "3mo",
+            "6mo",
+            "1y",
+            "2y",
+            "5y",
+            "10y",
+            "ytd",
+            "max"
+          ]
+        },
+        "timestamp": [
+          1791811800,
+          1791898200,
+          1791984600,
+          1792071000,
+          1792157400
+        ],
+        "indicators": {
+          "quote": [
+            {
+              "close": [
+                348.9700012207031,
+                349.5199890136719,
+                343.6499938964844,
+                344.9100036621094,
+                336.9100036621094
+              ],
+              "low": [
+                347.1600036621094,
+                347.57000732421875,
+                342.3999938964844,
+                336.82000732421875,
+                335.5
+              ],
+              "open": [
+                348.3399963378906,
+                352.4150085449219,
+                351.42999267578125,
+                340.5299987792969,
+                344.29998779296875
+              ],
+              "high": [
+                352.6600036621094,
+                354.5,
+                355.25,
+                348.39801025390625,
+                346.6000061035156
+              ],
+              "volume": [
+                11854200,
+                14445100,
+                20106400,
+                16425700,
+                16952700
+              ]
+            }
+          ],
+          "adjclose": [
+            {
+              "adjclose": [
+                348.9700012207031,
+                349.5199890136719,
+                343.6499938964844,
+                344.9100036621094,
+                336.9100036621094
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "error": null
+  },
+  "pobrano": "2026-10-17T02:27:20+00:00",
+  "adres": "https://query1.finance.yahoo.com/v8/finance/chart/GOOG?range=5d&interval=1d"
+}

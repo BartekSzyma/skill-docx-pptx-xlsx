@@ -1,0 +1,30 @@
+Table of Contents
+Alphabet Inc.
+•employee compensation expenses for employees in finance, human resources, information technology, legal, and other administrative support functions;
+•expenses relating to legal and other matters, including certain fines and settlements; and
+•third-party services fees, including audit, consulting, outside legal, and other outsourced administrative services.
+Other Income (Expense), Net
+OI&E, net primarily consists of interest income (expense), the effect of foreign currency exchange gains (losses), net gains (losses) and impairment on our marketable and non-marketable securities and income (loss) and impairment from our equity method investments.
+For additional information, including how we account for our investments and factors that can drive fluctuations in the value of our investments, see Note 1 and Note 3 of the Notes to Consolidated Financial Statements included in Item 8 as well as Item 7A Quantitative and Qualitative Disclosures About Market Risk of this Annual Report on Form 10-K.
+Provision for Income Taxes
+Provision for income taxes represents the estimated amount of federal, state, and foreign income taxes incurred in the US and the many jurisdictions in which we operate. The provision includes the effect of reserve provisions and changes to reserves that are considered appropriate as well as the related net interest and penalties.
+For additional information, including a reconciliation of the US federal statutory rate to our effective tax rate, see Note 14 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.
+Executive Overview
+The following table summarizes consolidated financial results (in millions, except for per share information and percentages):
+Year Ended December 31,
+2024 2025 $ Change % Change
+Consolidated revenues $ 350,018 $ 402,836 $ 52,818 15 %
+Cost of revenues $ 146,306 $ 162,535 $ 16,229 11 %
+Operating expenses $ 91,322 $ 111,262 $ 19,940 22 %
+Operating income $ 112,390 $ 129,039 $ 16,649 15 %
+Operating margin 32 % 32 % 0 %
+Other income (expense), net $ 7,425 $ 29,787 $ 22,362 301 %
+Net income $ 100,118 $ 132,170 $ 32,052 32 %
+Diluted net income per share(1)
+$ 8.04 $ 10.81 $ 2.77 34 %
+(1) For additional information on the calculation of diluted net income per share, see Note 12 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.
+•Revenues were $402.8 billion, an increase of 15% year over year, primarily driven by an increase in Google Services revenues of $37.8 billion, or 12%, and an increase in Google Cloud revenues of $15.5 billion, or 36%.
+•Cost of revenues was $162.5 billion, an increase of 11% year over year, primarily driven by increases in TAC, content acquisition costs, and depreciation expense.
+•Operating expenses were $111.3 billion, an increase of 22% year over year, primarily driven by increases in employee compensation expenses, expenses related to legal and other matters, and depreciation expense.
+Other Information:
+32.

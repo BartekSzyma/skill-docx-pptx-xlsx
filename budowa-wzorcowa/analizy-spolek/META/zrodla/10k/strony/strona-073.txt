@@ -1,0 +1,22 @@
+Table of Contents
+Revenue
+The following table sets forth our revenue by source and by segment:
+Year Ended December 31,
+2025 2024 2023 2025 vs 2024 % change 2024 vs 2023 % change
+(in millions, except percentages)
+Advertising $ 196,175 $ 160,633 $ 131,948 22 % 22 %
+Other revenue 2,584 1,722 1,058 50 % 63 %
+Family of Apps 198,759 162,355 133,006 22 % 22 %
+Reality Labs 2,207 2,146 1,896 3 % 13 %
+Total revenue $ 200,966 $ 164,501 $ 134,902 22 % 22 %
+Family of Apps
+FoA revenue in 2025 increased $36.40 billion, or 22%, compared to 2024. The increase was almost entirely driven by advertising revenue.
+Advertising
+Advertising revenue in 2025 increased $35.54 billion, or 22%, compared to 2024 due to increases in ad impressions delivered and average price per ad. In 2025, ad impressions delivered increased by 12%, as compared with an increase of 11% in 2024, year-over-year. Ad impressions delivered during 2025 grew in all regions, especially in Asia-Pacific, which was driven by increases in users and their engagement on our products. In 2025, the average price per ad increased by 9%, as compared with an increase of 10% in 2024, year-over-year. The increase in average price per ad in 2025 was driven by an increase in advertising demand, which we believe is mostly due to ongoing improvements to our ad performance from our ad targeting and measurement tools. This increase was partially offset by a higher number of ad impressions delivered, especially in geographies and in products, such as Reels, that monetize at lower rates. Other factors are discussed in the section entitled "—Executive Overview of Full Year 2025 Results." In addition, the online commerce vertical was the largest contributor to the increase in advertising revenue in 2025 compared to 2024. We anticipate that future advertising revenue will be driven by a combination of price and ad impressions delivered.
+Other revenue
+FoA other revenue in 2025 increased $862 million, or 50%, compared to 2024. The increase was mostly driven by paid messaging from WhatsApp and Meta Verified subscriptions.
+Reality Labs
+RL revenue in 2025 increased $61 million, or 3%, compared to 2024. The increase was driven by an increase in sales of AI glasses, partially offset by a decrease in Meta Quest sales.
+Revenue Seasonality
+Revenue is traditionally seasonally strong in the fourth quarter of each year due in part to seasonal holiday demand. We believe that this seasonality in both advertising revenue and RL consumer hardware sales affects our quarterly results, which generally reflect significant growth in revenue between the third and fourth quarters and a decline between the fourth and subsequent first quarters. For instance, our total revenue increased 17%, 19%, and 17% between the third and fourth quarters of 2025, 2024, and 2023, respectively, while total revenue for the first quarters of 2025, 2024, and 2023 declined 13%, 9%, and 11% compared to the fourth quarters of 2024, 2023, and 2022, respectively.
+73

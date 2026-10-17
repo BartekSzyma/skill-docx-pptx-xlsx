@@ -8,7 +8,8 @@ import { wczytajHtml, blok, zaladuj } from './zaladuj.mjs';
 
 const KORZEN = fileURLToPath(new URL('..', import.meta.url));
 const ROZSZERZENIA = new Set(['.html', '.mjs', '.js', '.md', '.json']);
-const POMIJANE = new Set(['.git', 'node_modules', 'zrzuty', '.superpowers', '.venv', 'spike', 'zrodla']);
+// budowa-wzorcowa: pliki wygenerowane przez Claude z dosłownymi cytatami z raportów SEC (te mają długie myślniki).
+const POMIJANE = new Set(['.git', 'node_modules', 'zrzuty', '.superpowers', '.venv', 'spike', 'zrodla', 'budowa-wzorcowa']);
 
 function plikiTekstowe(katalog) {
   const wynik = [];

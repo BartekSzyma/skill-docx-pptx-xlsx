@@ -1,0 +1,27 @@
+Table of Contents
+In December 2025, the FASB issued ASU No. 2025-10, Accounting for Government Grants (Topic 832): Accounting for Government Grants Received by Business Entities (ASU 2025-10) to establish authoritative guidance on the recognition, measurement, and presentation of government grants received by business entities. The guidance will be effective for the annual periods beginning with the year ending December 31, 2028 and for interim periods beginning January 1, 2029. Early adoption is permitted. Upon adoption, the guidance can be applied using a modified prospective, modified retrospective, or under a retrospective approach. We are evaluating the effect that this guidance and do not expect the adoption of this guidance to have a material impact on our consolidated financial statements.
+Note 2. Revenue
+Revenue disaggregated by revenue source and by segment consists of the following (in millions):
+Year Ended December 31,
+2025 2024 2023
+Advertising $ 196,175 $ 160,633 $ 131,948
+Other revenue 2,584 1,722 1,058
+Family of Apps 198,759 162,355 133,006
+Reality Labs 2,207 2,146 1,896
+Total revenue $ 200,966 $ 164,501 $ 134,902
+Revenue disaggregated by geography, based on the addresses of our customers, consists of the following (in millions):
+Year Ended December 31,
+2025 2024 2023
+United States and Canada (1)
+$ 78,866 $ 63,207 $ 52,888
+Europe (2)
+46,569 38,361 31,210
+Asia-Pacific 53,817 45,009 36,154
+Rest of World (2)
+21,714 17,924 14,650
+Total revenue $ 200,966 $ 164,501 $ 134,902
+_________________________
+(1)United States revenue was $74.78 billion, $59.73 billion, and $49.78 billion for the years ended December 31, 2025, 2024, and 2023, respectively.
+(2)Europe includes Russia and Turkey, and Rest of World includes Africa, Latin America, and the Middle East.
+Deferred revenue was $1.08 billion and $772 million as of December 31, 2025 and 2024, respectively. Our deferred revenue primarily relates to advertising prepayments and credits, as well as software updates and upgrades associated with RL hardware sales, most of which are expected to be realized in less than a year.
+102

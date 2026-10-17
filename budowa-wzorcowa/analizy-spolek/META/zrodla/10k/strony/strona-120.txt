@@ -1,0 +1,24 @@
+Table of Contents
+discretion of our board of directors after taking into account various factors, including our financial condition, operating results, available cash, and current and anticipated cash needs.
+Share-based Compensation Plan
+Our board of directors and stockholders approved our 2025 Equity Incentive Plan (2025 Plan), effective as of May 28, 2025, which serves as the successor to our 2012 Equity Incentive Plan (2012 Plan) and provides for the issuance of RSUs, incentive and nonqualified stock options, restricted stock awards, stock appreciation rights, performance shares, and stock bonuses to qualified employees, directors, and consultants. No new awards will be issued under the 2012 Plan as of the effective date of the 2025 Plan. Outstanding awards under the 2012 Plan continue to be subject to the terms and conditions of the 2012 Plan. Shares that are withheld in connection with the net settlement of RSUs granted under the 2012 Plan and 2025 Plan, as well as forfeited shares underlying RSUs that were granted under the 2012 Plan and 2025 Plan, are added to the reserves of the 2025 Plan.
+As of December 31, 2025, there were 454 million shares of our Class A common stock reserved for future issuance under our 2025 Plan. Pursuant to the automatic increase provision under our 2025 Plan, the number of shares reserved for issuance increases automatically on January 1 of each of the calendar years during the term of the 2025 Plan, which will continue through May 2035, by a number of shares of Class A common stock equal to the lesser of (i) 2.5% of the total issued and outstanding shares of our Class A common stock as of the immediately preceding December 31st or (ii) a number of shares determined by our board of directors. Pursuant to this automatic increase provision, our board of directors approved an increase of 55 million shares of Class A common stock reserved for issuance, effective January 1, 2026.
+The following table summarizes our share-based compensation expense, which consists of the RSU expense, by line item in our consolidated statements of income (in millions):
+Year Ended December 31,
+2025 2024 2023
+Cost of revenue $ 1,124 $ 1,055 $ 740
+Research and development 17,485 13,683 11,429
+Marketing and sales 926 1,026 952
+General and administrative 892 926 906
+Total $ 20,427 $ 16,690 $ 14,027
+The following table summarizes the activities for our unvested RSUs for the year ended December 31, 2025:
+Number of Shares Weighted-Average Grant Date Fair Value Per Share
+(in thousands)
+Unvested at December 31, 2024 122,632 $ 302.27
+Granted 69,666 $ 661.57
+Vested (61,906) $ 317.68
+Forfeited (14,840) $ 379.82
+Unvested at December 31, 2025 115,552 $ 500.68
+The fair value as of the respective vesting dates of RSUs that vested during the years ended December 31, 2025, 2024, and 2023 was $43.11 billion, $33.14 billion, and $17.46 billion, respectively. The income tax benefit recognized related to awards vested during the years ended December 31, 2025, 2024, and 2023 was $9.33 billion, $6.95 billion, and $3.65 billion, respectively.
+As of December 31, 2025, unrecognized share-based compensation expense related to RSU awards was $54.81 billion, which is expected to be recognized over a weighted-average period of approximately three years based on vesting under the award service conditions.
+120

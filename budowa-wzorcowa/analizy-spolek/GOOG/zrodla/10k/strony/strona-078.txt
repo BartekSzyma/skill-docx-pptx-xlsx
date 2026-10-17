@@ -1,0 +1,25 @@
+Table of Contents
+Alphabet Inc.
+For example, we periodically have data incidents that we report to relevant regulators as required by law. Such claims, consent orders, lawsuits, regulatory and government investigations, and other proceedings could result in substantial fines and penalties, injunctive relief, ongoing monitoring and auditing obligations, changes to our products and services, alterations to our business models and operations, and collateral related civil litigation or other adverse consequences, all of which could harm our business, reputation, financial condition, and operating results.
+We have ongoing legal matters relating to Russia. For example, some matters concern civil judgments that include compounding penalties imposed upon us in connection with disputes regarding the termination of accounts, including those of sanctioned parties. We do not expect these ongoing legal matters will have a material adverse effect.
+Non-Income Taxes
+We are under audit by various domestic and foreign tax authorities with regards to non-income tax matters. The subject matter of non-income tax audits primarily arises from disputes on the tax treatment and tax rate applied to the sale of our products and services in these jurisdictions and the tax treatment of certain employee benefits. We accrue non-income taxes that may result from examinations by, or any negotiated agreements with, these tax authorities when a loss is probable and reasonably estimable. If we determine that a loss is reasonably possible and the loss or range of loss can be estimated, we disclose the reasonably possible loss. Due to the inherent complexity and uncertainty of these matters and judicial process in certain jurisdictions, the final outcome may be materially different from our expectations.
+See Note 14 for further details regarding income tax contingencies.
+Note 11. Stockholders' Equity
+Class A and Class B Common Stock and Class C Capital Stock
+Our Board of Directors has authorized three classes of stock, Class A and Class B common stock, and Class C capital stock. The rights of the holders of each class of our common and capital stock are identical, except with respect to voting. Each share of Class A common stock is entitled to one vote per share. Each share of Class B common stock is entitled to 10 votes per share. Class C capital stock has no voting rights, except as required by applicable law. Shares of Class B common stock may be converted at any time at the option of the stockholder and automatically convert upon sale or transfer to Class A common stock.
+Share Repurchases
+In the years ended December 31, 2023, 2024, and 2025, we continued to repurchase both Class A and Class C shares in a manner deemed in the best interest of the company and its stockholders, taking into account the economic cost and prevailing market conditions, including the relative trading prices and volumes of the Class A and Class C shares. In April 2024, the company's Board of Directors authorized a $70.0 billion share repurchase program for its Class A and Class C shares. In April 2025, the company's Board of Directors authorized an additional $70.0 billion share repurchase program for its Class A and Class C shares. As of December 31, 2025, $69.5 billion remained available for Class A and Class C share repurchases.
+The following table presents Class A and Class C shares repurchased and subsequently retired (in millions):
+Year Ended December 31,
+2023 2024 2025
+Shares Amount Shares Amount Shares Amount
+Class A share repurchases 78 $ 9,316 73 $ 11,855 37 $ 6,501
+Class C share repurchases 450 52,868 306 50,192 203 38,897
+Total share repurchases(1)
+528 $ 62,184 379 $ 62,047 240 $ 45,398
+(1) Shares repurchased include any unsettled repurchases.
+Repurchases are executed from time to time, subject to general business and market conditions and other investment opportunities, through open market purchases or privately negotiated transactions, including through Rule 10b5-1 plans. The repurchase programs do not have an expiration date.
+Dividends
+During the year ended December 31, 2025, total cash dividends were $4.8 billion for Class A, $703 million for Class B, and $4.5 billion for Class C shares, respectively.
+78.

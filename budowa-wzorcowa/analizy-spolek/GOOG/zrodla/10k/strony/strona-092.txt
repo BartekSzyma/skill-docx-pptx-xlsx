@@ -1,0 +1,63 @@
+Table of Contents
+Alphabet Inc.
+PART IV
+ITEM 15.EXHIBITS, FINANCIAL STATEMENT SCHEDULES
+We have filed the following documents as part of this Annual Report on Form 10-K:
+1. Consolidated Financial Statements
+Reports of Independent Registered Public Accounting Firm
+45
+Financial Statements:
+Consolidated Balance Sheets
+48
+Consolidated Statements of Income
+49
+Consolidated Statements of Comprehensive Income
+50
+Consolidated Statements of Stockholders’ Equity
+51
+Consolidated Statements of Cash Flows
+52
+Notes to Consolidated Financial Statements
+53
+2. Financial Statement Schedules
+Schedule II: Valuation and Qualifying Accounts
+The table below details the activity of the allowance for credit losses and sales credits for the years ended December 31, 2023, 2024, and 2025 (in millions):
+Balance at
+Beginning of Year Additions Usage Balance at
+End of Year
+Year ended December 31, 2023 $ 1,213 $ 3,115 $ (2,737) $ 1,591
+Year ended December 31, 2024 $ 1,591 $ 2,895 $ (2,850) $ 1,636
+Year ended December 31, 2025 $ 1,636 $ 4,128 $ (3,408) $ 2,356
+Note: Additions to the allowance for credit losses are charged to expense. Additions to the allowance for sales credits are charged against revenues.
+All other schedules have been omitted because they are not required, not applicable, or the required information is otherwise included.
+3. Exhibits
+Exhibit
+Number Description Incorporated by reference herein
+Form Date
+2.01 Agreement and Plan of Merger, dated October 2, 2015, by and among Google Inc., the Registrant and Maple Technologies Inc.
+Current Report on Form 8-K (File No. 001-37580)
+October 2, 2015
+3.01 Amended and Restated Certificate of Incorporation of the Registrant
+Current Report on Form 8-K (File No. 001-37580) June 3, 2022
+3.02 Amended and Restated Bylaws of the Registrant, dated October 19, 2022
+Current Report on Form 8-K (File No. 001-37580) October 25, 2022
+4.01 Specimen Class A Common Stock certificate
+Current Report on Form 8-K (File No. 001-37580) October 2, 2015
+4.02 Specimen Class C Capital Stock certificate
+Current Report on Form 8-K (File No. 001-37580) October 2, 2015
+4.03
+u
+Alphabet Inc. Deferred Compensation Plan
+Current Report on Form 8-K (File No. 001-37580)
+October 2, 2015
+4.04
+Transfer Restriction Agreement, dated October 2, 2015, between the Registrant and Larry Page and certain of his affiliates
+Current Report on Form 8-K (File No. 001-37580) October 2, 2015
+4.05
+Transfer Restriction Agreement, dated October 2, 2015, between the Registrant and Sergey Brin and certain of his affiliates
+Current Report on Form 8-K (File No. 001-37580)
+October 2, 2015
+4.06
+Joinder Agreement, dated December 31, 2021, among the Registrant, Sergey Brin and certain of his affiliates
+Annual Report on Form 10-K (File No. 001-37580) February 2, 2022
+92.

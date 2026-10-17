@@ -1,0 +1,40 @@
+Table of Contents
+Alphabet Inc.
+subsidiaries. Net investment hedge amounts included in the assessment of hedge effectiveness are recognized in AOCI.
+Changes in the fair value of hedge components of forward and option contracts that are excluded from the assessment of hedge effectiveness are recognized in OI&E. Hedge components of cross-currency swaps that are excluded from the assessment of hedge effectiveness are amortized over the life of the hedging instrument and recognized in OI&E. The difference between fair value changes of the excluded component and the amount amortized to OI&E is recorded in AOCI.
+We had no foreign currency-denominated debt as of December 31, 2024 and $15.4 billion carrying value of foreign currency-denominated debt designated as net investment hedges as of December 31, 2025.
+Derivatives Not Designated as Hedging Instruments
+We enter into derivatives not designated as hedging instruments to manage risks related to our ongoing business operations. The primary risk managed is foreign exchange risk related to the remeasurement of monetary assets or liabilities denominated in currencies other than the functional currency of a subsidiary. Gains and losses on these foreign exchange derivatives are recorded within the “foreign currency exchange gain (loss), net” component of OI&E.
+We also enter into derivatives to manage other risks, to enhance investment returns, and as a result of agreements with certain third parties to backstop certain obligations relating to data center leases. Gains and losses arising from other derivatives are primarily reflected within the “other” component of OI&E. See Note 7 for further details.
+The gross notional amounts of outstanding derivative instruments were as follows (in millions):
+As of December 31,
+2024 2025
+Derivatives designated as hedging instruments:
+Foreign exchange contracts
+Cash flow hedges $ 20,315 $ 23,852
+Fair value hedges $ 1,562 $ 0
+Net investment hedges $ 6,986 $ 14,203
+Derivatives not designated as hedging instruments:
+Foreign exchange contracts $ 44,227 $ 56,085
+Credit derivatives(1)
+$ 0 $ 16,940
+Other contracts $ 15,082 $ 15,900
+(1) Notional amounts for credit derivatives are the backstop obligations related to certain third-party data center leases and represent the maximum potential amount of future payments that could be required in the event of certain default scenarios over remaining agreement periods of up to 15 years. In the event we are required to make payments under certain backstop obligations, we may receive equity in or cash payments from certain counterparties, the amounts for which are not reflected in the notional amounts for credit derivatives. See Note 5 for further details.
+The fair values of outstanding derivative instruments were as follows (in millions):
+As of December 31, 2024 As of December 31, 2025
+Assets(1)
+Liabilities(2)
+Assets(1)
+Liabilities(2)
+Derivatives designated as hedging instruments:
+Foreign exchange contracts $ 1,054 $ 0 $ 316 $ 197
+Derivatives not designated as hedging instruments:
+Foreign exchange contracts 200 593 92 84
+Other contracts 474 19 324 98
+Total derivatives not designated as hedging instruments
+674 612 416 182
+Total
+$ 1,728 $ 612 $ 732 $ 379
+(1) Derivative assets are recorded as other current and non-current assets.
+(2) Derivative liabilities are recorded as accrued expenses and other liabilities, current and non-current.
+66.

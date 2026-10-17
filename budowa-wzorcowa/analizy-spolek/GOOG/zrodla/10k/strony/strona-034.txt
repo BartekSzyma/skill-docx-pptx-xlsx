@@ -1,0 +1,38 @@
+Table of Contents
+Alphabet Inc.
+YouTube ads
+YouTube ads revenues increased $4.2 billion from 2024 to 2025. The growth was driven by our direct response advertising products followed by our brand advertising products, both of which benefited from increased spending by our advertisers.
+Google Network
+Google Network revenues decreased $567 million from 2024 to 2025, primarily due to a decrease in AdSense revenues, partially offset by an increase in AdMob revenues.
+Monetization Metrics
+The following table presents changes in monetization metrics for Google Search & other revenues (paid clicks and cost-per-click) and Google Network revenues (impressions and cost-per-impression), expressed as a percentage, from 2024 to 2025:
+Google Search & other
+Paid clicks change 6 %
+Cost-per-click change 7 %
+Google Network
+Impressions change
+(7) %
+Cost-per-impression change
+7 %
+Changes in paid clicks and impressions are driven by a number of interrelated factors, including changes in advertiser spending; ongoing product and policy changes; and, as it relates to paid clicks, fluctuations in search queries resulting from changes in user adoption and usage, primarily on mobile devices.
+Changes in cost-per-click and cost-per-impression are driven by a number of interrelated factors including changes in device mix, geographic mix, advertiser spending, ongoing product and policy changes, product mix, property mix, and changes in foreign currency exchange rates.
+Google Subscriptions, Platforms, and Devices
+Google subscriptions, platforms, and devices revenues increased $7.7 billion from 2024 to 2025. The growth was primarily driven by an increase in subscriptions revenues. This increase was primarily due to the contribution from growth in paid subscriptions across both YouTube services and Google One.
+Google Cloud
+Google Cloud revenues increased $15.5 billion from 2024 to 2025, primarily driven by growth in Google Cloud Platform largely from infrastructure and platform services.
+Revenues by Geography
+The following table presents revenues by geography as a percentage of revenues, determined based on the addresses of our customers:
+Year Ended December 31,
+2024 2025
+United States 49 % 48 %
+EMEA(1)
+29 % 29 %
+APAC(1)
+16 % 17 %
+Other Americas(1)
+6 % 6 %
+Hedging gains (losses) 0 % 0 %
+(1) Regions represent Europe, the Middle East, and Africa (EMEA); Asia-Pacific (APAC); and Canada and Latin America ("Other Americas").
+For additional information, see Note 2 of the Notes to Consolidated Financial Statements included in Item 8 of this Annual Report on Form 10-K.
+Costs and Expenses
+34.

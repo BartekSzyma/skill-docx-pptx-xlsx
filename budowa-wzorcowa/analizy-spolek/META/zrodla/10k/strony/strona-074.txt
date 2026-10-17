@@ -1,0 +1,27 @@
+Table of Contents
+Foreign Exchange Impact on Revenue
+Changes in foreign exchange rates had an unfavorable impact on our revenue in the full year 2025 compared to the same period in 2024. To calculate revenue on a constant currency basis, we translated revenue using the prior year's monthly exchange rates for our settlement or billing currencies other than the U.S. dollar. Using these constant rates for full year 2025, our total revenue and advertising revenue would have been $201.38 billion and $196.60 billion, which were $418 million and $420 million higher than actual total revenue and advertising revenue, respectively.
+Cost of revenue
+Year Ended December 31,
+2025 2024 2023 2025 vs 2024 % change 2024 vs 2023 % change
+(in millions, except percentages)
+Cost of revenue $ 36,175 $ 30,161 $ 25,959 20 % 16 %
+Percentage of revenue 18 % 18 % 19 %
+Cost of revenue in 2025 increased $6.01 billion, or 20%, compared to 2024. The increase was mainly due to higher operational expenses related to our data centers and technical infrastructure, which included decreases in the depreciation growth rate due to an extension in the useful lives of servers and network assets, effective January 1, 2025. To a lesser extent, higher costs associated with partner arrangements also contributed to the increase.
+See Note 1 — Summary of Significant Accounting Policies in the notes to the consolidated financial statements included in Part II, Item 8, "Financial Statements and Supplementary Data" of this Annual Report on Form 10-K for additional information regarding changes in the estimated useful life of our servers and network assets.
+Research and development
+Year Ended December 31,
+2025 2024 2023 2025 vs 2024 % change 2024 vs 2023 % change
+(in millions, except percentages)
+Research and development $ 57,372 $ 43,873 $ 38,483 31 % 14 %
+Percentage of revenue 29 % 27 % 29 %
+Research and development expenses in 2025 increased $13.50 billion, or 31%, compared to 2024. The increase was mostly due to higher employee compensation and infrastructure costs related to research and development, including our AI initiatives.
+The higher employee compensation was primarily from an 8% growth in employee headcount from 2024 to 2025 in engineering and other technical functions and an increase in share-based compensation expense.
+Marketing and sales
+Year Ended December 31,
+2025 2024 2023 2025 vs 2024 % change 2024 vs 2023 % change
+(in millions, except percentages)
+Marketing and sales $ 11,991 $ 11,347 $ 12,301 6 % (8) %
+Percentage of revenue 6 % 7 % 9 %
+Marketing and sales expenses in 2025 increased $644 million, or 6%, compared to 2024. The increase was mainly due to higher professional services related to our ongoing platform integrity efforts.
+74

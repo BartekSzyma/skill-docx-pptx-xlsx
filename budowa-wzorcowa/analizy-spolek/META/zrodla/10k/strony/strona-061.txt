@@ -1,0 +1,29 @@
+Table of Contents
+Consolidated and Segment Results
+We report our financial results for our two reportable segments: Family of Apps (FoA) and Reality Labs (RL). FoA includes Facebook, Instagram, Messenger, WhatsApp, and other services. RL includes our virtual and augmented reality related consumer hardware, software, and content.
+Family of Apps Reality Labs Total
+Year Ended
+December 31, Year Ended
+December 31, Year Ended
+December 31,
+2025 2024 % change 2025 2024 % change 2025 2024 % change
+(in millions, except percentages)
+Revenue $ 198,759 $ 162,355 22% $ 2,207 $ 2,146 3% $ 200,966 $ 164,501 22%
+Costs and expenses 96,290 75,246 28% 21,400 19,875 8% 117,690 95,121 24%
+Income (loss) from operations $ 102,469 $ 87,109 18% $ (19,193) $ (17,729) (8)% $ 83,276 $ 69,380 20%
+Operating margin 52 % 54 % (870) % (826) % 41 % 42 %
+•Net income was $60.46 billion, with diluted earnings per share (EPS) of $23.49 for the year ended December 31, 2025.
+•Capital expenditures, including principal payments on finance leases, were $72.22 billion for the year ended December 31, 2025.
+•Share repurchases of our Class A common stock were $26.26 billion and total dividend and dividend equivalent payments were $5.32 billion for the year ended December 31, 2025.
+•Cash, cash equivalents, and marketable securities were $81.59 billion as of December 31, 2025.
+•Long-term debt was $58.74 billion as of December 31, 2025.
+•Effective tax rate was 30% for the year ended December 31, 2025. This includes the effects of the implementation of the One Big Beautiful Bill Act during the third quarter of 2025. Absent the valuation allowance charge as of the enactment date, our 2025 effective tax rate would have decreased by 17 percentage points to 13%.
+•Headcount was 78,865 as of December 31, 2025, an increase of 6% year-over-year.
+Family of Apps Metrics
+•Family daily active people (DAP) was 3.58 billion on average for December 2025, an increase of 7% year-over-year.
+•Ad impressions delivered across our Family of Apps increased by 12% year-over-year in 2025.
+•Average price per ad increased by 9% year-over-year in 2025.
+Developments in Advertising
+Substantially all of our revenue is currently generated from advertising on Facebook and Instagram. We rely on targeting and measurement tools that incorporate data signals from user activity on websites and services that we do not control, as well as signals generated within our products, in order to deliver relevant and effective ads to our users. Our advertising revenue has been, and we expect will continue to be, adversely affected by reduced marketer spending as a result of limitations on our ad targeting and measurement tools arising from changes to the regulatory environment and third-party mobile operating systems and browsers.
+In particular, legislative and regulatory developments such as the General Data Protection Regulation, including its evolving interpretation through decisions of the Court of Justice of the European Union, ePrivacy Directive, European Digital Services Act, Digital Markets Act, and U.S. state privacy laws have impacted our ability to use data signals in our ad products, and an increasing number of laws have been introduced limiting or prohibiting the provision of our services to younger users. We expect these and other developments will have further impact in the future. As a result, we have implemented, and we will continue to implement, whether voluntarily or otherwise, changes to our products and user data practices, which reduce our ability to effectively target and measure ads and may negatively impact our advertising revenue and user engagement. For example, in response to regulatory developments in Europe, we announced our plans to change the legal basis for behavioral advertising on Facebook and Instagram in the European Union, European Economic Area, and
+61

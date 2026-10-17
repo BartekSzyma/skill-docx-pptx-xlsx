@@ -1,0 +1,201 @@
+{
+  "model": "sonnet",
+  "data": "2026-10-17T01:56:00+00:00",
+  "wyniki": [
+    {
+      "id": "F-01",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Przychody za 2025 r. wynoszą 200 966 mln USD (pierwsza kolumna tabeli, dane w milionach), co zgadza się z wpisem."
+    },
+    {
+      "id": "F-02",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Przychody za 2024 r. wynoszą 164 501 mln USD (druga kolumna), co zgadza się z wpisem."
+    },
+    {
+      "id": "F-03",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Przychody za 2023 r. wynoszą 134 902 mln USD (trzecia kolumna), co zgadza się z wpisem."
+    },
+    {
+      "id": "F-04",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Zysk operacyjny (Income from operations) za 2025 r. wynosi 83 276 mln USD (pierwsza kolumna), co zgadza się z wpisem."
+    },
+    {
+      "id": "F-05",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Zysk operacyjny za 2024 r. wynosi 69 380 mln USD (druga kolumna), co zgadza się z wpisem."
+    },
+    {
+      "id": "F-06",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Zysk operacyjny za 2023 r. wynosi 46 751 mln USD (trzecia kolumna), co zgadza się z wpisem."
+    },
+    {
+      "id": "F-07",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Zysk netto za 2025 r. wynosi 60 458 mln USD (pierwsza kolumna, rachunek zysków i strat, str. 89), co zgadza się z wartością, okresem i jednostką."
+    },
+    {
+      "id": "F-08",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Rachunek przepływów pieniężnych (str. 92) podaje amortyzację za 2025 r. w wysokości 18 616 mln USD, zgodnie z wpisem."
+    },
+    {
+      "id": "F-09",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Zakup rzeczowych aktywów trwałych za 2025 r. to (69 691) mln USD, czyli wypływ ujęty jako wartość ujemna, co zgadza się z wpisem i jego opisem."
+    },
+    {
+      "id": "F-10",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Zysk przed opodatkowaniem za 2025 r. wynosi 85 932 mln USD (str. 89), zgodnie z wpisem."
+    },
+    {
+      "id": "F-11",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Provision for income taxes za 2025 r. wynosi 25 474 mln USD (str. 89), co odpowiada podatkowi dochodowemu we wpisie."
+    },
+    {
+      "id": "F-12",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Bilans na 31.12.2025 (str. 88) wykazuje gotówkę i ekwiwalenty w wysokości 35 873 mln USD (kolumna 2025), co zgadza się z wpisem."
+    },
+    {
+      "id": "F-13",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Bilans na stronie 88 podaje Marketable securities 45,719 mln USD na 31.12.2025 (pierwsza kolumna), co zgadza się z wpisem."
+    },
+    {
+      "id": "F-14",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strona 77 podaje, że gotówka, ekwiwalenty i papiery wartościowe wyniosły 81,59 mld USD na 31.12.2025, zgodnie z wpisem i jego jednostką."
+    },
+    {
+      "id": "F-15",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Bilans podaje Long-term debt 58,744 mln USD na koniec 2025 (pierwsza kolumna), co odpowiada wpisowi."
+    },
+    {
+      "id": "F-16",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Property and equipment, net wynosi 176,400 mln USD na 31.12.2025 (pierwsza kolumna), zgodnie z wpisem."
+    },
+    {
+      "id": "F-17",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Druga kolumna bilansu (2024) podaje Property and equipment, net 121,346 mln USD, co zgadza się z wpisem na 31.12.2024."
+    },
+    {
+      "id": "F-18",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Tabela segmentowa podaje przychody Family of Apps 198,759 mln USD w 2025 (pierwsza kolumna), co odpowiada wpisowi o zakresie segmentu."
+    },
+    {
+      "id": "F-19",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strona 126 podaje dla Family of Apps zysk operacyjny 102 469 mln USD w kolumnie 2025, co zgadza się z wartością, jednostką, okresem i zakresem segmentu."
+    },
+    {
+      "id": "F-20",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Przychody Reality Labs w kolumnie 2025 wynoszą 2 207 mln USD (2 146 w 2024), co zgadza się z wpisem."
+    },
+    {
+      "id": "F-21",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strata operacyjna Reality Labs za 2025 wynosi (19 193) mln USD, więc wartość -19193 mln USD jest zgodna ze źródłem."
+    },
+    {
+      "id": "F-22",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Okładka 10-K podaje 2 187 177 748 akcji klasy A w obrocie na dzień 23 stycznia 2026, co zgadza się z wartością i datą."
+    },
+    {
+      "id": "F-23",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Okładka 10-K podaje 342 377 716 akcji klasy B w obrocie na dzień 23 stycznia 2026, co zgadza się z wpisem."
+    },
+    {
+      "id": "F-24",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strona 61 podaje efektywną stopę podatkową 30% za 2025 r. wraz z efektem One Big Beautiful Bill Act (bez odpisu byłoby 13%), co odpowiada opisowi."
+    },
+    {
+      "id": "F-25",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Źródło (s. 77) podaje prognozę efektywnej stopy podatkowej na cały 2026 r. w przedziale 13-16%, więc dolna granica 13% się zgadza."
+    },
+    {
+      "id": "F-26",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Źródło (s. 77) podaje przedział 13-16% na cały 2026 r., więc górna granica 16% się zgadza."
+    },
+    {
+      "id": "F-27",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "W tabeli na s. 61 w kolumnie Total marża operacyjna wynosi 41% za 2025 r. (42% za 2024 r.), a wartość dotyczy całej spółki; obliczenie 83 276 / 200 966 też daje około 41%."
+    },
+    {
+      "id": "F-28",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Cytat ze s. 61 podaje DAP na poziomie 3,58 mld średnio w grudniu 2025 r. (wzrost o 7% r/r), co zgadza się z wartością, jednostką i okresem."
+    },
+    {
+      "id": "F-29",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Źródło (s. 6) mówi o wizji budowy superinteligencji definiowanej jako AI przewyższająca ludzką inteligencję, co zgadza się z opisem."
+    },
+    {
+      "id": "F-30",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Źródło (s. 7) stwierdza, że w 2025 r. wprowadzono Meta Ray-Ban Display, łączące okulary AI ze zintegrowanym wyświetlaczem w szkle, co zgadza się z opisem."
+    },
+    {
+      "id": "F-31",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strona 7 zawiera dokładnie to zdanie: w 2026 r. ok. 70% kosztów operacyjnych Reality Labs na urządzenia noszone, 30% na VR i Horizon."
+    },
+    {
+      "id": "F-32",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strona 51 podaje, że spółka posiada 30 lokalizacji centrów danych na świecie (własnych, dodatkowo część dzierżawi), stan na koniec 2025 r."
+    },
+    {
+      "id": "F-33",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strona 77 podaje plan nakładów inwestycyjnych na 2026 r. w przedziale ok. 115-135 mld USD, więc dolna granica to 115 mld USD."
+    },
+    {
+      "id": "F-34",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strona 77 podaje plan nakładów inwestycyjnych na 2026 r. w przedziale ok. 115-135 mld USD, więc górna granica to 135 mld USD."
+    },
+    {
+      "id": "F-35",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strona 15 stwierdza, że niemal całość przychodów pochodzi z reklam, a utrata reklamodawców lub cięcie ich wydatków mogą poważnie zaszkodzić biznesowi."
+    },
+    {
+      "id": "F-36",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Strona 26 mówi, że inwestycje w AI i Reality Labs obniżają marżę operacyjną i rentowność, a ich niepowodzenie w dłuższym terminie zaszkodzi biznesowi i wynikom finansowym."
+    },
+    {
+      "id": "F-37",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Cytat jest dosłownie w podsumowaniu czynników ryzyka na stronie 12 raportu 10-K i dotyczy złożonych, zmieniających się przepisów (prywatność, dane, konkurencja, AI w postaci EU AI Act), co zgadza się z opisem wpisu."
+    },
+    {
+      "id": "R-01",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Ostatnia wartość w tablicy close to 709,33 USD (709,3300), co zaokrągla się do 709,33, waluta USD, giełda Nasdaq, a ostatni znacznik czasu odpowiada sesji z piątku 2026-10-16, zgodnie z datą pobrania 2026-10-17."
+    },
+    {
+      "id": "R-02",
+      "werdykt": "potwierdza",
+      "uzasadnienie": "Plik CSV serii DGS10 zawiera wiersz 2026-10-15,5.10, więc wartość 5,1% i data się zgadzają."
+    }
+  ]
+}

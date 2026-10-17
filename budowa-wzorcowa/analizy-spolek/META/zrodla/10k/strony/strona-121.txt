@@ -1,0 +1,33 @@
+Table of Contents
+Note 13. Interest and Other Income, Net
+The following table presents the detail of interest and other income, net (in millions):
+Year Ended December 31,
+2025 2024 2023
+Interest income $ 2,123 $ 2,517 $ 1,639
+Interest expense (1,165) (715) (446)
+Foreign currency exchange gains (losses), net 352 (690) (366)
+Other income (expense), net 1,346 171 (150)
+Total interest and other income, net $ 2,656 $ 1,283 $ 677
+Note 14. Income Taxes
+The components of income before provision for income taxes are as follows (in millions):
+Year Ended December 31,
+2025 2024 2023
+Domestic $ 79,644 $ 66,342 $ 43,499
+Foreign 6,288 4,321 3,929
+Income before provision for income taxes $ 85,932 $ 70,663 $ 47,428
+The provision for income taxes consists of the following (in millions):
+Year Ended December 31,
+2025 2024 2023
+Current:
+Federal $ 2,820 $ 9,569 $ 4,934
+State 745 775 577
+Foreign 3,154 2,696 2,688
+Total current tax expense 6,719 13,040 8,199
+Deferred:
+Federal 18,379 (4,709) 67
+State 395 (43) 123
+Foreign (19) 15 (59)
+Total deferred tax (benefits) expense 18,755 (4,737) 131
+Provision for income taxes $ 25,474 $ 8,303 $ 8,330
+As a result of the implementation of the One Big Beautiful Bill Act (OBBBA) enacted in July 2025, we expect to incur Corporate Alternative Minimum Tax (CAMT) beginning in 2025. We recorded a $15.93 billion charge in the third quarter of 2025, of which $14.03 billion was a valuation allowance against our U.S. federal deferred tax assets as of the enactment date of OBBBA, and the remaining was mostly related to the reduction of the benefit of the foreign-derived intangible income deduction. In determining the valuation allowance, our accounting policy incorporates the expected impact of future years’ CAMT in assessing the realizability of our deferred tax assets.
+121

@@ -1,0 +1,4 @@
+Table of Contents
+•Average Price Per Ad. We calculate average price per ad as total advertising revenue divided by the number of ads delivered.
+Note: Our average price per ad growth by user geography in the charts above is geographically apportioned based on our estimation of the geographic location of our users when an ad impression is delivered.
+68

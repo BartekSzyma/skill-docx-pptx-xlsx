@@ -1,0 +1,33 @@
+Table of Contents
+Alphabet Inc.
+The notes in the table above are senior unsecured obligations and rank equally with each other. We may redeem the fixed-rate notes at any time in whole or in part at specified redemption prices. The floating-rate notes are not redeemable prior to maturity. Interest is payable quarterly for the floating-rate notes, semi-annually for the US dollar-denominated fixed-rate notes, and annually for the euro-denominated fixed-rate notes. The effective interest rates are based on proceeds received and contractual interest payments.
+The total estimated fair value of the outstanding notes was approximately $9.0 billion and $45.6 billion as of December 31, 2024 and December 31, 2025, respectively. The fair value was determined based on observable market prices of identical instruments in less active markets and is categorized accordingly as Level 2 in the fair value hierarchy.
+As of December 31, 2025, the future principal payments for long-term debt were as follows (in millions):
+2026 $ 2,000
+2027 1,000
+2028 2,676
+2029 1,764
+2030 5,500
+Thereafter 36,145
+Total $ 49,085
+Credit Facility
+As of December 31, 2025, we had $10.0 billion of revolving credit facilities, of which $4.0 billion expires in April 2026 and $6.0 billion expires in April 2030. The interest rates for all credit facilities are determined based on a formula using certain market rates. No amounts were outstanding under the credit facilities as of December 31, 2024 and 2025.
+Note 7. Supplemental Financial Statement Information
+Accounts Receivable
+The allowance for credit losses on accounts receivable was $879 million and $924 million as of December 31, 2024 and 2025, respectively.
+Property and Equipment, Net
+Property and equipment, net, consisted of the following (in millions):
+As of December 31,
+2024 2025
+Technical infrastructure(1)
+$ 141,852 $ 203,679
+Office space 45,403 48,348
+Corporate and other assets 12,574 14,463
+Property and equipment, in service 199,829 266,490
+Less: accumulated depreciation (79,390) (98,485)
+Add: assets not yet in service 50,597 78,592
+Property and equipment, net $ 171,036 $ 246,597
+(1) As of December 31, 2024 and 2025, approximately 60% of technical infrastructure assets were comprised of servers and network equipment. The remaining balance was comprised of data center land and buildings and related assets.
+Accrued Expenses and Other Current Liabilities
+Accrued expenses and other current liabilities consisted of the following (in millions):
+72.

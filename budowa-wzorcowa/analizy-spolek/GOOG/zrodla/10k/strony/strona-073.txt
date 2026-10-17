@@ -1,0 +1,34 @@
+Table of Contents
+Alphabet Inc.
+As of December 31,
+2024 2025
+Accrued fines and settlements(1)
+$ 9,830 $ 15,594
+Accrued purchases of property and equipment 7,104 8,877
+Accrued customer liabilities 4,304 5,029
+Payables to brokers for unsettled investment trades 3,866 950
+Income taxes payable, net 2,905 523
+Other accrued expenses and current liabilities 23,219 24,584
+Accrued expenses and other current liabilities $ 51,228 $ 55,557
+(1) See Legal Matters in Note 10 for further details.
+Accumulated Other Comprehensive Income (Loss)
+Components of AOCI, net of income tax, were as follows (in millions):
+Foreign Currency Translation Adjustments Unrealized Gains (Losses) on Available-for-Sale Investments Unrealized Gains (Losses) on Cash Flow Hedges Total
+Balance as of December 31, 2022 $ (4,142) $ (3,477) $ 16 $ (7,603)
+Other comprehensive income (loss) before reclassifications 735 1,344 84 2,163
+Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 0 0 84 84
+Amounts reclassified from AOCI 0 1,168 (214) 954
+Other comprehensive income (loss) 735 2,512 (46) 3,201
+Balance as of December 31, 2023 (3,407) (965) (30) (4,402)
+Other comprehensive income (loss) before reclassifications (1,673) (116) 698 (1,091)
+Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 0 0 77 77
+Amounts reclassified from AOCI 0 782 (166) 616
+Other comprehensive income (loss) (1,673) 666 609 (398)
+Balance as of December 31, 2024 (5,080) (299) 579 (4,800)
+Other comprehensive income (loss) before reclassifications 2,511 1,146 (734) 2,923
+Amounts excluded from the assessment of hedge effectiveness recorded in AOCI 11 0 (45) (34)
+Amounts reclassified from AOCI 0 (169) 164 (5)
+Other comprehensive income (loss) 2,522 977 (615) 2,884
+Balance as of December 31, 2025 $ (2,558) $ 678 $ (36) $ (1,916)
+The effects on net income of amounts reclassified from AOCI were as follows (in millions):
+73.

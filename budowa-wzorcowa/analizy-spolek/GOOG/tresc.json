@@ -1,0 +1,47 @@
+{
+  "prezentacja": {
+    "karty": [
+      {"wartosc": "{F-07}", "opis": "zysk netto w 2025 r."},
+      {"wartosc": "{wycena.marza_operacyjna_2025_proc|1}%", "opis": "marża operacyjna w 2025 r."},
+      {"wartosc": "{F-32}", "opis": "portfel zamówień na koniec 2025 r., głównie Google Cloud"}
+    ],
+    "slajd_dodatkowy": {
+      "tytul": "AI i segmenty Alphabet",
+      "podtytul": "Google Services zarabia najwięcej, Google Cloud rośnie",
+      "punkty": [
+        {"tekst": "Gemini 3 to według spółki jej najbardziej inteligentny model AI", "id": ["F-29"]},
+        {"tekst": "Modele Gemini działają we wszystkich {F-30|bez_jedn} produktach z ponad pół miliardem użytkowników"},
+        {"tekst": "Własne układy AI: Ironwood, TPU siódmej generacji", "id": ["F-31"]},
+        {"tekst": "Zysk operacyjny Google Cloud: {F-26}; strata Other Bets: {F-27|abs}"}
+      ],
+      "wykres": {"tytul": "Przychody segmentów w 2025 r., mln USD", "kategorie": ["Google Services", "Google Cloud", "Other Bets"],
+                 "wartosci": ["F-22", "F-23", "F-24"], "zrodlo": "Item 7, raport 10-K, s. 33"}
+    },
+    "projekty": [
+      {"grafika": "G-01", "tytul": "Waymo", "podtytul": "Autonomiczne przejazdy w segmencie Other Bets",
+       "punkty": [
+         {"tekst": "Waymo świadczy w pełni autonomiczne, płatne przejazdy w wielu miastach", "id": ["F-33"]},
+         {"tekst": "W lutym 2026 r. Waymo ogłosiło rundę finansowania {F-34}, w większości od Alphabet"},
+         {"tekst": "Strata operacyjna całego segmentu Other Bets w 2025 r.: {F-27|abs}"}
+       ]},
+      {"grafika": "G-02", "tytul": "Infrastruktura i centra danych", "podtytul": "Największy kierunek nakładów inwestycyjnych",
+       "punkty": [
+         {"tekst": "Nakłady inwestycyjne w 2025 r.: {F-09|abs}"},
+         {"tekst": "Majątek trwały netto wzrósł z {F-16} do {F-15} w ciągu 2025 r."},
+         {"tekst": "W 2026 r. spółka zapowiada znaczący wzrost inwestycji w serwery, sieć i centra danych", "id": ["F-36"]}
+       ]}
+    ]
+  },
+  "notatka": {
+    "wnioski": [
+      {"naglowek": "Szybki wzrost przy wysokiej rentowności", "tekst": "przychody wzrosły z {F-02} w 2024 r. do {F-01} w 2025 r., a zysk netto wyniósł {F-07}."},
+      {"naglowek": "Rekordowe inwestycje w infrastrukturę", "tekst": "nakłady w 2025 r. wyniosły {F-09|abs}, a na 2026 r. spółka zapowiada ich znaczący wzrost.", "id": ["F-36"]},
+      {"naglowek": "Wycena DCF wyraźnie poniżej kursu", "tekst": "przy naszych założeniach wartość akcji to {wycena.wartosc_jednej_akcji_usd|2} USD wobec kursu {wycena.kurs_usd|2} USD ({wycena.roznica_proc|1}%); wynik zależy głównie od WACC i nakładów."}
+    ],
+    "projekty": [
+      {"naglowek": "Google Cloud", "tekst": "przychody segmentu wzrosły z {F-28} do {F-23}, a portfel zamówień na koniec 2025 r. to {F-32}."},
+      {"naglowek": "Gemini i własne układy AI", "tekst": "modele Gemini działają we wszystkich {F-30|bez_jedn} produktach z ponad pół miliardem użytkowników; spółka rozwija własne układy TPU (Ironwood).", "id": ["F-31"]},
+      {"naglowek": "Waymo", "tekst": "w pełni autonomiczne, płatne przejazdy w wielu miastach; w lutym 2026 r. runda finansowania {F-34}, głównie od Alphabet.", "id": ["F-33"]}
+    ]
+  }
+}

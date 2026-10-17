@@ -1,0 +1,37 @@
+Table of Contents
+Note 7. Leases
+We have entered into various non-cancelable operating and finance lease agreements mostly for our data centers, offices, and certain network infrastructure. Our leases have original lease periods expiring between 2026 and 2093. Many leases include one or more options to renew.
+The components of lease costs are as follows (in millions):
+Year Ended December 31,
+2025 2024 2023
+Finance lease cost:
+Amortization of right-of-use assets $ 549 $ 387 $ 349
+Interest 31 23 20
+Operating lease cost 2,798 2,359 2,091
+Variable lease cost and other 1,147 844 580
+Total $ 4,525 $ 3,613 $ 3,040
+Impairment losses for operating lease right-of-use assets were not material for the year ended December 31, 2025. For the years ended December 31, 2024 and 2023, $385 million and $1.76 billion were recorded as impairment losses for operating lease right-of-use assets, respectively.
+Supplemental balance sheet information related to lease liabilities is as follows:
+December 31,
+2025 2024
+Weighted-average remaining lease term:
+Finance leases 15.1 years 13.7 years
+Operating leases 12.3 years 11.5 years
+Weighted-average discount rate:
+Finance leases 4.1 % 3.6 %
+Operating leases 4.3 % 3.9 %
+The following is a schedule, by years, of maturities of lease liabilities as of December 31, 2025 (in millions):
+Operating Leases Finance Leases
+2026 $ 3,211 $ 344
+2027 3,237 97
+2028 3,057 97
+2029 2,985 88
+2030 2,621 86
+Thereafter 18,397 792
+Total undiscounted cash flows 33,508 1,504
+Less: Imputed interest (8,355) (320)
+Present value of lease liabilities $ 25,153 $ 1,184
+Lease liabilities, current $ 2,213 $ 308
+Lease liabilities, non-current 22,940 876
+Present value of lease liabilities $ 25,153 $ 1,184
+108

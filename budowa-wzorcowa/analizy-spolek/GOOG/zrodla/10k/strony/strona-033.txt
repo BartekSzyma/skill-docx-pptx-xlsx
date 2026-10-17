@@ -1,0 +1,33 @@
+Table of Contents
+Alphabet Inc.
+•In 2025, we entered into definitive agreements to acquire Wiz, a leading cloud security platform, for $32.0 billion, and Intersect, a provider of data center and energy infrastructure solutions, for $4.8 billion in cash plus the assumption of debt. Both acquisitions are expected to close in 2026, subject to customary closing conditions, including the receipt of regulatory approvals.
+•In 2025, we issued senior unsecured notes for net proceeds of $37.3 billion, to be used for general corporate purposes.
+•OI&E of $29.8 billion for the year ended December 31, 2025 included net gains on equity securities of $24.1 billion, primarily related to unrealized gains on our non-marketable equity securities.
+•Other Bets operating loss of $7.5 billion for the year ended December 31, 2025 included a $2.1 billion employee compensation charge recognized in the fourth quarter for Waymo, primarily reflected in research and development expenses, based on estimated stock valuation. In February 2026, Waymo announced an investment round of $16.0 billion, the significant majority of which was funded by Alphabet.
+•Changes to U.S. tax law enacted on July 4, 2025, allow, among other things, for immediate expensing of domestic research and experimentation costs and accelerated depreciation on eligible capital expenditures, the effects of which are included in operating cash flows for the year ended December 31, 2025.
+•Repurchases of Class A and Class C shares were $6.5 billion and $38.9 billion, respectively, totaling $45.4 billion for the year ended December 31, 2025.
+•Operating cash flow was $164.7 billion for the year ended December 31, 2025.
+•Capital expenditures, which primarily reflected investments in technical infrastructure, were $91.4 billion for the year ended December 31, 2025.
+•As of December 31, 2025, we had 190,820 employees.
+We are monitoring ongoing developments surrounding international trade and the macroeconomic environment. As a result of volatility in international trade and financial markets, we may experience direct and indirect effects on our business, operations, and financial results. Our past results may not be indicative of our future performance, and our financial results may differ materially from historical trends.
+Financial Results
+Revenues
+The following table presents revenues by type (in millions):
+Year Ended December 31,
+2024 2025
+Google Search & other $ 198,084 $ 224,532
+YouTube ads 36,147 40,367
+Google Network 30,359 29,792
+Google advertising 264,590 294,691
+Google subscriptions, platforms, and devices
+40,340 48,030
+Google Services total 304,930 342,721
+Google Cloud 43,229 58,705
+Other Bets 1,648 1,537
+Hedging gains (losses) 211 (127)
+Total revenues $ 350,018 $ 402,836
+Google Services
+Google Advertising
+Google Search & other
+Google Search & other revenues increased $26.4 billion from 2024 to 2025. The overall growth was driven by interrelated factors including increases in search queries resulting from growth in user adoption and usage on mobile devices; growth in advertiser spending; and improvements we have made in ad formats and delivery.
+33.

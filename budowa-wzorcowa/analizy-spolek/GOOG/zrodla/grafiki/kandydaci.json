@@ -1,0 +1,36 @@
+[
+  {
+    "plik": "waymo-jaguar-i-pace-in-san-francisco-2023-dllu.jpg",
+    "tytul": "File:Waymo Jaguar I-Pace in San Francisco 2023 dllu.jpg",
+    "opis_commons": "A Waymo -operated Jaguar I-Pace in San Francisco. The vehicle is operating autonomously without any person in the driver's seat.",
+    "autor": "Dllu",
+    "licencja": "CC BY 4.0",
+    "licencja_url": "https://creativecommons.org/licenses/by/4.0",
+    "url_strony": "https://commons.wikimedia.org/wiki/File:Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg",
+    "url_obrazu": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg/1280px-Waymo_Jaguar_I-Pace_in_San_Francisco_2023_dllu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "rozmiar_px": [
+      1280,
+      960
+    ],
+    "zapytanie": "Waymo Jaguar I-Pace",
+    "projekt": "F-33",
+    "data_pobrania": "2026-10-17"
+  },
+  {
+    "plik": "google-data-center-council-bluffs-iowa-49062863796.jpg",
+    "tytul": "File:Google Data Center, Council Bluffs Iowa (49062863796).jpg",
+    "opis_commons": "Aerial view of the Google Data Center in Council Bluffs, IA",
+    "autor": "Chad Davis",
+    "licencja": "CC BY 2.0",
+    "licencja_url": "https://creativecommons.org/licenses/by/2.0",
+    "url_strony": "https://commons.wikimedia.org/wiki/File:Google_Data_Center,_Council_Bluffs_Iowa_(49062863796).jpg",
+    "url_obrazu": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Google_Data_Center%2C_Council_Bluffs_Iowa_%2849062863796%29.jpg/1280px-Google_Data_Center%2C_Council_Bluffs_Iowa_%2849062863796%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "rozmiar_px": [
+      1280,
+      720
+    ],
+    "zapytanie": "Google data center",
+    "projekt": "F-36",
+    "data_pobrania": "2026-10-17"
+  }
+]

@@ -1,0 +1,24 @@
+Table of Contents
+Alphabet Inc.
+Net cash provided by operating activities increased from 2024 to 2025 due to an increase in cash received from customers, partially offset by an increase in cash payments for cost of revenues and operating expenses.
+Cash Used in Investing Activities
+Cash provided by investing activities consists primarily of maturities and sales of investments in marketable and non-marketable securities. Cash used in investing activities consists primarily of purchases of marketable and non-marketable securities, purchases of property and equipment, and payments for acquisitions.
+Net cash used in investing activities increased from 2024 to 2025, primarily due to an increase in purchases of property and equipment, driven by investments in technical infrastructure, and a decrease in maturities and sales of marketable securities.
+Cash Used in Financing Activities
+Cash provided by financing activities consists primarily of proceeds from issuance of debt and proceeds from the sale of interests in consolidated entities. Cash used in financing activities consists primarily of repurchases of stock, repayments of debt, net payments related to stock-based award activities, and dividend payments.
+Net cash used in financing activities decreased from 2024 to 2025 due to an increase in proceeds from issuance of debt and a decrease in repurchases of stock, partially offset by repayments of debt.
+Liquidity and Material Cash Requirements
+We expect existing cash, cash equivalents, short-term marketable securities, and cash flows from operations and financing activities to continue to be sufficient to fund our operating activities and cash commitments for investing and financing activities for at least the next 12 months, and thereafter for the foreseeable future.
+Capital Expenditures and Leases
+We make investments in land, buildings, and servers and network equipment through purchases of property and equipment and lease arrangements to provide capacity for the growth of our services and products.
+Capital Expenditures
+Our capital investments in property and equipment consist primarily of the following major categories:
+•technical infrastructure, which consists of our investments in servers and network equipment, data center land, and building construction and improvements; and
+•office facilities, ground-up development projects, and building improvements.
+Assets not yet in service are those that are not ready for their intended use, including assets in the process of construction or assembly, and consist primarily of technical infrastructure. The time frame from date of purchase to placement in service of these assets may extend from months to years. For example, our data center construction projects are generally multi-year projects with multiple phases, where we acquire land and buildings, construct buildings, and secure and install servers and network equipment.
+During the years ended December 31, 2024 and 2025, we spent $52.5 billion and $91.4 billion on capital expenditures, respectively. In 2026, we expect to significantly increase, relative to 2025, our investment in our technical infrastructure, including servers and network equipment, and data centers. Depreciation of our property and equipment commences when such assets are ready for their intended use. For the years ended December 31, 2024 and 2025, our depreciation on property and equipment was $15.3 billion and $21.1 billion, respectively.
+Leases
+As of December 31, 2025, the amount of total undiscounted future lease payments under operating leases was $18.3 billion, of which $3.3 billion is short-term, and total undiscounted future lease payments under finance leases was $2.9 billion, of which $491 million is short-term.
+As of December 31, 2025, we have entered into leases primarily related to data centers that have not yet commenced with short-term and long-term future lease payments of $5.8 billion and $52.7 billion, respectively. These leases will commence between 2026 and 2031 with non-cancelable lease terms primarily between one and 25 years.
+In January 2026, we executed a power purchase agreement which we expect to be accounted for as a lease resulting in future payments depending on certain agreement terms of $9.9 billion between 2027 and 2047. If certain contractual conditions for the project are not met, we would instead make a one-time payment of approximately $3.5 billion and assume ownership of the power generating assets.
+38.

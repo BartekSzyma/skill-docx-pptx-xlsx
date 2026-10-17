@@ -1,0 +1,40 @@
+Table of Contents
+Alphabet Inc.
+As of December 31, 2024
+Adjusted Cost Gross Unrealized Gains Gross Unrealized Losses Fair Value
+Time deposits $ 2,217 $ 0 $ 0 $ 2,217
+Government bonds 27,551 83 (214) 27,420
+Corporate debt securities 18,300 79 (222) 18,157
+Mortgage-backed and asset-backed securities 14,437 63 (385) 14,115
+Total investments with fair value change reflected in other comprehensive income
+$ 62,505 $ 225 $ (821) $ 61,909
+As of December 31, 2025
+Adjusted Cost Gross Unrealized Gains Gross Unrealized Losses Fair Value
+Time deposits $ 3,353 $ 0 $ 0 $ 3,353
+Government bonds 49,087 443 (26) 49,504
+Corporate debt securities 18,346 242 (32) 18,556
+Mortgage-backed and asset-backed securities 14,337 174 (128) 14,383
+Total investments with fair value change reflected in other comprehensive income
+$ 85,123 $ 859 $ (186) $ 85,796
+The following tables present fair values and gross unrealized losses recorded to AOCI, aggregated by investment category and the length of time that individual securities have been in a continuous loss position (in millions):
+As of December 31, 2024
+Less than 12 Months 12 Months or Greater Total
+Fair Value Unrealized
+Loss Fair Value Unrealized
+Loss Fair Value Unrealized
+Loss
+Government bonds $ 11,119 $ (126) $ 2,576 $ (88) $ 13,695 $ (214)
+Corporate debt securities 4,228 (17) 6,838 (168) 11,066 (185)
+Mortgage-backed and asset-backed securities 5,222 (106) 3,813 (279) 9,035 (385)
+Total $ 20,569 $ (249) $ 13,227 $ (535) $ 33,796 $ (784)
+As of December 31, 2025
+Less than 12 Months 12 Months or Greater Total
+Fair Value Unrealized
+Loss Fair Value Unrealized
+Loss Fair Value Unrealized
+Loss
+Government bonds $ 4,230 $ (9) $ 1,174 $ (17) $ 5,404 $ (26)
+Corporate debt securities 915 0 2,429 (24) 3,344 (24)
+Mortgage-backed and asset-backed securities 1,377 (4) 3,035 (124) 4,412 (128)
+Total $ 6,522 $ (13) $ 6,638 $ (165) $ 13,160 $ (178)
+63.
