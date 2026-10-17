@@ -13,3 +13,9 @@ def test_utnij_pole_wpisywania_usuwa_dolny_pasek():
     from ansi_do_png import utnij_pole_wpisywania
     tekst = "odpowiedź\n" + "─" * 10 + "\n❯ podpowiedź\n" + "─" * 10 + "\n  auto mode on"
     assert utnij_pole_wpisywania(tekst) == "odpowiedź"
+
+
+def test_anonimizuj_zamienia_nazwe_konta_w_sciezce():
+    from ansi_do_png import anonimizuj
+    assert anonimizuj(r"plik C:\Users\Jan.Kowalski\AppData\x.py") == r"plik C:\Users\kursant\AppData\x.py"
+    assert anonimizuj(r"C:\Programowanie\x") == r"C:\Programowanie\x"

@@ -2,10 +2,12 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { zaladuj, j } from './zaladuj.mjs';
 import { wypiszPrompt } from '../tools/wypisz-prompt.mjs';
+import { existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 
 const A = zaladuj();
 const elementy = () => A.INSTRUKCJA.flatMap((s) => s.elementy);
-const TYPY = new Set(['tekst', 'komenda', 'sprawdz', 'uwaga', 'wazne', 'mac', 'zrzut', 'prompt', 'plik', 'dlaczego', 'schemat']);
+const TYPY = new Set(['tekst', 'komenda', 'sprawdz', 'uwaga', 'wazne', 'mac', 'zrzut', 'prompt', 'plik', 'dlaczego', 'schemat', 'animacja']);
 
 test('sekcje mają unikalne ASCII id i tytuły numerowane od 0 po kolei', () => {
   assert.ok(A.INSTRUKCJA.length > 0);
@@ -73,4 +75,31 @@ test('każdy krok z promptem ma ramkę „Co się dzieje i po co” i punkt „S
 test('wymagania systemowe wymieniają Python, LibreOffice i MS Office', () => {
   const zanim = A.INSTRUKCJA[0].elementy.map((e) => e.html || '').join(' ');
   for (const w of ['Python 3.11', 'LibreOffice', 'MS Office']) assert.ok(zanim.includes(w), w);
+});
+
+test('każda animacja z ANIMACJE użyta dokładnie raz i ma podpis', () => {
+  const uzyte = elementy().filter((e) => e.typ === 'animacja').map((e) => e.klucz).sort();
+  assert.deepEqual(j(uzyte), Object.keys(A.ANIMACJE).sort());
+  for (const [klucz, a] of Object.entries(A.ANIMACJE)) {
+    assert.ok(a.podpis.length > 0, klucz);
+    assert.ok(a.rodzaj === 'eksplorator' || Array.isArray(a.kroki), klucz);
+  }
+});
+
+test('konstruktor pytania pomija puste pola i zawsze dodaje kontekst oraz zadanie', () => {
+  const pytanie = A.zlozPytanie('Krok 2: ledger', { zrobilem: 'Wkleiłem P2.', widze: '  ', oczekiwalem: '' });
+  assert.match(pytanie, /^\[KONTEKST\]\n.*Krok 2: ledger/);
+  assert.match(pytanie, /\[CO ZROBIŁEM\]\nWkleiłem P2\./);
+  assert.doesNotMatch(pytanie, /CO WIDZĘ|CZEGO SIĘ/);
+  assert.match(pytanie, /\[ZADANIE\]\n.*Nie łagodź/);
+});
+
+test('linki do dokumentów z budowy wzorcowej prowadzą do istniejących plików Office', () => {
+  const html = elementy().map((e) => e.html || '').join(' ');
+  const linki = [...html.matchAll(/href="(budowa-wzorcowa\/[^"]+)"/g)].map((m) => m[1]);
+  assert.ok(new Set(linki).size >= 6, `za mało linków: ${new Set(linki).size}`);
+  for (const l of linki) {
+    assert.match(l, /\.(xlsx|pptx|docx)$/, l);
+    assert.ok(existsSync(fileURLToPath(new URL(`../${l}`, import.meta.url))), l);
+  }
 });

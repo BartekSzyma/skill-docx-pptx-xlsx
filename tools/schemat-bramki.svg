@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" font-family="Segoe UI, sans-serif" font-size="14">
+  <defs>
+    <marker id="bz" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+    <marker id="bc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+  </defs>
+  <g stroke="#16a34a" stroke-width="2.5" fill="none" marker-end="url(#bz)">
+    <path d="M175,90 L208,90"/>
+    <path d="M415,90 L448,90"/>
+    <path d="M675,90 L708,90"/>
+    <path d="M800,150 L800,228"/>
+  </g>
+  <g stroke="#dc2626" stroke-width="2.5" fill="none" marker-end="url(#bc)">
+    <path d="M312,150 L312,228"/>
+    <path d="M562,150 L562,228"/>
+    <path d="M210,262 L92,262 L92,152"/>
+  </g>
+  <g stroke-width="2">
+    <rect x="10" y="30" width="165" height="120" rx="10" fill="#faf5ff" stroke="#7c3aed"/>
+    <rect x="210" y="30" width="205" height="120" rx="10" fill="#f0fdf4" stroke="#16a34a"/>
+    <rect x="450" y="30" width="225" height="120" rx="10" fill="#ecfeff" stroke="#0891b2"/>
+    <rect x="710" y="30" width="180" height="120" rx="10" fill="#fefce8" stroke="#ca8a04"/>
+    <rect x="210" y="230" width="465" height="64" rx="10" fill="#fef2f2" stroke="#dc2626"/>
+    <rect x="710" y="230" width="180" height="120" rx="10" fill="#f8fafc" stroke="#475569"/>
+  </g>
+  <g fill="#0f172a" text-anchor="middle">
+    <text x="92" y="55" font-weight="700">Ledger</text>
+    <text x="92" y="77">fakty, dane rynkowe,</text>
+    <text x="92" y="96">założenia, grafiki</text>
+    <text x="92" y="118">każdy wpis: źródło,</text>
+    <text x="92" y="137">strona i cytat</text>
+    <text x="312" y="55" font-weight="700">Bramka 1: skrypt</text>
+    <text x="312" y="77">czy cytat jest na</text>
+    <text x="312" y="96">podanej stronie?</text>
+    <text x="312" y="115">czy liczba jest w cytacie?</text>
+    <text x="312" y="137" fill="#475569">bez AI, zawsze tak samo</text>
+    <text x="562" y="55" font-weight="700">Bramka 2: inny model</text>
+    <text x="562" y="77">nie zna naszej rozmowy</text>
+    <text x="562" y="96">czy cytat potwierdza liczbę,</text>
+    <text x="562" y="115">rok, jednostkę i zakres?</text>
+    <text x="562" y="137" fill="#475569">claude -p, Sonnet, po 6 wpisów</text>
+    <text x="800" y="55" font-weight="700">status.json</text>
+    <text x="800" y="77">"ok": true tylko gdy</text>
+    <text x="800" y="96">wszystko przeszło</text>
+    <text x="800" y="115">+ odcisk (SHA-256)</text>
+    <text x="800" y="134">pliku ledgera</text>
+    <text x="442" y="256" font-weight="700">Popraw wpis w ledgerze na podstawie źródła</text>
+    <text x="442" y="279">nigdy nie łagodź skryptu bramki; potem weryfikacja od nowa</text>
+    <text x="800" y="255" font-weight="700">Generatory dokumentów</text>
+    <text x="800" y="277">na starcie sprawdzają:</text>
+    <text x="800" y="296">status ok i odcisk pasuje?</text>
+    <text x="800" y="318" fill="#16a34a" font-weight="700">tak: Excel, PPT, Word</text>
+    <text x="800" y="338" fill="#dc2626" font-weight="700">nie: STOP</text>
+  </g>
+  <g font-size="13" font-weight="700">
+    <text x="432" y="80" fill="#16a34a" text-anchor="middle">ok</text>
+    <text x="692" y="80" fill="#16a34a" text-anchor="middle">ok</text>
+    <text x="320" y="196" fill="#dc2626">błąd</text>
+    <text x="570" y="196" fill="#dc2626">nie potwierdza / niejasne</text>
+    <text x="100" y="200" fill="#dc2626">ponowna weryfikacja</text>
+  </g>
+  <g fill="#334155" font-size="13">
+    <text x="10" y="378">Zielona strzałka: wpis przeszedł kontrolę. Czerwona: wpis wraca do poprawki w ledgerze.</text>
+    <text x="10" y="400">Zmiana ledgera po weryfikacji zmienia odcisk, więc generatory odmówią pracy, dopóki weryfikacja nie przejdzie ponownie.</text>
+  </g>
+</svg>

@@ -97,7 +97,7 @@ koncie Max przez profil kursowy; uczestnicy mają Pro - czasy będą podobne, li
 - **Wyniki uczestników będą inne** (kurs, rentowność, wybór założeń i zdjęć przez model) - instrukcja to mówi.
 - **Zdjęcia:** dla części projektów Commons nie ma zdjęć (GOOG: 2 zamiast 3-4); skill to uczciwie raportuje.
 - **Zrzut z pytaniem o zaufanie** pokazuje ścieżkę `C:\tmp\demo\analizy-spolek`, a jeden kadr (P2) ścieżkę tymczasową
-  z nazwą Twojego konta Windows - jeśli to przeszkadza przy publikacji, do podmiany.
+  z nazwą Twojego konta Windows. Nazwa konta: naprawione w rundzie 2 (renderer wstawia `kursant`, p. 7).
 - **Typografia:** test zakazu długich myślników pomija `budowa-wzorcowa\` - są tam dosłowne cytaty z raportów SEC
   (z długimi myślnikami) i pliki napisane przez Claude w budowie; reszta repo jest sprawdzana.
 
@@ -113,3 +113,45 @@ koncie Max przez profil kursowy; uczestnicy mają Pro - czasy będą podobne, li
 - Publikacja (publiczne repo + GitHub Pages jak przy gicie) - nic nie publikowałem.
 - Czy zostawić `C:\Programowanie\ALX vibecoding\pakiet-budowa\przebieg1\`.
 - Czy dostroić założenia DCF (premia za ryzyko, beta) - patrz p. 4.
+
+## 7. Runda 2 (2026-10-17): zrzuty początku kroków, animacje, schemat bramek, konstruktor pytania
+
+Co doszło:
+- **Zrzuty „początek kroku”** dla P1-P10 i `/exit`: prawdziwy Claude Code (ten sam czysty profil), prompt wklejony
+  w pole wpisywania **bez Enter** (`tools/kadry-startowe.sh`), więc nic nie poszło do modelu. Długie prompty Claude Code
+  zwija do `[Pasted text #N +M lines]` - zostawiłem to tak, jak jest, bo to zobaczy uczestnik, i opisałem w podpisie.
+  P5 (krótki) widać w całości, `/pakiet-analityczny GOOG` i `/exit` są wpisane znak po znaku.
+- **Zrzuty konsoli** pod poleceniami: `python --version` i `claude --version` wykonane naprawdę; `winget install ...`
+  i `claude` pokazane jako wklejone, przed Enter.
+- Dodatkowy zrzut końca kroku 7 (`kadr-P7`, wcześniej nieużyty). Razem 33 zrzuty, HTML 3,55 MB.
+- **Animacje (HTML/CSS, nie GIF):** otwieranie PowerShella z paska adresu Eksploratora; wklejenie P1 i pierwsze sekundy
+  pracy; `/exit`, `claude`, podpowiedź skilla i `/pakiet-analityczny GOOG`. Startują, gdy są widoczne na ekranie.
+- **Schemat bramek** w sekcji 5 (`tools/schemat-bramki.svg`, osadzony w HTML).
+- **Linki do 6 dokumentów Office** (xlsx, pptx, docx dla META i GOOG): tabela w sekcji 0 oraz w punktach „Sprawdź”.
+- **„Lub poproś Claude”** w punktach „Sprawdź” kroków 1-10 i w tabeli typowych problemów.
+- **Sekcja 12** przemianowana na orientacyjny czas trwania zadań: zakres ±50% i lista czynników.
+- **Konstruktor pytania** w „Gdy coś pójdzie nie tak” (krok + 4 pola, podgląd na żywo, Kopiuj). Zastąpił stały szablon.
+- Testy: 19/19 (doszły: animacje, konstruktor, istnienie plików z linków, anonimizacja ścieżek w rendererze).
+
+Decyzje:
+1. **Prawdziwe zrzuty zamiast makiety** tam, gdzie się dało (prompt wklejony bez wysyłania). Makieta jest tylko w
+   animacjach: kolory i logo skopiowane z prawdziwego zrzutu, ścieżka `C:\Users\kursant\Documents\analizy-spolek`.
+2. **Animacje w HTML/CSS zamiast GIF**: ostre na każdym ekranie, zero bajtów obrazów, tekst do zaznaczenia.
+   GIF-y z kilkunastu klatek dodałyby ok. 1-3 MB.
+3. **Eksplorator jako makieta**, a nie zrzuty mojego pulpitu: zrzuty pokazałyby Twoje foldery w panelu nawigacji,
+   a wpisywanie w pasek adresu wymagałoby sterowania Twoim pulpitem.
+4. **winget nie uruchomiony naprawdę**: na tym komputerze zainstalowane programy mogłyby się zaktualizować. Podpis mówi,
+   co pojawi się po Enter (pobieranie, pytanie o zgodę na warunki: Y).
+5. **Gdzie nie dodałem „poproś Claude”**: tworzenie folderu i instalacja przed pierwszym uruchomieniem (Claude jeszcze
+   nie działa - zamiast tego ramka „jeśli masz już Claude Code, zleć mu instalację”), `/exit` i ponowne uruchomienie
+   w kroku 10 (Claude nie uruchomi sam siebie). W kroku 2 dopisek jest, ale z prośbą, żeby raz sprawdzić cytat samemu:
+   to jedyny moment, w którym człowiek sprawdza źródło bez pośrednictwa AI.
+6. Anonimizacja: renderer zamienia nazwę konta w ścieżkach `C:\Users\<konto>\` na `kursant` (dotyczyło zrzutu kroku 2).
+
+Słabe punkty tej rundy:
+- Zrzuty „początek” dla P1-P4 i P6-P9 wyglądają prawie tak samo (zwinięty prompt). Są, bo o to prosiłeś, ale
+  niosą mało informacji; jeśli chcesz krótszą instrukcję, można zostawić tylko P1, P5 i P10.
+- Zrzuty startowe pochodzą z nowej sesji, więc nad polem nie ma odpowiedzi z poprzedniego kroku (w prawdziwej
+  rozmowie będzie).
+- Zrzuty konsoli pokazują folder `C:\tmp\demo\analizy-spolek`, a animacje `C:\Users\kursant\Documents\analizy-spolek`.
+- Mac: nadal nietestowany (dopisałem sposób otwarcia terminala w folderze, bez sprawdzenia).

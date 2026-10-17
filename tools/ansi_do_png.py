@@ -1,12 +1,15 @@
 # Render wyjścia terminala z herdr (ANSI truecolor) do PNG przez HTML + Playwright.
 # Użycie: herdr agent read <agent> --source visible --format ansi > x.ansi
-#         PYTHONUTF8=1 python tools/ansi_do_png.py x.ansi x.png
+#         PYTHONUTF8=1 python tools/ansi_do_png.py x.ansi x.png [--z-polem] [--powershell]
+#   --z-polem     zostawia dolne pole wpisywania Claude Code (kadry „początek kroku” z wklejonym promptem)
+#   --powershell  wygląd okna Windows PowerShell (niebieskie tło, pasek tytułu)
 import html, re, sys
 from pathlib import Path
 
 SGR = re.compile(r"\x1b\[([0-9;]*)m")
 INNE = re.compile(r"\x1b\[[0-9;?]*[A-Za-ln-z]")
 ZNACZNIK = re.compile(r"<[^>]+>")
+KONTO = re.compile(r"(\\Users\\)[^\\\s]+(\\)")
 
 
 def scal_puste_wiersze(linie, maks=2):
@@ -25,6 +28,11 @@ def utnij_pole_wpisywania(tekst):
     gole = [INNE.sub("", SGR.sub("", l)).strip() for l in linie]
     ramki = [i for i, l in enumerate(gole) if l and set(l) == {"─"}]
     return "\n".join(linie[:ramki[-2]]) if len(ramki) >= 2 else tekst
+
+
+def anonimizuj(tekst):
+    """Zamienia nazwę konta Windows w ścieżkach (C:\\Users\\<konto>\\...) na „kursant”."""
+    return KONTO.sub(r"\1kursant\2", tekst)
 
 
 def ansi_do_html(tekst):
@@ -60,13 +68,26 @@ def ansi_do_html(tekst):
     while wynik and not ZNACZNIK.sub("", wynik[0]).strip(): wynik.pop(0)
     return "\n".join(scal_puste_wiersze(wynik))
 
-def main(wej, wyj):
-    from playwright.sync_api import sync_playwright
 
-    tresc = ansi_do_html(utnij_pole_wpisywania(Path(wej).read_text(encoding="utf-8", errors="replace")))
-    strona = f"""<!doctype html><meta charset="utf-8"><body style="margin:0;background:#0c0c0c">
+def strona_html(tresc, powershell=False):
+    if powershell:
+        return f"""<!doctype html><meta charset="utf-8"><body style="margin:0;background:#fff">
+<div id="t" style="display:inline-block;min-width:760px;border:1px solid #9ca3af;font-family:'Segoe UI',sans-serif">
+<div style="background:#fff;color:#000;font-size:13px;padding:6px 10px">Windows PowerShell</div>
+<pre style="margin:0;padding:10px 14px 14px;color:#eeedf0;background:#012456;
+font:15px/1.35 'Consolas','Cascadia Mono',monospace">{tresc}</pre></div>"""
+    return f"""<!doctype html><meta charset="utf-8"><body style="margin:0;background:#0c0c0c">
 <pre id="t" style="display:inline-block;margin:0;padding:16px 20px;color:#cccccc;background:#0c0c0c;
 font:15px/1.35 'Cascadia Mono','Consolas',monospace">{tresc}</pre>"""
+
+
+def main(wej, wyj, z_polem=False, powershell=False):
+    from playwright.sync_api import sync_playwright
+
+    tekst = anonimizuj(Path(wej).read_text(encoding="utf-8", errors="replace"))
+    if not z_polem and not powershell:
+        tekst = utnij_pole_wpisywania(tekst)
+    strona = strona_html(ansi_do_html(tekst), powershell)
     with sync_playwright() as p:
         b = p.chromium.launch()
         s = b.new_page(viewport={"width": 1600, "height": 800}, device_scale_factor=1)
@@ -74,5 +95,7 @@ font:15px/1.35 'Cascadia Mono','Consolas',monospace">{tresc}</pre>"""
         s.locator("#t").screenshot(path=wyj)
         b.close()
 
+
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    argumenty = [a for a in sys.argv[1:] if not a.startswith("--")]
+    main(argumenty[0], argumenty[1], z_polem="--z-polem" in sys.argv, powershell="--powershell" in sys.argv)
