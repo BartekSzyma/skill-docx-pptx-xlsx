@@ -1,8 +1,8 @@
 # Render wyjścia terminala z herdr (ANSI truecolor) do PNG przez HTML + Playwright.
 # Użycie: herdr agent read <agent> --source visible --format ansi > x.ansi
-#         PYTHONUTF8=1 python tools/ansi_do_png.py x.ansi x.png [--z-polem] [--powershell]
+#         PYTHONUTF8=1 python tools/ansi_do_png.py x.ansi x.png [--z-polem] [--terminal]
 #   --z-polem     zostawia dolne pole wpisywania Claude Code (kadry „początek kroku” z wklejonym promptem)
-#   --powershell  wygląd okna Windows PowerShell (niebieskie tło, pasek tytułu)
+#   --terminal    wygląd okna Windows Terminal z kartą PowerShell (kadry konsoli)
 import html, re, sys
 from pathlib import Path
 
@@ -30,7 +30,7 @@ def utnij_pole_wpisywania(tekst):
     return "\n".join(linie[:ramki[-2]]) if len(ramki) >= 2 else tekst
 
 
-def skroc_ramki(tekst, szerokosc=100):
+def skroc_ramki(tekst, szerokosc=104):
     """Skraca linie z samych ─ (ramka pola wpisywania na całą szerokość terminala) i usuwa spacje na końcu linii,
     żeby kadr z krótką treścią nie był szeroki i pomniejszany w instrukcji."""
     wynik = []
@@ -81,27 +81,36 @@ def ansi_do_html(tekst):
     return "\n".join(scal_puste_wiersze(wynik))
 
 
-def strona_html(tresc, powershell=False):
-    if powershell:
+SZEROKOSC_MIN = 920  # szerokość kolumny instrukcji: kadry węższe od niej nie są ani rozciągane, ani pomniejszane
+
+
+def strona_html(tresc, terminal=False):
+    if terminal:
         return f"""<!doctype html><meta charset="utf-8"><body style="margin:0;background:#fff">
-<div id="t" style="display:inline-block;min-width:760px;border:1px solid #9ca3af;font-family:'Segoe UI',sans-serif">
-<div style="background:#fff;color:#000;font-size:13px;padding:6px 10px">Windows PowerShell</div>
-<pre style="margin:0;padding:10px 14px 14px;color:#eeedf0;background:#012456;
-font:15px/1.35 'Consolas','Cascadia Mono',monospace">{tresc}</pre></div>"""
+<div id="t" style="display:inline-block;box-sizing:border-box;min-width:{SZEROKOSC_MIN}px;border:1px solid #3a3a3a;
+background:#0c0c0c;font-family:'Segoe UI',sans-serif">
+<div style="display:flex;align-items:flex-end;height:36px;background:#202020;padding-left:8px;font-size:12px">
+<div style="display:flex;align-items:center;gap:8px;min-width:200px;padding:9px 12px;background:#0c0c0c;color:#fff;border-radius:6px 6px 0 0">
+<span style="background:#2b5797;color:#fff;font:bold 9px Consolas,monospace;padding:1px 3px;border-radius:2px">&gt;_</span>
+<span style="flex:1">Windows PowerShell</span><span style="color:#aaa">✕</span></div>
+<div style="color:#ccc;padding:9px 12px">+&nbsp;&nbsp;⌄</div>
+<div style="margin-left:auto;color:#ccc;padding:9px 16px;word-spacing:22px">_ ☐ ✕</div></div>
+<pre style="margin:0;padding:10px 14px 14px;color:#cccccc;background:#0c0c0c;
+font:15px/1.35 'Cascadia Mono','Consolas',monospace">{tresc}</pre></div>"""
     return f"""<!doctype html><meta charset="utf-8"><body style="margin:0;background:#0c0c0c">
-<pre id="t" style="display:inline-block;margin:0;padding:16px 20px;color:#cccccc;background:#0c0c0c;
-font:15px/1.35 'Cascadia Mono','Consolas',monospace">{tresc}</pre>"""
+<pre id="t" style="display:inline-block;box-sizing:border-box;min-width:{SZEROKOSC_MIN}px;margin:0;padding:16px 20px;
+color:#cccccc;background:#0c0c0c;font:15px/1.35 'Cascadia Mono','Consolas',monospace">{tresc}</pre>"""
 
 
-def main(wej, wyj, z_polem=False, powershell=False):
+def main(wej, wyj, z_polem=False, terminal=False):
     from playwright.sync_api import sync_playwright
 
     tekst = anonimizuj(Path(wej).read_text(encoding="utf-8", errors="replace"))
     if z_polem:
         tekst = skroc_ramki(tekst)
-    elif not powershell:
+    elif not terminal:
         tekst = utnij_pole_wpisywania(tekst)
-    strona = strona_html(ansi_do_html(tekst), powershell)
+    strona = strona_html(ansi_do_html(tekst), terminal)
     with sync_playwright() as p:
         b = p.chromium.launch()
         s = b.new_page(viewport={"width": 1600, "height": 800}, device_scale_factor=1)
@@ -112,4 +121,4 @@ def main(wej, wyj, z_polem=False, powershell=False):
 
 if __name__ == "__main__":
     argumenty = [a for a in sys.argv[1:] if not a.startswith("--")]
-    main(argumenty[0], argumenty[1], z_polem="--z-polem" in sys.argv, powershell="--powershell" in sys.argv)
+    main(argumenty[0], argumenty[1], z_polem="--z-polem" in sys.argv, terminal="--terminal" in sys.argv)

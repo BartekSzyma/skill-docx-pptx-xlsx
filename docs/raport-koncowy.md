@@ -157,3 +157,25 @@ Słabe punkty tej rundy:
   rozmowie będzie).
 - Zrzuty konsoli pokazują folder `C:\tmp\demo\analizy-spolek`, a animacje `C:\Users\kursant\Documents\analizy-spolek`.
 - Mac: nadal nietestowany (dopisałem sposób otwarcia terminala w folderze, bez sprawdzenia).
+
+## 8. Runda 3 (2026-10-17): Windows Terminal, rozwinięte prompty, LibreOffice
+
+- **Jedna szerokość:** wszystkie zrzuty mają w instrukcji 920 px (kolumna tekstu). Kadry konsoli renderowane w tej
+  szerokości, kadry startowe z węższego okna terminala (104 kolumny), więc nie są pomniejszane.
+- **Windows Terminal zamiast PowerShella:** zrzuty konsoli w wyglądzie Windows Terminal; animacja: prawy przycisk
+  w folderze, „Otwórz w terminalu”, Windows Terminal w tym folderze. W wymaganiach doszedł Windows Terminal
+  (`winget install Microsoft.WindowsTerminal` dla Windows 10); pasek adresu + `powershell` został jako zapasowa droga.
+- **Rozwinięte prompty:** zrzuty początku kroków P1-P4 i P6-P9 zrobione z dwukrotnym wklejeniem (drugie wklejenie
+  rozwija `[Pasted text]`). Długie prompty Claude Code pokazuje od końca (ok. 20 ostatnich linii) - napisane w podpisie.
+  P5 wklejony raz (krótki prompt po drugim wklejeniu byłby wstawiony dwa razy). Każdy podpis przypomina o podwójnym
+  wklejeniu i o tym, że ścieżki u uczestnika będą inne.
+- **Animacja P1:** Ctrl+V (zwinięty), Ctrl+V drugi raz (rozwinięty, „ctrl+g to edit in Notepad”), Enter, praca.
+  Nazwy klawiszy widać 2,4 s.
+- **Ctrl+G:** w kroku 1 dopisana wskazówka, jak poprawić `[TWÓJ E-MAIL]` po wklejeniu (Claude Code otwiera prompt
+  w Notatniku). Podpowiedź pochodzi z interfejsu Claude Code; samego edytowania w Notatniku nie testowałem.
+- **LibreOffice zostaje wymagany także przy MS Office** (decyzja użytkownika po teście: Office z licencją przez COM
+  przeliczył Excela, policzył strony Worda i wyeksportował slajd w 13 s, ale prompty i skill używają LibreOffice,
+  a Office bez licencji i na Macu tego nie zastąpi). Wymagania mówią to wprost.
+- **winget:** identyfikatory `TheDocumentFoundation.LibreOffice` (26.8.1.1), `Python.Python.3.12` (3.12.10)
+  i `Microsoft.WindowsTerminal` (1.25) sprawdzone przez `winget show` (bez instalacji). Dopisane: zgoda administratora
+  przy LibreOffice, pytanie o warunki źródła przy pierwszym użyciu, ponowne otwarcie terminala po instalacji.
