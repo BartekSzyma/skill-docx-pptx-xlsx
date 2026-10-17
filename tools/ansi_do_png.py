@@ -19,6 +19,14 @@ def scal_puste_wiersze(linie, maks=2):
     return wynik
 
 
+def utnij_pole_wpisywania(tekst):
+    """Usuwa dolny pasek Claude Code (pole wpisywania z podpowiedzią i linię trybu) - od przedostatniej linii z samych ─."""
+    linie = tekst.replace("\r", "").split("\n")
+    gole = [INNE.sub("", SGR.sub("", l)).strip() for l in linie]
+    ramki = [i for i, l in enumerate(gole) if l and set(l) == {"─"}]
+    return "\n".join(linie[:ramki[-2]]) if len(ramki) >= 2 else tekst
+
+
 def ansi_do_html(tekst):
     stan = {"fg": None, "bg": None, "b": False}
     wynik = []
@@ -55,7 +63,7 @@ def ansi_do_html(tekst):
 def main(wej, wyj):
     from playwright.sync_api import sync_playwright
 
-    tresc = ansi_do_html(Path(wej).read_text(encoding="utf-8", errors="replace"))
+    tresc = ansi_do_html(utnij_pole_wpisywania(Path(wej).read_text(encoding="utf-8", errors="replace")))
     strona = f"""<!doctype html><meta charset="utf-8"><body style="margin:0;background:#0c0c0c">
 <pre id="t" style="display:inline-block;margin:0;padding:16px 20px;color:#cccccc;background:#0c0c0c;
 font:15px/1.35 'Cascadia Mono','Consolas',monospace">{tresc}</pre>"""

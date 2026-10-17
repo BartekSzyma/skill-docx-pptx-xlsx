@@ -3,6 +3,7 @@
 # Użycie: tools/wyslij-prompt.sh <agent> <P1..Pn>
 # Jedyna podmiana: pole [TWÓJ E-MAIL] -> adres testowy budowy wzorcowej.
 set -euo pipefail
+export MSYS_NO_PATHCONV=1  # Git Bash zamienia argumenty od / na ścieżki Windows
 cd "$(dirname "$0")/.."
 agent="$1"; id="$2"
 tekst=$(node tools/wypisz-prompt.mjs "$id" | sed 's/\[TWÓJ E-MAIL\]/kurs.alx@example.com/g')
