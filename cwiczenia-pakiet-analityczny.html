@@ -103,7 +103,7 @@ Co ma się znaleźć:
 3. 4-6 faktów o najważniejszych projektach spółki (np. sztuczna inteligencja, centra danych, okulary i urządzenia, liczba użytkowników). Jeśli raport podaje plan nakładów inwestycyjnych na kolejny rok, dodaj go.
 4. 2-3 najważniejsze ryzyka opisane w raporcie (Item 1A. Risk Factors), każde z cytatem.
 5. Dane rynkowe z plików w META/zrodla/rynek/: kurs akcji i rentowność obligacji 10-letnich USA; cytat to odpowiedni fragment zapisanego pliku.
-6. Założenia do modelu DCF: wzrost przychodów w latach 2026-2030, marża operacyjna, nakłady inwestycyjne jako % przychodów, amortyzacja jako % przychodów, stopa podatkowa, beta, premia za ryzyko rynkowe, wzrost w okresie rezydualnym.
+6. Założenia do modelu DCF: wzrost przychodów w latach 2026-2030, marża operacyjna, nakłady inwestycyjne jako % przychodów, amortyzacja jako % przychodów, stopa podatkowa, beta, premia za ryzyko rynkowe, wzrost w okresie rezydualnym (po 2030 r.) oraz osobno nakłady inwestycyjne i amortyzacja w okresie rezydualnym. Założenia mają być spójne: jeśli nakłady są dużo wyższe niż amortyzacja, amortyzacja w kolejnych latach rośnie, bo nowe inwestycje zaczynają się amortyzować; w okresie rezydualnym spółka rośnie już wolno, więc nakłady są tylko trochę wyższe niż amortyzacja.
 
 Zasady:
 - Nie wpisuj niczego, czego nie znalazłeś w źródle. Jeśli czegoś nie ma, napisz mi o tym zamiast zgadywać.
@@ -164,7 +164,7 @@ Arkusze:
 1. Podsumowanie: wartość jednej akcji z DCF, aktualny kurs, różnica w %, kluczowe założenia i wykresy.
 2. Dane historyczne: przychody i zysk operacyjny za 3 lata, marża operacyjna, pozostałe fakty finansowe.
 3. Założenia: wszystkie założenia z ledgera z uzasadnieniem; koszt kapitału (WACC) liczony formułą metodą CAPM: stopa wolna od ryzyka + beta × premia za ryzyko (jeśli dług jest istotny w porównaniu z wartością spółki, uwzględnij go w WACC).
-4. DCF: prognoza 2026-2030 (przychody, zysk operacyjny, podatek, NOPAT, amortyzacja, nakłady inwestycyjne, wolne przepływy pieniężne FCF, czynnik dyskontowy, wartość bieżąca), wartość rezydualna metodą Gordona, wartość firmy, plus gotówka i papiery wartościowe, minus dług = wartość kapitału własnego; podzielona przez liczbę akcji (suma wszystkich klas) = wartość jednej akcji.
+4. DCF: prognoza 2026-2030 (przychody, zysk operacyjny, podatek, NOPAT, amortyzacja, nakłady inwestycyjne, wolne przepływy pieniężne FCF, czynnik dyskontowy, wartość bieżąca), wartość rezydualna metodą Gordona (z wolnych przepływów policzonych na założeniach dla okresu rezydualnego), wartość firmy, plus gotówka i papiery wartościowe, minus dług = wartość kapitału własnego; podzielona przez liczbę akcji (suma wszystkich klas) = wartość jednej akcji.
 5. Wrażliwość: tabela wartości jednej akcji dla 5 wartości WACC i 5 wartości wzrostu rezydualnego; każda komórka liczona formułą, kolory od czerwonego do zielonego.
 6. Ledger: wszystkie wpisy ledgera z klasą, wartością, źródłem, stroną i cytatem.
 
@@ -175,7 +175,7 @@ Po zapisaniu pliku:
 - odczytaj z przeliczonego pliku wynik i zapisz go w TICKER/wyniki/wycena.json (wartość jednej akcji, kurs, różnica w %, WACC, wzrost rezydualny, wartość firmy, wartość kapitału); prezentacja i notatka wezmą liczby wyceny z tego pliku;
 - zrób podgląd arkuszy do PNG przez LibreOffice w TICKER/wyniki/podglad/ i obejrzyj go: czy wykresy są czytelne i nic się nie ucina.
 
-Uruchom dla META i opisz mi wynik wyceny w 3-4 zdaniach prostym językiem.`;
+Uruchom dla META i opisz mi wynik wyceny w 3-4 zdaniach prostym językiem. Jeśli wynik różni się od kursu o więcej niż 50%, wskaż założenia, które najbardziej za to odpowiadają (sam ich nie zmieniaj).`;
 
 const PROMPT_P7 = `Przygotuj prezentację o META: skrypt narzedzia/generuj_pptx.py TICKER tworzy TICKER/wyniki/TICKER_prezentacja.pptx. Skorzystaj ze skilla pptx.
 
