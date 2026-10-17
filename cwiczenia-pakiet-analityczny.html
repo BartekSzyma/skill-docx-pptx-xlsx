@@ -70,7 +70,7 @@ const PROMPT_P1 = `Robimy analizę spółki Meta Platforms (ticker META) na pods
    - Liczby do dokumentów wstawiają skrypty z ledgera. Nie przepisuj liczb ręcznie.
    - Założenia (np. tempo wzrostu, koszt kapitału) to nie fakty: zapisuj je jako założenia z uzasadnieniem.
    - Nigdy nie czytaj całego raportu 10-K naraz. Wyszukuj frazy skryptem i czytaj tylko potrzebne strony.
-   - Teksty dla ludzi piszemy po polsku z polskimi znakami, pliki zapisujemy w UTF-8, nazwy plików bez polskich znaków.
+   - Teksty dla ludzi piszemy po polsku z polskimi znakami, bez długich myślników (zamiast nich krótki dywiz -). Pliki zapisujemy w UTF-8, nazwy plików bez polskich znaków.
 2. Utwórz wirtualne środowisko Pythona w folderze .venv i zainstaluj w nim: requests, beautifulsoup4, openpyxl, python-pptx, python-docx, pymupdf, pillow. Zapisz listę w requirements.txt.
 3. Napisz skrypt narzedzia/pobierz_10k.py TICKER, który:
    - zamienia ticker na numer CIK przez https://www.sec.gov/files/company_tickers.json,
@@ -219,19 +219,143 @@ Nie uruchamiaj skilla. Na koniec napisz mi, jak go wywołać.`;
 
 const PROMPT_P10 = `/pakiet-analityczny GOOG`;
 
+const SCHEMAT = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" font-family="Segoe UI, sans-serif" font-size="14">
+  <defs>
+    <marker id="s" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker>
+  </defs>
+  <g stroke="#475569" stroke-width="2" fill="none" marker-end="url(#s)">
+    <path d="M190,70 L240,70"/>
+    <path d="M420,70 L470,70"/>
+    <path d="M650,70 L700,70"/>
+    <path d="M790,110 L790,160 L560,160 L560,190"/>
+    <path d="M470,240 L420,240"/>
+    <path d="M330,280 L330,300 L115,300 L115,320"/>
+    <path d="M330,280 L330,320"/>
+    <path d="M330,280 L330,300 L545,300 L545,320"/>
+    <path d="M630,350 L670,350"/>
+    <path d="M775,385 L775,405"/>
+  </g>
+  <g stroke-width="2">
+    <rect x="10" y="20" width="180" height="100" rx="10" fill="#eff6ff" stroke="#2563eb"/>
+    <rect x="240" y="20" width="180" height="100" rx="10" fill="#faf5ff" stroke="#7c3aed"/>
+    <rect x="470" y="20" width="180" height="100" rx="10" fill="#f0fdf4" stroke="#16a34a"/>
+    <rect x="700" y="20" width="180" height="90" rx="10" fill="#ecfeff" stroke="#0891b2"/>
+    <rect x="470" y="190" width="180" height="90" rx="10" fill="#fefce8" stroke="#ca8a04"/>
+    <rect x="240" y="190" width="180" height="90" rx="10" fill="#f8fafc" stroke="#475569"/>
+    <rect x="30" y="320" width="170" height="60" rx="10" fill="#ffffff" stroke="#16a34a"/>
+    <rect x="245" y="320" width="170" height="60" rx="10" fill="#ffffff" stroke="#c2410c"/>
+    <rect x="460" y="320" width="170" height="60" rx="10" fill="#ffffff" stroke="#2563eb"/>
+    <rect x="670" y="310" width="210" height="75" rx="10" fill="#fef2f2" stroke="#dc2626"/>
+    <rect x="20" y="405" width="860" height="50" rx="10" fill="#f5f3ff" stroke="#7c3aed"/>
+  </g>
+  <g fill="#0f172a" text-anchor="middle">
+    <text x="100" y="45" font-weight="700">1. Źródła</text>
+    <text x="100" y="67">raport roczny 10-K (SEC)</text>
+    <text x="100" y="87">kurs akcji, obligacje</text>
+    <text x="100" y="107">zdjęcia z licencją</text>
+    <text x="330" y="45" font-weight="700">2. Ledger</text>
+    <text x="330" y="67">każdy fakt: źródło,</text>
+    <text x="330" y="87">strona i cytat</text>
+    <text x="330" y="107">+ założenia osobno</text>
+    <text x="560" y="45" font-weight="700">3. Bramka 1: skrypt</text>
+    <text x="560" y="67">czy cytat naprawdę</text>
+    <text x="560" y="87">jest na tej stronie?</text>
+    <text x="560" y="107">(bez AI, zawsze to samo)</text>
+    <text x="790" y="45" font-weight="700">4. Bramka 2: model</text>
+    <text x="790" y="67">inny model, czysta</text>
+    <text x="790" y="87">kartka: czy cytat</text>
+    <text x="790" y="104">potwierdza liczbę?</text>
+    <text x="560" y="215" font-weight="700">Status weryfikacji</text>
+    <text x="560" y="237">zielony = wolno dalej</text>
+    <text x="560" y="257">czerwony = poprawiamy</text>
+    <text x="560" y="274">ledger, nie dokumenty</text>
+    <text x="330" y="215" font-weight="700">5. Generatory</text>
+    <text x="330" y="237">skrypty Pythona</text>
+    <text x="330" y="257">wstawiają liczby</text>
+    <text x="330" y="274">tylko z ledgera</text>
+    <text x="115" y="346" font-weight="700">Excel: model DCF</text>
+    <text x="115" y="366">formuły i wykresy</text>
+    <text x="330" y="346" font-weight="700">PowerPoint</text>
+    <text x="330" y="366">projekty ze zdjęciami</text>
+    <text x="545" y="346" font-weight="700">Word: 1 strona</text>
+    <text x="545" y="366">notatka dla zarządu</text>
+    <text x="775" y="333" font-weight="700">6. Kontrola liczb</text>
+    <text x="775" y="353">każda liczba w pptx i docx</text>
+    <text x="775" y="373">ma pokrycie w ledgerze</text>
+    <text x="450" y="428" font-weight="700">7. Skill: wszystkie kroki 1-6 zapisane jako przepis. Wpisujesz /pakiet-analityczny GOOG</text>
+    <text x="450" y="446">i Claude robi to samo dla innej spółki, z tymi samymi bramkami</text>
+  </g>
+</svg>`;
+
 const INSTRUKCJA = [
   { id: 'zanim-zaczniesz', tytul: '0. Zanim zaczniesz', elementy: [
-    { typ: 'tekst', html: 'Treść do uzupełnienia.' },
+    { typ: 'tekst', html: '<p>W tej instrukcji Claude Code przygotuje <strong>pakiet analityczny spółki Meta Platforms</strong> (Facebook, Instagram, WhatsApp, okulary Ray-Ban Meta):</p><ul><li><strong>model wyceny DCF w Excelu</strong> z wykresami, liczony formułami, które możesz zmieniać;</li><li><strong>prezentację w PowerPoincie</strong> ze zdjęciami najważniejszych projektów spółki;</li><li><strong>jednostronicową notatkę w Wordzie</strong> dla zarządu.</li></ul><p>Każda liczba w tych dokumentach będzie miała <strong>źródło, numer strony i dosłowny cytat</strong>, a dwie niezależne kontrole sprawdzą, czy cytaty są prawdziwe. Na koniec zamienimy całą pracę w <strong>skill</strong>, czyli przepis, który robi ten sam pakiet dla innej spółki po wpisaniu jednego polecenia, np. <code>/pakiet-analityczny GOOG</code>.</p>' },
+    { typ: 'tekst', html: '<h3>Wymagania systemowe</h3><table><tr><th>Co</th><th>Po co</th><th>Jak sprawdzić</th></tr><tr><td><strong>Claude Code</strong>, plan Pro lub wyższy</td><td>wykonuje całą pracę</td><td><code>claude --version</code>, potem <code>claude update</code></td></tr><tr><td><strong>Python 3.11 lub nowszy</strong></td><td>w nim Claude pisze skrypty, które pobierają dane i tworzą pliki Office</td><td><code>python --version</code></td></tr><tr><td><strong>LibreOffice</strong> (darmowy)</td><td>Claude przelicza nim formuły Excela i robi podglądy slajdów i notatki, żeby sam sprawdzić swoją pracę (np. czy notatka mieści się na jednej stronie)</td><td>w menu Start jest „LibreOffice”</td></tr><tr><td><strong>MS Office</strong> (opcjonalnie)</td><td>do obejrzenia wyników; bez licencji otwiera pliki tylko do odczytu i to wystarczy. Wyniki obejrzysz też w LibreOffice</td><td>-</td></tr><tr><td><strong>Internet</strong> i <strong>adres e-mail</strong></td><td>dane pobieramy z SEC (amerykański nadzór giełdowy), Yahoo Finance, FRED i Wikimedia Commons; SEC wymaga, żeby w zapytaniu był kontaktowy e-mail</td><td>-</td></tr></table>' },
+    { typ: 'tekst', html: 'Brakujące programy zainstalujesz w PowerShellu (albo ze stron python.org i libreoffice.org):' },
+    { typ: 'komenda', tekst: 'winget install Python.Python.3.12' },
+    { typ: 'komenda', tekst: 'winget install TheDocumentFoundation.LibreOffice' },
+    { typ: 'mac', html: 'Python i LibreOffice zainstalujesz przez Homebrew: <code>brew install python</code> i <code>brew install --cask libreoffice</code>. Zamiast <code>python</code> wpisuj <code>python3</code>, a PowerShell zastępuje Terminal.' },
+    { typ: 'tekst', html: '<h3>Folder i uruchomienie Claude Code</h3><ol><li>Utwórz pusty folder, np. <code>Dokumenty\\analizy-spolek</code>. Nazwa bez polskich znaków i spacji oszczędzi kłopotów.</li><li>Otwórz go w Eksploratorze plików, kliknij pasek adresu, wpisz <code>powershell</code> i naciśnij Enter. Otworzy się PowerShell w tym folderze.</li><li>Wpisz <code>claude</code>. Przy pierwszym uruchomieniu w folderze Claude zapyta, czy mu ufasz: wybierz <strong>„Yes, I trust this folder”</strong>.</li><li>Prompty z tej instrukcji wklejasz po kolei, zawsze w tej samej rozmowie. Kolejny prompt wklejaj dopiero wtedy, gdy Claude skończy poprzedni.</li></ol>' },
+    { typ: 'komenda', tekst: 'claude' },
+    { typ: 'wazne', html: 'Każdy krok zużywa limit twojego planu Claude. Cały pakiet to kilkanaście minut pracy Claude i kilkanaście dodatkowych wywołań modelu w weryfikacji. Na planie Pro rób kroki z przerwami, a gdy zobaczysz komunikat o limicie, wróć po jego odnowieniu: wszystko zostaje w plikach, więc możesz kontynuować od kolejnego kroku.' },
+    { typ: 'uwaga', html: 'Twoje wyniki będą trochę inne niż na zrzutach: zmienia się kurs akcji i rentowność obligacji, a Claude za każdym razem pisze skrypty i teksty od nowa. Liczby z raportu rocznego powinny być takie same, dopóki Meta nie opublikuje nowego raportu.' },
+  ] },
+  { id: 'jak-to-dziala', tytul: '1. Jak to działa i po co te wszystkie kroki', elementy: [
+    { typ: 'schemat', svg: SCHEMAT },
+    { typ: 'dlaczego', html: '<p>Najprościej byłoby napisać „zrób mi model DCF Mety”. Claude by to zrobił, ale nie wiedziałbyś, <strong>skąd są liczby</strong>. Model językowy potrafi pomylić rok, wziąć liczbę z sąsiedniej kolumny tabeli, pomylić miliony z miliardami albo dopisać liczbę, która brzmi wiarygodnie, a nie ma jej w żadnym źródle. W finansach jedna taka pomyłka zmienia wycenę o kilkadziesiąt procent.</p><p>Dlatego dzielimy pracę na etapy, a między nimi stawiamy <strong>bramki</strong>, czyli kontrole, które muszą przejść, zanim pójdziemy dalej:</p><ul><li><strong>Ledger</strong> to rejestr dowodów. Każda informacja o spółce jest w nim zapisana razem ze źródłem, numerem strony i dosłownym cytatem. Dokumenty biorą liczby tylko z ledgera.</li><li><strong>Bramka 1</strong> to zwykły skrypt: sprawdza, czy cytat naprawdę jest na podanej stronie. Nie używa AI, więc zawsze daje ten sam wynik i nic nie kosztuje.</li><li><strong>Bramka 2</strong> to inny model, który nie zna naszej rozmowy. Czyta cytat i ocenia, czy z niego naprawdę wynika to, co zapisaliśmy (właściwy rok, jednostka, cała spółka czy jej część).</li><li><strong>Generatory</strong> to skrypty, które budują Excela, PowerPointa i Worda. Liczby wstawiają z ledgera, więc ta sama liczba jest wszędzie taka sama.</li><li><strong>Kontrola liczb</strong> na końcu sprawdza, czy w gotowych dokumentach nie pojawiła się liczba spoza ledgera.</li></ul><p>Zasada ogólna: tam, gdzie odpowiedź jest jedna i da się ją sprawdzić mechanicznie, sprawdza <strong>kod</strong>. Tam, gdzie trzeba zrozumieć sens, sprawdza <strong>model</strong>. Ta sama zasada przyda ci się w każdym projekcie z AI, nie tylko w finansach.</p>' },
+    { typ: 'tekst', html: '<h3>Słowniczek</h3><table><tr><th>Pojęcie</th><th>Co to znaczy</th></tr><tr><td>10-K</td><td>Raport roczny, który każda spółka notowana w USA musi złożyć do SEC (amerykańskiego nadzoru giełdowego). Zawiera sprawozdanie finansowe zbadane przez biegłego rewidenta i opis działalności. Publiczny i darmowy w systemie <strong>SEC EDGAR</strong>.</td></tr><tr><td>Ticker</td><td>Skrót spółki na giełdzie, np. META, GOOG (Alphabet, właściciel Google), AAPL (Apple).</td></tr><tr><td>Ledger</td><td>Nasz rejestr dowodów: plik <code>ledger.json</code>, w którym każdy wpis ma źródło, stronę i cytat.</td></tr><tr><td>Fakt / dana rynkowa / założenie</td><td>Fakt pochodzi z raportu. Dana rynkowa pochodzi z internetu i zmienia się codziennie (kurs akcji). Założenie to nasza opinia o przyszłości (np. „przychody będą rosły o 12% rocznie”) i nie ma cytatu, tylko uzasadnienie.</td></tr><tr><td>DCF</td><td>Metoda wyceny: spółka jest warta tyle, ile pieniędzy wygeneruje w przyszłości, przeliczonych na dzisiejszą wartość (dolar za 5 lat jest wart mniej niż dolar dziś).</td></tr><tr><td>FCF</td><td>Wolne przepływy pieniężne: gotówka, która zostaje po opłaceniu kosztów, podatków i inwestycji.</td></tr><tr><td>WACC</td><td>Koszt kapitału: stopa, którą przeliczamy przyszłe pieniądze na dzisiejsze. Im wyższe ryzyko, tym wyższy WACC i niższa wycena.</td></tr><tr><td>Wartość rezydualna</td><td>Wartość wszystkich lat po okresie prognozy (u nas po 2030), liczona przy założeniu stałego, niewielkiego wzrostu.</td></tr><tr><td>Bramka</td><td>Kontrola, której wynik decyduje, czy wolno przejść do kolejnego kroku.</td></tr><tr><td>Skill</td><td>Przepis dla Claude Code: plik z opisem kroków i folder ze skryptami. Wywołujesz go poleceniem <code>/nazwa-skilla</code>.</td></tr><tr><td><code>claude -p</code></td><td>Uruchomienie Claude Code bez okna rozmowy: dostaje jedno polecenie, odpowiada i kończy pracę. Tak skrypt weryfikacji woła drugi model.</td></tr></table>' },
+  ] },
+  { id: 'krok-1', tytul: '2. Krok 1: zasady projektu i źródła', elementy: [
+    { typ: 'dlaczego', html: '<ul><li><strong>CLAUDE.md</strong> to regulamin projektu. Claude czyta go na początku każdej rozmowy w tym folderze, więc zasady (np. „liczby tylko z ledgera”) obowiązują też jutro, w nowej rozmowie.</li><li><strong>Raport 10-K</strong> to najbardziej wiarygodne źródło: oficjalny dokument, za którego treść spółka odpowiada prawnie. Artykuły i portale często przepisują liczby z błędami.</li><li><strong>Dzielimy raport na strony</strong>, bo cytat ma mieć numer strony, który możesz sprawdzić. Dzięki temu Claude nie musi czytać wszystkich 130 stron: wyszukuje frazę i czyta tylko potrzebne strony. To oszczędza limit i zmniejsza ryzyko pomyłki.</li><li><strong>Dane rynkowe zapisujemy jako kopię</strong> z datą. Za tydzień kurs będzie inny, a my musimy móc pokazać, skąd wzięła się liczba w wycenie.</li></ul>' },
+    { typ: 'wazne', html: 'Przed wklejeniem zamień w prompcie <code>[TWÓJ E-MAIL]</code> na swój adres e-mail. SEC odrzuca zapytania bez kontaktu (błąd 403).' },
     { typ: 'prompt', id: 'P1', tytul: 'Zasady projektu i źródła', tekst: PROMPT_P1 },
+    { typ: 'sprawdz', html: 'W folderze jest plik <code>CLAUDE.md</code>, a w <code>META\\zrodla\\10k\\strony\\</code> ponad sto plików <code>strona-NNN.txt</code>. Otwórz w Notatniku stronę, którą Claude wskazał jako rachunek zysków i strat: na górze zobaczysz „CONSOLIDATED STATEMENTS OF INCOME”, a na dole numer strony zgodny z nazwą pliku.' },
+  ] },
+  { id: 'krok-2', tytul: '3. Krok 2: ledger, czyli rejestr dowodów', elementy: [
+    { typ: 'dlaczego', html: '<p>Ledger działa jak przypisy w pracy dyplomowej, z jedną różnicą: <strong>da się go sprawdzić automatycznie</strong>. Każdy wpis mówi: „ta liczba pochodzi z tego dokumentu, z tej strony, a oto dosłowne zdanie”.</p><p>Wpisy mają cztery klasy, bo nie wszystko w wycenie jest faktem:</p><ul><li><strong>fakt</strong> (F) z raportu: źródło, strona, cytat;</li><li><strong>dana rynkowa</strong> (R) z internetu: adres, data pobrania i cytat z zapisanej kopii;</li><li><strong>założenie</strong> (Z): nasza prognoza, bez cytatu, za to z uzasadnieniem. Oznaczamy je osobno, bo wynik DCF zależy głównie od założeń, a czytelnik musi wiedzieć, gdzie kończą się fakty, a zaczyna opinia;</li><li><strong>grafika</strong> (G): dojdzie w kolejnym kroku.</li></ul><p><strong>Klucz</strong> (np. <code>revenue_2025</code>) to stała nazwa, po której skrypty znajdą liczbę bez względu na to, jak nazywa ją raport danej spółki.</p>' },
     { typ: 'prompt', id: 'P2', tytul: 'Ledger: fakty, dane rynkowe, założenia', tekst: PROMPT_P2 },
+    { typ: 'sprawdz', html: 'Claude pokazał tabelkę wpisów. Wybierz jeden fakt, otwórz plik strony o podanym numerze i wyszukaj cytat (Ctrl+F). Ten sam test za chwilę zrobi skrypt, dla wszystkich wpisów naraz.' },
+  ] },
+  { id: 'krok-3', tytul: '4. Krok 3: zdjęcia projektów z licencją', elementy: [
+    { typ: 'dlaczego', html: '<p>Zdjęć z wyszukiwarki nie wolno wstawiać do prezentacji: prawie wszystkie są chronione prawem autorskim. Zdjęcia prasowe spółek też mają ograniczenia. <strong>Wikimedia Commons</strong> to baza zdjęć na wolnych licencjach, w której każdy plik ma autora i licencję zapisane w danych. Licencje CC BY i CC BY-SA pozwalają użyć zdjęcia, jeśli podpiszesz autora i licencję, dlatego trafiają do ledgera i na slajd.</p><p>Claude <strong>ogląda</strong> pobrane zdjęcia (potrafi czytać obrazy) i odrzuca te, które nie pokazują projektu.</p>' },
     { typ: 'prompt', id: 'P3', tytul: 'Zdjęcia projektów z licencją', tekst: PROMPT_P3 },
+    { typ: 'sprawdz', html: 'W <code>META\\zrodla\\grafiki\\</code> są 3-4 zdjęcia, a w ledgerze wpisy G-01... z autorem i licencją. Otwórz adres strony pliku jednego z nich: autor i licencja muszą się zgadzać.' },
+  ] },
+  { id: 'krok-4', tytul: '5. Krok 4: weryfikacja dwiema bramkami', elementy: [
+    { typ: 'dlaczego', html: '<p><strong>Bramka 1 (skrypt)</strong> odpowiada na pytanie: <em>czy ten cytat naprawdę jest na tej stronie?</em> Na to pytanie istnieje jedna poprawna odpowiedź, więc sprawdza je zwykły kod: szybko, za darmo i za każdym razem tak samo. Model mógłby się tu pomylić, a skrypt nie.</p><p><strong>Bramka 2 (model)</strong> odpowiada na pytanie, którego skrypt nie zrozumie: <em>czy z tego cytatu wynika to, co zapisaliśmy?</em> Cytat może istnieć, a liczba może dotyczyć innego roku, segmentu albo być w innej jednostce. Sprawdza to <strong>osobny model</strong> uruchomiony przez <code>claude -p</code>:</p><ul><li>nie widzi naszej rozmowy, więc nie „wie”, co chcieliśmy usłyszeć, i ocenia na czysto;</li><li>to inny model (Sonnet) niż ten, który budował ledger, więc ma inne słabe punkty;</li><li>dostaje tylko wpis i stronę źródła, więc wywołanie jest krótkie i tanie.</li></ul><p><strong>Status</strong> zapisuje skrót (odcisk palca) pliku ledgera. Jeśli ktoś zmieni ledger po weryfikacji, odcisk przestanie pasować i skrypty tworzące dokumenty odmówią pracy. Dzięki temu weryfikacja jest prawdziwą bramką, a nie tylko raportem.</p>' },
     { typ: 'prompt', id: 'P4', tytul: 'Weryfikacja: dwie bramki', tekst: PROMPT_P4 },
+    { typ: 'sprawdz', html: 'Otwórz <code>META\\weryfikacja\\raport.md</code>: wszystkie wpisy przeszły obie bramki, a <code>status.json</code> ma <code>"ok": true</code>. Jeśli Claude poprawiał wpisy, w rozmowie zobaczysz, co było źle. To normalne: po to są bramki.' },
+  ] },
+  { id: 'krok-5', tytul: '6. Krok 5: test pułapek', elementy: [
+    { typ: 'dlaczego', html: '<p>Kontrola, której nigdy nie widziałeś w działaniu, to tylko nadzieja. Podrzucamy więc dwa błędy do kopii ledgera:</p><ul><li><strong>zmieniony cytat</strong>: takiego zdania nie ma w raporcie. Złapie to skrypt;</li><li><strong>liczba z sąsiedniej kolumny</strong>: cytat i liczba są prawdziwe, ale przypisane do złego roku. Skrypt tego nie zobaczy, bo liczba występuje w cytacie. Złapie to dopiero model, który rozumie, która kolumna tabeli to który rok.</li></ul><p>Ten drugi błąd jest w analizach finansowych bardzo częsty, także u ludzi.</p>' },
     { typ: 'prompt', id: 'P5', tytul: 'Test pułapek', tekst: PROMPT_P5 },
+    { typ: 'sprawdz', html: 'Pierwszy błąd zatrzymała bramka 1, drugi bramka 2, a funkcja blokady odmówiła pracy dla <code>TEST-PULAPEK</code>. Folder <code>TEST-PULAPEK</code> możesz potem usunąć.' },
+  ] },
+  { id: 'krok-6', tytul: '7. Krok 6: model DCF w Excelu', elementy: [
+    { typ: 'dlaczego', html: '<ul><li><strong>Formuły, nie gotowe liczby.</strong> Model ma żyć: zmieniasz założenie (np. WACC) i wycena przelicza się sama. Dlatego skrypt wpisuje do Excela formuły, a nie wyniki policzone w Pythonie.</li><li><strong>Niebieskie komórki</strong> to dane wejściowe (z ledgera), czarne to obliczenia. To zwyczaj z bankowości inwestycyjnej: od razu widać, co wolno zmieniać. Obok każdej danej jest id wpisu ledgera, a w komentarzu cytat.</li><li><strong>LibreOffice przelicza plik</strong>, bo biblioteka Pythona zapisuje formuły, ale ich nie liczy. Po przeliczeniu Claude sprawdza, czy żadna komórka nie ma błędu, i odczytuje wynik do pliku <code>wycena.json</code>. Prezentacja i notatka biorą wycenę z tego pliku, więc liczba jest wszędzie ta sama.</li><li><strong>Tabela wrażliwości</strong> pokazuje, jak bardzo wynik zależy od dwóch założeń. To najuczciwsza część każdego DCF.</li></ul>' },
     { typ: 'prompt', id: 'P6', tytul: 'Model DCF w Excelu', tekst: PROMPT_P6 },
+    { typ: 'sprawdz', html: 'Otwórz <code>META\\wyniki\\META_DCF.xlsx</code>. W arkuszu Założenia zmień WACC o jeden punkt procentowy (jeśli masz Office bez licencji, zrób to w LibreOffice Calc): wartość jednej akcji w Podsumowaniu musi się zmienić. Najedź myszą na niebieską komórkę: zobaczysz cytat ze źródłem.' },
+  ] },
+  { id: 'krok-7', tytul: '8. Krok 7: prezentacja', elementy: [
+    { typ: 'dlaczego', html: '<p>Prezentację też buduje skrypt, z tych samych danych. Potem Claude zamienia slajdy na obrazki (przez LibreOffice) i <strong>ogląda je</strong>, tak jak zrobiłby to człowiek: szuka ucinanego tekstu i elementów nachodzących na siebie. To pętla „zrób, obejrzyj, popraw”, dzięki której nie musisz poprawiać slajdów ręcznie.</p>' },
     { typ: 'prompt', id: 'P7', tytul: 'Prezentacja', tekst: PROMPT_P7 },
+    { typ: 'sprawdz', html: 'Otwórz <code>META\\wyniki\\META_prezentacja.pptx</code>. Przy liczbach są id wpisów ledgera, a pod zdjęciami autor i licencja.' },
+  ] },
+  { id: 'krok-8', tytul: '9. Krok 8: notatka dla zarządu i kontrola liczb', elementy: [
+    { typ: 'dlaczego', html: '<ul><li><strong>Jedna strona</strong> to wymóg zarządu, a nie sugestia. Claude zamienia notatkę na PDF i liczy strony; jeśli wyjdą dwie, skraca tekst.</li><li><strong>Kontrola liczb</strong> to ostatnia bramka. Wyciąga z prezentacji i notatki każdą liczbę i szuka jej w ledgerze i wycenie. Łapie sytuację, w której model w opisie „od siebie” dopisał liczbę, której nie ma w źródłach.</li></ul>' },
     { typ: 'prompt', id: 'P8', tytul: 'Notatka dla zarządu i kontrola liczb', tekst: PROMPT_P8 },
+    { typ: 'sprawdz', html: 'Otwórz <code>META\\wyniki\\META_notatka_zarzad.docx</code>: dokładnie jedna strona, a na dole źródła i dopisek o materiale edukacyjnym. Kontrola liczb nie zgłosiła błędów.' },
+  ] },
+  { id: 'krok-9', tytul: '10. Krok 9: skill pakiet-analityczny', elementy: [
+    { typ: 'dlaczego', html: '<p>Do tej pory prowadziłeś Claude krok po kroku. <strong>Skill</strong> zapisuje te kroki jako przepis: plik <code>SKILL.md</code> (co robić i w jakiej kolejności) i folder <code>scripts</code> (sprawdzone narzędzia). Gdy wpiszesz <code>/pakiet-analityczny GOOG</code>, Claude przeczyta przepis i przejdzie wszystkie etapy dla nowej spółki, z tymi samymi bramkami.</p><p>Skill zapisujemy <strong>w folderze projektu</strong> (<code>.claude\\skills</code>), więc działa, gdy uruchomisz Claude w folderze <code>analizy-spolek</code>. Jeśli chcesz go mieć wszędzie, skopiuj folder skilla do <code>.claude\\skills</code> w swoim folderze domowym.</p><p>Uogólnienie na inne spółki to najtrudniejsza część: każda spółka inaczej nazywa pozycje w raporcie, ma inne segmenty i inną liczbę klas akcji. Dlatego prompt wprost o tym mówi.</p>' },
     { typ: 'prompt', id: 'P9', tytul: 'Skill pakiet-analityczny', tekst: PROMPT_P9 },
+    { typ: 'sprawdz', html: 'Jest folder <code>.claude\\skills\\pakiet-analityczny\\</code> z plikiem <code>SKILL.md</code> i podfolderem <code>scripts</code>.' },
+  ] },
+  { id: 'krok-10', tytul: '11. Krok 10: pakiet dla Alphabet jednym poleceniem', elementy: [
+    { typ: 'tekst', html: 'Zamknij Claude poleceniem <code>/exit</code> i uruchom go ponownie w tym samym folderze (<code>claude</code>). Nowa rozmowa pokazuje, że skill działa sam, bez kontekstu naszej dotychczasowej pracy. Potem wpisz:' },
     { typ: 'prompt', id: 'P10', tytul: 'Pakiet dla Alphabet jednym poleceniem', tekst: PROMPT_P10 },
+    { typ: 'dlaczego', html: 'GOOG to Alphabet, właściciel Google i YouTube. To dobry test, bo Alphabet ma trzy klasy akcji (A, B i C) i inne segmenty niż Meta. Jeśli skill policzy akcje tylko jednej klasy, wycena na akcję wyjdzie kilka razy za wysoka.' },
+    { typ: 'sprawdz', html: 'W folderze <code>GOOG</code> są ledger, raport weryfikacji z zielonym statusem i trzy dokumenty. W ledgerze liczba akcji jest podana osobno dla klas A, B i C.' },
   ] },
 ];
 
