@@ -10,6 +10,14 @@ SGR = re.compile(r"\x1b\[([0-9;]*)m")
 INNE = re.compile(r"\x1b\[[0-9;?]*[A-Za-ln-z]")
 ZNACZNIK = re.compile(r"<[^>]+>")
 KONTO = re.compile(r"(\\Users\\)[^\\\s]+(\\)")
+# Foldery z budowy wzorcowej i z kadrów konsoli -> folder, który instrukcja każe utworzyć kursantowi
+# (FOLDER_KURSANTA w instrukcji). Także nazwa folderu tymczasowego, którą Claude Code tworzy ze ścieżki projektu.
+FOLDER_KURSANTA = r"C:\Users\kursant\Documents\analizy-spolek"
+SCIEZKI_BUDOWY = {
+    r"C:\Programowanie\ALX vibecoding\pakiet-budowa\analizy-spolek": FOLDER_KURSANTA,
+    r"C:\tmp\demo\analizy-spolek": FOLDER_KURSANTA,
+    "C--Programowanie-ALX-vibecoding-pakiet-budowa-analizy-spolek": "C--Users-kursant-Documents-analizy-spolek",
+}
 
 
 def scal_puste_wiersze(linie, maks=2):
@@ -43,7 +51,9 @@ def skroc_ramki(tekst, szerokosc=104):
 
 
 def anonimizuj(tekst):
-    """Zamienia nazwę konta Windows w ścieżkach (C:\\Users\\<konto>\\...) na „kursant”."""
+    """Zamienia ścieżki budowy wzorcowej na folder kursanta i nazwę konta Windows (C:\\Users\\<konto>\\...) na „kursant”."""
+    for stara, nowa in SCIEZKI_BUDOWY.items():
+        tekst = tekst.replace(stara, nowa)
     return KONTO.sub(r"\1kursant\2", tekst)
 
 

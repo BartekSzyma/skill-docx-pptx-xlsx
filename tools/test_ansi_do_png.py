@@ -25,3 +25,12 @@ def test_anonimizuj_zamienia_nazwe_konta_w_sciezce():
     from ansi_do_png import anonimizuj
     assert anonimizuj(r"plik C:\Users\Jan.Kowalski\AppData\x.py") == r"plik C:\Users\kursant\AppData\x.py"
     assert anonimizuj(r"C:\Programowanie\x") == r"C:\Programowanie\x"
+
+
+def test_anonimizuj_zamienia_folder_budowy_na_folder_kursanta():
+    from ansi_do_png import anonimizuj
+    assert anonimizuj(r"▝▝   C:\Programowanie\ALX vibecoding\pakiet-budowa\analizy-spolek") == \
+        r"▝▝   C:\Users\kursant\Documents\analizy-spolek"
+    assert anonimizuj(r"PS C:\tmp\demo\analizy-spolek> claude") == r"PS C:\Users\kursant\Documents\analizy-spolek> claude"
+    assert anonimizuj(r"C:\Users\Bartek\AppData\Local\Temp\claude\C--Programowanie-ALX-vibecoding-pakiet-budowa-analizy-spolek\a") == \
+        r"C:\Users\kursant\AppData\Local\Temp\claude\C--Users-kursant-Documents-analizy-spolek\a"
