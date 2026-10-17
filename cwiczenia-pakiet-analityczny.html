@@ -64,7 +64,7 @@ figure.animacja figcaption { font-size: 13px; color: var(--przygaszony); }
 .cc-wybrana { color: rgb(177, 185, 249); }
 .cc-spinner { color: rgb(215, 119, 87); }
 .cc-kursor { background: #cccccc; }
-.klawisz { position: absolute; right: 14px; top: 12px; z-index: 3; background: #f8fafc; color: #0f172a; border: 1px solid #94a3b8; border-bottom-width: 3px; border-radius: 6px; padding: 4px 12px; font: 600 15px "Segoe UI", sans-serif; box-shadow: 0 2px 8px rgba(0,0,0,.3); }
+.klawisz { position: absolute; right: 14px; top: 12px; z-index: 3; background: #f8fafc; color: #0f172a; border: 1px solid #94a3b8; border-bottom-width: 3px; border-radius: 6px; padding: 4px 12px; font: 600 15px "Segoe UI", sans-serif; box-shadow: 0 0 24px 10px rgba(220,38,38,.32); }
 .klawisz:empty { display: none; }
 .wx { background: #dfe6ee; font: 12px "Segoe UI", sans-serif; color: #000; }
 .wx-okno { position: absolute; inset: 10px; background: #fff; border: 1px solid #1979ca; display: flex; flex-direction: column; }
@@ -92,6 +92,8 @@ figure.animacja figcaption { font-size: 13px; color: var(--przygaszony); }
 .wx-ps-karta { display: flex; align-items: center; gap: 6px; min-width: 170px; padding: 6px 10px; background: #0c0c0c; color: #fff; border-radius: 6px 6px 0 0; }
 .wx-ps-ikona { background: #2b5797; color: #fff; font: bold 8px Consolas, monospace; padding: 1px 3px; border-radius: 2px; }
 .wx-ps-tresc { padding: 6px 10px; font: 13px/1.4 Consolas, monospace; white-space: pre; }
+.wx-klik { position: absolute; z-index: 4; width: 30px; height: 30px; margin: -15px 0 0 -15px; box-sizing: border-box; border: 3px solid #dc2626; border-radius: 50%; opacity: 0; pointer-events: none; animation: wx-mrug .35s ease-in-out 3; }
+@keyframes wx-mrug { 0%, 100% { opacity: 0; transform: scale(.6); } 50% { opacity: 1; transform: scale(1); } }
 .wx-mysz { position: absolute; width: 16px; height: 22px; z-index: 2; transition: left .8s ease, top .8s ease; }
 /* Konstruktor pytania w ramce pomocy */
 .konstruktor { border: 2px dashed #1e3a8a; border-radius: 10px; padding: 14px 16px; background: var(--panel); margin-top: 10px; }
@@ -466,7 +468,7 @@ const PODPOWIEDZI_CC = [
   ['/pakiet-analityczny', 'Pakiet analityczny spółki giełdowej z USA na podstawie raportu rocznego 10-K - ledger…'],
 ];
 const ANIMACJE = {
-  'eksplorator': { rodzaj: 'eksplorator', wysokosc: 380, podpis: 'Animacja: w Eksploratorze plików kliknij prawym przyciskiem myszy puste miejsce w folderze i wybierz „Otwórz w terminalu”. Otworzy się Windows Terminal od razu w tym folderze. Wtedy wpisz claude i naciśnij Enter.' },
+  'eksplorator': { rodzaj: 'eksplorator', wysokosc: 470, podpis: 'Animacja: w Eksploratorze plików kliknij prawym przyciskiem myszy puste miejsce w folderze i wybierz „Otwórz w terminalu”. Otworzy się Windows Terminal od razu w tym folderze. Wtedy wpisz claude i naciśnij Enter.' },
   'p1-wklejenie': { rodzaj: 'claude', wysokosc: 430, podpis: 'Animacja: pierwsze Ctrl+V wkleja prompt zwinięty do jednej linii („paste again to expand”), drugie Ctrl+V rozwija go do pełnego tekstu, który możesz przejrzeć przed wysłaniem. Rozwijać nie trzeba: Enter w obu przypadkach wysyła cały prompt. Potem pierwsze sekundy pracy: Claude myśli, a na dole widać „esc to interrupt” (Esc przerywa pracę).', kroki: [
     ['pauza', 1000], ['klawisz', 'Ctrl+V'], ['wklej', '[Pasted text #1 +20 lines]'], ['pauza', 3000], ['klawisz', 'Ctrl+V (drugi raz)'], ['rozwin', PROMPT_P1], ['pauza', 3500],
     ['klawisz', 'Enter'], ['enter'], ['praca', 3500], ['pauza', 1200],
@@ -780,21 +782,31 @@ async function odtworzEksplorator(ekran, _kroki, tempo) {
   const zacheta = `${NAGLOWEK_POWERSHELL}PS ${FOLDER_KURSANTA}> `;
   if (!tempo) { ps.classList.add('widoczne'); mysz.style.display = 'none'; tresc.textContent = `${zacheta}claude`; return; }
   const pokazKlawisz = (nazwa) => { klawisz.textContent = nazwa; setTimeout(() => { if (klawisz.textContent === nazwa) klawisz.textContent = ''; }, CZAS_KLAWISZA); };
-  const e = ekran.getBoundingClientRect();
-  const x = Math.round(e.width * 0.45), y = Math.round(e.height * 0.22);
+  const e = ekran.getBoundingClientRect(), puste = ekran.querySelector('.wx-pusto').getBoundingClientRect();
+  const x = Math.round(puste.left - e.left + puste.width * 0.3), y = Math.round(puste.top - e.top + 70);
+  const mrugnij = async (px, py) => {
+    const kolko = document.createElement('span');
+    kolko.className = 'wx-klik';
+    Object.assign(kolko.style, { left: `${px}px`, top: `${py}px` });
+    ekran.append(kolko);
+    await czekaj(1050);
+    kolko.remove();
+  };
   Object.assign(mysz.style, { left: '80%', top: '85%' });
   await czekaj(900);
   Object.assign(mysz.style, { left: `${x}px`, top: `${y}px` });
   await czekaj(1100);
+  await mrugnij(x, y);
   pokazKlawisz('Prawy przycisk myszy');
   Object.assign(menuEl.style, { left: `${x + 4}px`, top: `${y + 4}px` });
   menuEl.classList.add('widoczne');
   await czekaj(1600);
   const c = cel.getBoundingClientRect();
-  Object.assign(mysz.style, { left: `${c.left - e.left + 60}px`, top: `${c.top - e.top + c.height / 2}px` });
+  const cx = Math.round(c.left - e.left + 60), cy = Math.round(c.top - e.top + c.height / 2);
+  Object.assign(mysz.style, { left: `${cx}px`, top: `${cy}px` });
   await czekaj(900);
   cel.classList.add('aktywna');
-  await czekaj(900);
+  await mrugnij(cx, cy);
   pokazKlawisz('Lewy przycisk myszy');
   await czekaj(500);
   menuEl.classList.remove('widoczne');
