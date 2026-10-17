@@ -123,7 +123,8 @@ Co doszło:
   P5 (krótki) widać w całości, `/pakiet-analityczny GOOG` i `/exit` są wpisane znak po znaku.
 - **Zrzuty konsoli** pod poleceniami: `python --version` i `claude --version` wykonane naprawdę; `winget install ...`
   i `claude` pokazane jako wklejone, przed Enter.
-- Dodatkowy zrzut końca kroku 7 (`kadr-P7`, wcześniej nieużyty). Razem 33 zrzuty, HTML 3,55 MB.
+- Dodatkowy zrzut końca kroku 7 (`kadr-P7`, wcześniej nieużyty). Razem 33 zrzuty, HTML 3,47 MB. Na zrzutach
+  startowych ramka pola jest skrócona do 100 kolumn, żeby obraz nie był pomniejszany (bez tego tekst miał ok. 9 px).
 - **Animacje (HTML/CSS, nie GIF):** otwieranie PowerShella z paska adresu Eksploratora; wklejenie P1 i pierwsze sekundy
   pracy; `/exit`, `claude`, podpowiedź skilla i `/pakiet-analityczny GOOG`. Startują, gdy są widoczne na ekranie.
 - **Schemat bramek** w sekcji 5 (`tools/schemat-bramki.svg`, osadzony w HTML).
@@ -131,7 +132,8 @@ Co doszło:
 - **„Lub poproś Claude”** w punktach „Sprawdź” kroków 1-10 i w tabeli typowych problemów.
 - **Sekcja 12** przemianowana na orientacyjny czas trwania zadań: zakres ±50% i lista czynników.
 - **Konstruktor pytania** w „Gdy coś pójdzie nie tak” (krok + 4 pola, podgląd na żywo, Kopiuj). Zastąpił stały szablon.
-- Testy: 19/19 (doszły: animacje, konstruktor, istnienie plików z linków, anonimizacja ścieżek w rendererze).
+- Testy: `npm test` 19/19 (było 16; doszły: animacje, konstruktor, istnienie plików z linków) i `pytest` dla
+  renderera 5/5 (było 3; doszły: anonimizacja ścieżek, skracanie ramek).
 
 Decyzje:
 1. **Prawdziwe zrzuty zamiast makiety** tam, gdzie się dało (prompt wklejony bez wysyłania). Makieta jest tylko w

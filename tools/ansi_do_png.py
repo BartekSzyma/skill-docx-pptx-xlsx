@@ -30,6 +30,18 @@ def utnij_pole_wpisywania(tekst):
     return "\n".join(linie[:ramki[-2]]) if len(ramki) >= 2 else tekst
 
 
+def skroc_ramki(tekst, szerokosc=100):
+    """Skraca linie z samych ─ (ramka pola wpisywania na całą szerokość terminala) i usuwa spacje na końcu linii,
+    żeby kadr z krótką treścią nie był szeroki i pomniejszany w instrukcji."""
+    wynik = []
+    for linia in tekst.replace("\r", "").split("\n"):
+        gola = INNE.sub("", SGR.sub("", linia)).strip()
+        if gola and set(gola) == {"─"}:
+            linia = linia.replace("─" * len(gola), "─" * szerokosc)
+        wynik.append(linia.rstrip())
+    return "\n".join(wynik)
+
+
 def anonimizuj(tekst):
     """Zamienia nazwę konta Windows w ścieżkach (C:\\Users\\<konto>\\...) na „kursant”."""
     return KONTO.sub(r"\1kursant\2", tekst)
@@ -85,7 +97,9 @@ def main(wej, wyj, z_polem=False, powershell=False):
     from playwright.sync_api import sync_playwright
 
     tekst = anonimizuj(Path(wej).read_text(encoding="utf-8", errors="replace"))
-    if not z_polem and not powershell:
+    if z_polem:
+        tekst = skroc_ramki(tekst)
+    elif not powershell:
         tekst = utnij_pole_wpisywania(tekst)
     strona = strona_html(ansi_do_html(tekst), powershell)
     with sync_playwright() as p:

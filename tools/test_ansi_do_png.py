@@ -15,6 +15,12 @@ def test_utnij_pole_wpisywania_usuwa_dolny_pasek():
     assert utnij_pole_wpisywania(tekst) == "odpowiedź"
 
 
+def test_skroc_ramki_skraca_tylko_linie_z_samych_kresek():
+    from ansi_do_png import skroc_ramki
+    tekst = "\x1b[38;2;136;136;136m" + "─" * 168 + "\x1b[0m\n❯ wpis   \n─ a ─"
+    assert skroc_ramki(tekst, 10) == "\x1b[38;2;136;136;136m" + "─" * 10 + "\x1b[0m\n❯ wpis\n─ a ─"
+
+
 def test_anonimizuj_zamienia_nazwe_konta_w_sciezce():
     from ansi_do_png import anonimizuj
     assert anonimizuj(r"plik C:\Users\Jan.Kowalski\AppData\x.py") == r"plik C:\Users\kursant\AppData\x.py"
