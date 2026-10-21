@@ -5,12 +5,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Claude Code - instrukcje krok po kroku</title>
 <style>
-body { margin: 0; font-family: "Segoe UI", system-ui, sans-serif; background: #f8fafc; color: #0f172a; line-height: 1.55; }
-main { max-width: 760px; margin: 0 auto; padding: 24px 16px; }
-h1 { font-size: 24px; }
-a.karta { display: block; background: #fff; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px 18px; margin: 12px 0; color: inherit; text-decoration: none; }
-a.karta:hover { border-color: #2563eb; }
-a.karta strong { color: #2563eb; font-size: 18px; }
+:root { --papier: #FBFCFD; --kratka: rgba(27,58,140,.065); --atrament: #1B3A8C; --czerwien: #D2333F; --grafit: #1E2430; --wyciszony: #5D6678; --linia: #CCD6E7; --zolty: #FFE36E;
+  --bezszeryfowa: "Bahnschrift", "DIN Alternate", "Segoe UI", "Roboto Condensed", Arial, sans-serif; --szeryfowa: "Sitka Text", "Charter", "Iowan Old Style", Georgia, serif; }
+body { margin: 0; font: 1.0625rem/1.68 var(--szeryfowa); color: var(--grafit); background-color: var(--papier); -webkit-font-smoothing: antialiased;
+  background-image: linear-gradient(var(--kratka) 1px, transparent 1px), linear-gradient(90deg, var(--kratka) 1px, transparent 1px); background-size: 24px 24px; }
+main { position: relative; max-width: 820px; margin: 0 auto; padding: 48px 16px 48px 48px; }
+main::before { content: ""; position: absolute; top: 0; bottom: 0; left: 24px; width: 2px; background: var(--czerwien); opacity: .75; }
+h1 { font: 600 clamp(1.9rem, 5vw, 2.8rem)/1.05 var(--bezszeryfowa); color: var(--atrament); letter-spacing: -.01em; margin: 0 0 1.4rem; }
+a.karta { display: block; background: #fff; border: 1px solid var(--linia); border-left: 4px solid var(--atrament); border-radius: 0 8px 8px 0; padding: 14px 18px; margin: 14px 0; color: inherit; text-decoration: none; }
+a.karta:hover { border-left-color: var(--czerwien); background: #F7F9FC; }
+a.karta strong { color: var(--atrament); font: 600 1.2rem var(--bezszeryfowa); }
+:focus-visible { outline: 3px solid var(--atrament); outline-offset: 2px; }
+@media (max-width: 640px) { main { padding-left: 32px; } main::before { left: 14px; } }
 </style>
 </head>
 <body>
